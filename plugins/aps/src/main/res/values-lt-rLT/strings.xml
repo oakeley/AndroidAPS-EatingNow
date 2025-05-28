@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--Autotune-->
+    
     <string name="dynisf_adjust_sensitivity">Įjungti BPD pagrįstą jautrumo santykį bazės ir glikemijos tikslo koregavimui</string>
     <string name="dynisf_adjust_sensitivity_summary">Naudoja paskutinių 24 val. BPD/7D BPD duomenis jautrumo santykio apskaičiavimui, kuris taikomas bazinio insulino didinimui arba mažinimui, taip pat koreguojant glikemijos tikslą. Jei šios parinktys įjungtos, atliekamos tokiu pačiu būdu kaip tai daro Autosens. Rekomenduojama pradėti su išjungta šia parinktimi</string>
     <string name="dyn_isf_adjust_title" formatted="false">Dinaminio JIF derinimo faktorius %</string>
     <string name="dyn_isf_adjust_summary" formatted="false">Dinaminio JIF derinimo faktorius. Nustatykite daugiau nei 100% agresyvesniam koregavimui arba mažiau nei 100% švelnesniam koregavimui.</string>
     <string name="high_temptarget_raises_sensitivity_title">Intensyvus laikinas tikslas didina jautrumą</string>
-    <string name="high_temptarget_raises_sensitivity_summary"><![CDATA[Padidinti jautrumą laikiniems tikslams >= 100]]></string>
+    <string name="high_temptarget_raises_sensitivity_summary">Padidinti jautrumą laikiniems tikslams &gt;= 100</string>
     <string name="low_temptarget_lowers_sensitivity_title">Pasyvus laikinas tikslas mažina jautrumą</string>
-    <string name="low_temptarget_lowers_sensitivity_summary"><![CDATA[Žemas jautrumas laikiniem tikslams < 100]]></string>
+    <string name="low_temptarget_lowers_sensitivity_summary">Žemas jautrumas laikiniem tikslams &lt; 100</string>
     <string name="openapssmb">OpenAPS SMB</string>
     <string name="openaps_smb_dynamic_isf">Dinaminis JIF</string>
     <string name="openaps_auto_isf">Automatinis JIF</string>
@@ -90,13 +90,13 @@
     <string name="autosens_disabled_in_preferences">Autosens funkcija išjungta nustatymuose</string>
     <string name="use_dynamic_sensitivity_title">Įjungti dinaminį jautrumą</string>
     <string name="use_dynamic_sensitivity_summary">Pritaikyti algoritmą naudoti dinaminį jautrumą vietoje profilio reikšmės</string>
-    <!--    Verify if needed in safety-->
+    
     <string name="limiting_iob">Ribojamas AIO iki %1$.1f V dėl %2$s</string>
     <string name="maxvalueinpreferences">Maksimali reikšmė nustatymuose</string>
     <string name="hardlimit">Nekeičiama riba</string>
-    <!--    Autotune   -->
+    
     <string name="insulin_peak">Pikas</string>
-    <!--    Loop -->
+    
     <string name="run_now">Paleisti dabar</string>
     <string name="smb_frequency_exceeded">Bolusas buvo suleistas per paskutines 3 minutes, SMB praleidžiamas</string>
     <string name="pump_not_initialized">Pompa neprijungta!</string>
@@ -123,7 +123,7 @@
     <string name="loop_open_mode_min_change_summary" formatted="false">Atviras Ciklas parodys naujų pakeitimų užklausą tik tada, kai pokytis bus didesnis nei ši vertė %. Numatytoji vertė yra 20%</string>
     <string name="fallback_smb_no_tdd">Grįžtama prie SMB. Nepakanka BPD duomenų.</string>
     <string name="fallback_to_isf_no_tdd">Grįžtama į profilio nustatytą jautrumą. Nepakanka duomenų. Priežastis: %1$s</string>
-    <!-- Autotune -->
+    
     <string name="autotune_description">Pagalba galimiems profilio koregavimams (JIF, angliavandenių santykis ir valandinė bazė)</string>
     <string name="autotune_shortname">AT</string>
     <string name="autotune_settings">Autotune nustatymai</string>
@@ -166,7 +166,7 @@
     <string name="autotune_profile_invalid">Profilis negalioja</string>
     <string name="not_available_full">Nepasiekiama</string>
     <string name="pump_disconnected">Pompa atjungta</string>
-    <!--    autoISF -->
+    
     <string name="half_basal_exercise_target_title">Pusė bazinio insulino fizinio krūvio metu</string>
     <string name="half_basal_exercise_target_summary">Nustatykite skaičių, pvz., 8,0, kuris reiškia, kad kai laikinas tikslas yra 8,0 mmol/l ir aukštas laikinas tikslas padidina jautrumą = TAIP, nustatykite 50%% laikiną bazę šiame lygyje (6,0 = 75%%; 4,8 = 60%%).</string>
     <string name="autoISF_settings_title">Automatinio JIF nustatymai</string>
@@ -204,4 +204,4 @@
     <string name="enableSMB_EvenOn_OddOff_always_summary">\nįjungta ...\njei aktyvaus tikslo (mmol/L) dešimtainė dalis yra lyginė\narba aktyvus tikslas (mg/dl) yra lyginis skaičius\n\nkitu atveju - išjungta</string>
     <string name="openapsama_iob_threshold_percent_summary" formatted="false">Didžiausio AIO procentas, virš kurio SMB yra išjungiami.\nNumatytoji reikšmė: 100%\nEsant 100%, ši funkcija yra išjungta.</string>
     <string name="openapsama_iob_threshold_percent">Didžiausio AIO ribos procentas SMB\n(iob_threshold_percent)</string>
-</resources>
+<string name="graph_scale_6h">6h</string><string name="export_result_message_expired">Nustatymų eksportavimas atšauktas: slaptažodis pasibaigęs. Eksportuokite rankiniu būdu ir (pakartotinai) įveskite!</string><string name="triggerReservoirLevelDesc">Rezervuaro lygis %1$s %2$.0f</string><string name="export_expired">Galiojimo laikas baigėsi</string><string name="graph_long_scale_24h">24 val.</string><string name="a11y_graph_scale_6h">6 valandų grafiko mastelis</string><string name="export_settings_short">Tekstas terapijoje:</string><string name="a11y_graph_scale_12h">12 valandų grafiko mastelis</string><string name="choose_from_map">Choose from map</string><string name="extended_bolus_data_point_graph">%1$.2f vv ( %2$.2f vv/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="graph_scale_18h">18h</string><string name="a11y_graph_scale">parinkti grafiko mastelį</string><string name="triggerStepsCountDesc">Žingsnių skaičius per %1$s min %2$s %3$.0f</string><string name="sensitivity">Jautrumas insulinui</string><string name="overview_show_steps">Žingsniai</string><string name="overview_show_variable_sens">Kintamas jautrumas</string><string name="nav_export">Eksportuoti nustatymus</string><string name="rate_percent_duration">Dydis: %1$.2f vv/val. (%2$.2f%%) Trukmė: %3$d min</string><string name="export_result_message_about_to_expire">Nustatymai eksportuoti: slaptažodis greitai baigs galioti. Eksportuokite rankiniu būdu ir (pakartotinai) įveskite slaptažodį.</string><string name="export_result_message_failed">Nustatymų eksportas NEPAVYKO!</string><string name="triggerStepsCountDropdownLabel">Trukmė</string><string name="isf_dynamic_label_warning">Algoritmas gali dinamiškai apskaičiuoti JIF reikšmę. Pateiktos reikšmės naudojamos tik kaip atsarginis variantas, jei trūksta duomenų</string><string name="graph_scale_12h">12h</string><string name="location_permission_not_granted">Vietos nustatymo leidimas nesuteiktas. Suteikite leidimą Android nustatymuose.</string><string name="triggerInsulinAgeDesc">Insulino laikas %1$s %2$.1f val.</string><string name="algorithm_long">Autosens algoritme: %.0f%%</string><string name="export_result_message_exported">Nustatymai eksportuoti</string><string name="exportsettings_message">Nustatymų eksportas: %1$s</string><string name="triggerPumpBatteryAgeDesc">Pompos baterijos laikas %1$s %2$.1f val.</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Išjungta</string><string name="percent_rate_duration">Dydis: %1$.2f%% (%2$.2f vv/val) Trukmė: %3$d min</string><string name="simple_mode_enabled">Paprastas režimas įjungtas</string><string name="percent_rate_duration_formatted">&lt;b&gt;Dydis&lt;/b&gt;: %1$.2f%% (%2$.2f vv/val.)&lt;br&gt;&lt;b&gt;Trukmė&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Eksportuoti nustatymus</string><string name="triggerPodChangeLabel">Pod aktyvavimas</string><string name="triggerInsulinAgeLabel">Insulino laikas</string><string name="triggerCannulaAgeLabel">Kateterio laikas</string><string name="triggerSensorAgeLabel">Sensoriaus laikas</string><string name="export_failed">Nepavyko</string><string name="triggerSensorAgeDesc">Sensoriaus laikas %1$s %2$.1f val.</string><string name="temp_basal_tsf_absolute">%1$.2f vv/val @%2$s</string><string name="graph_long_scale_12h">12 val.</string><string name="uel_select_directory">KATALOGO PARINKIMAS</string><string name="careportal_settings_export">Nustatymų eksportavimas</string><string name="triggerPumpBatteryLevelLabel">Pompos baterijos lygis</string><string name="extended_bolus_full">E %1$.2f vv/h @%2$s %3$s/%4$s min</string><string name="temp_basal_tsf_fake_extended">%1$.2f vv/val (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Įspėjimas (automatizacija): Nustatymų eksportavimas neįjungtas!</string><string name="graph_long_scale_6h">6 val.</string><string name="uel_reset_aps_results">APS REZULTATŲ NUSTATYMAS IŠ NAUJO</string><string name="export_ok">OK</string><string name="autosens_long">Autosens vertė: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Pompos baterijos laikas</string><string name="export_alert">DĖMESIO</string><string name="extended_bolus_medium">%1$.2f vv/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">24 valandų grafiko mastelis</string><string name="ic_dynamic_label_warning">Algoritmas gali dinamiškai apskaičiuoti IA reikšmę. Pateiktos reikšmės naudojamos tik kaip atsarginis variantas, jei trūksta duomenų</string><string name="triggerStepsCountLabel">Žingsniai</string><string name="autosens_short">AS: %.0f%%</string><string name="rate_percent_duration_formatted">&lt;b&gt;Dydis&lt;/b&gt;: %1$.2f vv/val. (%2$.2f%%) &lt;br&gt;&lt;b&gt;Trukmė&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 val.</string><string name="isf_for_carbs">JIF skaičiuotuvui ir AV įsisavinimui: %1$.1f</string><string name="a11y_graph_scale_18h">18 valandų grafiko mastelis</string><string name="settingsexport">Nustatymų eksportavimas</string><string name="careportal_settings_export_message">Nustatymų eksportavimas: %1$s</string><string name="triggerPodChangeDesc">Pod aktyvuotas</string><string name="graph_scale_24h">24h</string><string name="triggerPumpBatteryLevelDesc">Pompos baterijos lygis %1$s %2$.0f</string><string name="steps_shortname">ŽINGSNIAI</string><string name="triggerReservoirLevelLabel">Rezervuaro lygis</string><string name="triggerCannulaAgeDesc">Kateterio laikas %1$s %2$.1f val.</string><string name="variable_sensitivity_shortname">VSENS</string><string name="secs">%1$d sek.</string><string name="export_warning">Įspėjimas</string></resources>

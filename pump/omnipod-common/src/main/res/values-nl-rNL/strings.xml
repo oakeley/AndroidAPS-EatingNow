@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- Omnipod - Keys -->
-    <!-- Omnipod - Pod Management -->
+    
+    
     <string name="omnipod_common_pod_management_title">Pod Management</string>
     <string name="omnipod_common_pod_management_heading_actions">Acties</string>
     <string name="omnipod_common_pod_management_heading_tools">Hulpmiddelen</string>
@@ -12,7 +12,7 @@
     <string name="omnipod_common_pod_management_button_play_test_beep">Testpieptoon afspelen</string>
     <string name="omnipod_common_pod_management_button_playing_test_beep">Testpieptoon wordt afgespeeld…</string>
     <string name="omnipod_common_pod_management_button_pod_history">Pod Historie</string>
-    <!-- Omnipod - Error -->
+    
     <string name="omnipod_common_error_pod_not_attached">Geen actieve Pod</string>
     <string name="omnipod_common_error_set_basal_failed">Instellen van basaal profiel mislukt.</string>
     <string name="omnipod_common_error_bolus_did_not_succeed">Bolus mislukt.</string>
@@ -33,14 +33,14 @@
     <string name="omnipod_common_error_failed_to_play_test_beep">Testpiep afspelen mislukt</string>
     <string name="omnipod_common_error_time_out_of_sync">De tijd op de Pod wijkt af. Werk de tijd bij op het Omnipod-tabblad.</string>
     <string name="omnipod_common_error_unexpected_exception">Er is een onverwachte fout opgetreden. A.u.b. rapporteren! (%1$s: %2$s).</string>
-    <!-- Omnipod - Confirmation -->
+    
     <string name="omnipod_common_confirmation">Bevestiging</string>
     <string name="omnipod_common_confirmation_expiration_alerts_updated">De instellingen voor meldingen zijn bijgewerkt in de Pod.</string>
     <string name="omnipod_common_confirmation_time_on_pod_updated">De tijd in de Pod is geüpdatet.</string>
     <string name="omnipod_common_confirmation_suspended_delivery">Alle insulinetoediening is onderbroken.</string>
     <string name="omnipod_common_confirmation_silenced_alerts">Actieve alarmen zijn op stil gezet.</string>
     <string name="omnipod_common_confirmation_delivery_resumed">Insulinetoediening is hervat.</string>
-    <!-- Omnipod - Overview -->
+    
     <string name="omnipod_common_overview_button_set_time">Tijd instellen</string>
     <string name="omnipod_common_overview_button_suspend_delivery">Onderbreken</string>
     <string name="omnipod_common_overview_button_resume_delivery">Toediening hervatten</string>
@@ -66,7 +66,7 @@
     <string name="omnipod_common_overview_reservoir_value_over50">Meer dan 50 E over</string>
     <string name="omnipod_common_overview_errors">Storing</string>
     <string name="omnipod_common_uncertain">onzeker</string>
-    <!-- Omnipod - Wizard Base -->
+    
     <string name="omnipod_common_wizard_button_cancel">Afbreken</string>
     <string name="omnipod_common_wizard_button_finish">Voltooien</string>
     <string name="omnipod_common_wizard_button_next">Volgende</string>
@@ -75,7 +75,7 @@
     <string name="omnipod_common_wizard_button_discard_pod">Pod weggooien</string>
     <string name="omnipod_common_wizard_exit_confirmation_text">Je hebt nog niet alle stappen voltooid. Weet je zeker dat je wilt afsluiten?</string>
     <string name="omnipod_common_wizard_exit_confirmation_title">Afsluiten</string>
-    <!-- Omnipod - Pod Activation Wizard -->
+    
     <string name="omnipod_common_pod_activation_wizard_start_pod_activation_title">Pod vullen</string>
     <string name="omnipod_common_pod_activation_wizard_initialize_pod_title">Pod initialiseren</string>
     <string name="omnipod_common_pod_activation_wizard_attach_pod_title">Plaats de Pod</string>
@@ -85,7 +85,7 @@
     <string name="omnipod_common_pod_activation_wizard_insert_cannula_text">De basaalstand wordt ingesteld en de canule wordt ingebracht.\n\nWanneer de canule succesvol is ingebracht, kun je op <b>Volgende</b> drukken.</string>
     <string name="omnipod_common_pod_activation_wizard_pod_activated_title">Pod geactiveerd</string>
     <string name="omnipod_common_pod_activation_wizard_pod_activated_text">De nieuwe Pod is nu actief.\n\nJe basaalprofiel is ingeladen in de Pod en de canule is ingebracht.\n\nControleer of de canule correct is geplaatst en vervang de Pod als je denkt dat er iets is misgegaan.</string>
-    <!-- Omnipod - Pod Deactivation Wizard -->
+    
     <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_title">Deactiveer Pod</string>
     <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_text">Druk op <b>Volgende</b> om de Pod te deactiveren.\n\n<b>Opmerking:</b> Hiermee wordt de insulinetoediening gestopt en wordt de Pod gedeactiveerd.</string>
     <string name="omnipod_common_pod_deactivation_wizard_deactivating_pod_title">Pod wordt gedeactiveerd</string>
@@ -96,7 +96,7 @@
     <string name="omnipod_common_pod_deactivation_wizard_pod_discarded_text">De Pod status is verwijderd. De insuline levering is mogelijk niet onderbroken omdat de Pod niet correct gedeactiveerd is!\n\nVerwijder de Pod van je lichaam en recycle deze.</string>
     <string name="omnipod_common_pod_deactivation_wizard_discard_pod_confirmation">Als de Pod wordt verwijderd, kan er niet meer mee gecommuniceerd worden. Doe dit alleen indien alle communicatie met de Pod aanhoudend mislukt. Weet je zeker dat je de Pod wilt verwijderen?</string>
     <string name="omnipod_common_pod_deactivation_wizard_discard_pod">Pod verwijderen</string>
-    <!-- Omnipod - Preferences -->
+    
     <string name="omnipod_common_preferences_bolus_beeps_enabled">Bolus pieptonen ingeschakeld</string>
     <string name="omnipod_common_preferences_basal_beeps_enabled">Basaal pieptonen ingeschakeld</string>
     <string name="omnipod_common_preferences_smb_beeps_enabled">SMB pieptonen ingeschakeld</string>
@@ -118,7 +118,7 @@
     <string name="omnipod_common_preferences_category_notifications">Notificaties</string>
     <string name="omnipod_common_preferences_notification_uncertain_tbr_sound_enabled">Geluid voor onzekere TBR notificaties ingeschakeld</string>
     <string name="omnipod_common_preferences_notification_uncertain_bolus_sound_enabled">Geluid voor onzekere bolus notificaties ingeschakeld</string>
-    <!-- Omnipod - Pod Status -->
+    
     <string name="omnipod_common_pod_status_no_active_pod">Geen actieve Pod</string>
     <string name="omnipod_common_pod_status_waiting_for_activation">Setup wordt uitgevoerd (in afwachting van Pod activering)</string>
     <string name="omnipod_common_pod_status_waiting_for_cannula_insertion">Setup wordt uitgevoerd (in afwachting van het inbrengen van de canule)</string>
@@ -128,7 +128,7 @@
     <string name="omnipod_common_pod_status_pod_fault">Pod fout</string>
     <string name="omnipod_common_pod_status_inactive">Inactief</string>
     <string name="omnipod_common_pod_status_pod_fault_description">Pod foutmelding: %1$03d %2$s</string>
-    <!-- Omnipod - Commands -->
+    
     <string name="omnipod_common_cmd_deactivate_pod">Deactiveer Pod</string>
     <string name="omnipod_common_cmd_discard_pod">Pod verwerpen</string>
     <string name="omnipod_common_cmd_set_bolus">Bolus instellen</string>
@@ -152,7 +152,7 @@
     <string name="omnipod_common_cmd_cancel_fake_suspended_tbr">Annuleren van vals tijdelijk basaal wat was aangemaakt vanwege Pod onderbreking</string>
     <string name="omnipod_common_cmd_split_tbr">Tijdelijke basaal gesplitst als gevolg van een onzekere fout bij annulering</string>
     <string name="omnipod_common_cmd_play_test_beep">Test pieptoon afspelen</string>
-    <!-- Omnipod - Alerts -->
+    
     <string name="omnipod_common_alert_finish_pairing_reminder">Herinnering koppeling afronden</string>
     <string name="omnipod_common_alert_finish_setup_reminder_reminder">Herinnering setup afronden</string>
     <string name="omnipod_common_alert_expiration">Pod verloopt binnenkort</string>
@@ -160,21 +160,21 @@
     <string name="omnipod_common_alert_shutdown_imminent">Schakelt zeer binnenkort uit</string>
     <string name="omnipod_common_alert_low_reservoir">Laag reservoir niveau</string>
     <string name="omnipod_common_alert_unknown_alert">Onbekend alarm</string>
-    <!-- Omnipod - Short status -->
+    
     <string name="omnipod_common_short_status_no_active_pod">Geen actieve Pod</string>
     <string name="omnipod_common_short_status_last_connection">Laatste verbinding: %1$d min geleden</string>
     <string name="omnipod_common_short_status_last_bolus">Laatste bolus: %1$s E @ %2$s</string>
     <string name="omnipod_common_short_status_temp_basal">Tijdelijk: %1$s</string>
     <string name="omnipod_common_short_status_extended_bolus">Verlengd: %1$s</string>
     <string name="omnipod_common_short_status_reservoir">Reservoir: %1$sE</string>
-    <!-- Omnipod - Other -->
+    
     <string name="omnipod_common_yes">Ja</string>
     <string name="omnipod_common_no">Nee</string>
     <string name="omnipod_common_ok">OK</string>
     <string name="omnipod_common_cancel">Afbreken</string>
     <string name="omnipod_common_warning">Waarschuwing</string>
     <string name="omnipod_common_disable_suspend_alerts">UITSCHAKELEN SUSPEND ALARM</string>
-    <!-- Omnipod - Times -->
+    
     <string name="omnipod_common_moments_ago">Zojuist</string>
     <string name="omnipod_common_less_than_a_minute_ago">Minder dan een minuut geleden</string>
     <string name="omnipod_common_composite_time">%1$s en %2$s</string>
@@ -195,4 +195,4 @@
         <item quantity="one">Pod Alarm: %1$s</item>
         <item quantity="other">Pod Alarmen: %1$s</item>
     </plurals>
-</resources>
+<string name="autoISF_settings_summary">AutoISF maakt het mogelijk om de insulinegevoeligheidsfactor (ISF) aan te passen in verschillende scenario\'s van glucosedrag\n\nHet kan ook de SMB leveringsinstellingen aanpassen</string><string name="graph_scale_6h">6u</string><string name="half_basal_exercise_target_title">Halve basaal bewegingsdoel</string><string name="openapsama_pp_ISF_weight_summary">Dit is het gewicht dat wordt toegepast bij een stijgende glucose waardoor ISF versterkt wordt en de insulinetoediening mogelijk verhoogt.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="dyn_isf_adjust_title">DynamicISF Aanpassing Factor %</string><string name="export_result_message_expired">Export instellingen geannuleerd: wachtwoord is verlopen. Exporteer handmatig en geef (opnieuw) in!</string><string name="dyn_isf_adjust_summary">Aanpassingsfactor voor DynamicISF. Stel meer dan 100% in voor een agressievere correctie en minder dan 100% voor minder agressieve correctie.</string><string name="triggerReservoirLevelDesc">Reservoir niveau %1$s %2$.0f</string><string name="export_expired">Verlopen</string><string name="graph_long_scale_24h">24 uur</string><string name="a11y_graph_scale_6h">grafiek schaal 6 uur</string><string name="autoisf_shortname">AUTOISF</string><string name="export_settings_short">Tekst in behandelingen:</string><string name="openapsama_smb_delivery_ratio">vaste SMB uitleveringsverhouding\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Gewicht wanneer BG afremt\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">grafiek schaal 12 uur</string><string name="enableSMB_EvenOn_OddOff_always">Inschakelen van SMB afhankelijk van het feit dat het huidige doel een even getal is</string><string name="choose_from_map">Choose from map</string><string name="extended_bolus_data_point_graph">%1$.2f E ( %2$.2f E/u )</string><string name="temp_basal_overview_short_name">T:</string><string name="openapsama_autoISF_min_summary">Vergelijkbaar met autosens_min definieert dit hoe zwak ISF kan worden.\n\nDe standaard waarde 1.0 schakelt dit effect effectief uit.</string><string name="openapsama_bgBrake_ISF_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose waarde aan het vertragen is waardoor ISF verzwakt en de insulinetoediening mogelijk vermindert.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="openapsama_smb_delivery_ratio_min_summary">Standaard waarde: 0.5 Dit is het ondergrens van een lineaire verhoging ratio in plaats van de bovenstaande vaste waarde.</string><string name="graph_scale_18h">18u</string><string name="a11y_graph_scale">selecteer grafiek schaal</string><string name="triggerStepsCountDesc">Aantal stappen per %1$s minuten %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Standaard waarde: 0.5 Dit is het bovengrens van een lineaire verhoging ratio in plaats van de bovenstaande vaste waarde.</string><string name="sensitivity">Gevoeligheid</string><string name="overview_show_steps">Stappen</string><string name="openapsama_smb_delivery_ratio_max">variabele SMB leveringsverhouding, bovengrens\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Set van opties om de actuele SMB grootte te verhogen die kan worden geleverd in situaties waar ISF is versterkt, dwz een vrij laag ISF cijfer.\n\nGEBRUIK MET VOORZICHTIGHEID</string><string name="overview_show_variable_sens">Variabele gevoeligheid</string><string name="nav_export">Exporteer instellingen</string><string name="rate_percent_duration">Basaal: %1$.2f E/h (%2$.2f%%) Duur: %3$d min</string><string name="openapsama_pp_ISF_weight">ISF gewicht na maaltijd\n(pp_ISF_weight)</string><string name="export_result_message_about_to_expire">Instellingen geëxporteerd: wachtwoord verloopt binnenkort. Exporteer handmatig en voer het wachtwoord (opnieuw) in.</string><string name="export_result_message_failed">Instellingen exporteren MISLUKT!</string><string name="triggerStepsCountDropdownLabel">Metingsduur</string><string name="openapsama_lower_ISFrange_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose lager dan de doelwaarde is, wat ISF verzwakt en hiermee mogelijk de insulinetoediening verlaagd.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="isf_dynamic_label_warning">Uw algoritme kan een dynamische berekening van ISF leveren. De onderstaande waarden worden alleen gebruikt om op terug te vallen in geval van ontbrekende gegevens of als referentiewaarde</string><string name="graph_scale_12h">12u</string><string name="location_permission_not_granted">Locatiemachtiging niet verleend. Toestaan in android instellingen.</string><string name="triggerInsulinAgeDesc">Insuline leeftijd %1$s %2$.1f uur</string><string name="algorithm_long">Autosens in algoritme: %.0f%%</string><string name="export_result_message_exported">Instellingen geëxporteerd</string><string name="exportsettings_message">Instellingen Exporteren: %1$s</string><string name="triggerPumpBatteryAgeDesc">Pomp batterij leeftijd %1$s %2$.1f uur</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Uitgeschakeld</string><string name="openapsama_iob_threshold_percent_summary">Percentage van maxIOB waarbij SMB\'s worden uitgeschakeld.\nStandaardwaarde: 100%\nMet 100% wordt deze functie effectief uitgeschakeld.</string><string name="percent_rate_duration">Basaal: %1$.2f%% (%2$.2f E/h) Duur: %3$d min</string><string name="simple_mode_enabled">Eenvoudige modus ingeschakeld</string><string name="percent_rate_duration_formatted">&lt;b&gt;Basaal&lt;/b&gt;: %1$.2f%% (%2$.2f E/h)&lt;br&gt;&lt;b&gt;Duur&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Exporteer instellingen</string><string name="triggerPodChangeLabel">Pod activering</string><string name="triggerInsulinAgeLabel">Insuline leeftijd</string><string name="openapsama_lower_ISFrange_weight">lager ISF-bereik gewicht\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Canule leeftijd</string><string name="triggerSensorAgeLabel">Sensor leeftijd</string><string name="pump_disconnected">Pomp niet verbonden</string><string name="openapsama_iob_threshold_percent">maxIOB drempelpercentage voor SMB\n(iob_threshold_percent)</string><string name="export_failed">Mislukt</string><string name="triggerSensorAgeDesc">Sensor leeftijd %1$s %2$.1f uur</string><string name="openapsama_bgAccel_ISF_weight">Gewicht wanneer BG accelereert\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">hoger ISF-bereik gewicht\n(lhigher_ISFrange_weight)</string><string name="temp_basal_tsf_absolute">%1$.2f E/u @%2$s</string><string name="graph_long_scale_12h">12 uur</string><string name="half_basal_exercise_target_summary">Stel in op nummer, b.v. 160, wat betekent dat wanneer een tijdelijk streefdoel op 160 mg/dL is ingesteld en \"Hoog tijdelijk streefdoel verhoogt gevoeligheid\"=aan, zal basaal op 50%% worden ingesteld (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">ISF aanpassing op basis van glucose gedrag inschakelen</string><string name="uel_select_directory">SELECTEER DIRECTORY</string><string name="openapsama_autoISF_max">Max autoISF verhouding\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Standaardwaarde: 1 Dit is een andere instelling voor de veiligheid van OpenAPS, en geeft aan met welke factor je de gebruikelijke 120 maxSMB/maxUAM minuten kunt overschrijden. Verhoog deze experimentele waarde langzaam en met voorzichtigheid.</string><string name="careportal_settings_export">Instellingen exporteren</string><string name="openapsama_autoISF_min">Min autoISF ratio\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Pomp batterij niveau</string><string name="extended_bolus_full">%1$.2f E/u @%2$s %3$s/%4$s min</string><string name="openapsama_smb_delivery_ratio_bg_range">variabele SMB leveringsverhouding, gekoppelde glucosebereik\n(smb_delivery_ratio_bg_range)</string><string name="temp_basal_tsf_fake_extended">%1$.2f E/u (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Waarschuwing (automatisering): Instellingen export niet ingeschakeld!</string><string name="enableSMB_EvenOn_OddOff_always_summary">\ningeschakeld...\nals actief doel (mmol/L) een even decimaal\nheeft of het actieve doel (mg/dL) een even getal is\n\nanders uitgeschakeld</string><string name="graph_long_scale_6h">6 uur</string><string name="smb_delivery_settings_title">SMB leveringsinstellingen</string><string name="uel_reset_aps_results">RESET APS RESULTATEN</string><string name="export_ok">OK</string><string name="autosens_long">Autosens Waarde: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Pomp batterij leeftijd</string><string name="openapsama_smb_delivery_ratio_min">variabele SMB leveringsverhouding, ondergrens\n(smb_delivery_ratio_min)</string><string name="export_alert">WAARSCHUWING</string><string name="extended_bolus_medium">%1$.2f E/u %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">grafiek schaal 24 uur</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Standaard waarde: 0. De lineaire verhoging van de SMB uitgangsratio wordt gekoppeld aan de glucose waarde [target_bg, target_bg+bg_range].\nOp target_bg is de SMB verhouding smb_delivery_ratio_min, op target_bg+bg_bereik is smb_delivery_ratio_max\nMet 0 is de lineaire verhoging SMB ratio uitgeschakeld en wordt de vaste smb_delivery_ratio gebruikt.</string><string name="ic_dynamic_label_warning">Uw algoritme kan een dynamische berekening van IC leveren. De onderstaande waarden worden alleen gebruikt om op terug te vallen in geval van ontbrekende gegevens of als referentiewaarde</string><string name="triggerStepsCountLabel">Aantal stappen</string><string name="use_dynamic_sensitivity_title">Activeer dynamische gevoeligheid</string><string name="autosens_short">AS: %.0f%%</string><string name="autoISF_settings_title">AutoISF instellingen</string><string name="rate_percent_duration_formatted">&lt;b&gt;Basaal&lt;/b&gt;: %1$.2f E/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Duur&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 uur</string><string name="openapsama_higher_ISFrange_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose hoger dan de doelwaarde is, wat ISF versterkt en hiermee mogelijk de insulinetoediening verhoogd.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="openapsama_smb_max_range_extension">SMB/UAM max bereik extensie\n(smb_max_range_extension)</string><string name="isf_for_carbs">ISF voor Bolus Calculator en Koolhydraten Absorptie: %1$.1f</string><string name="a11y_graph_scale_18h">grafiek schaal 18 uur</string><string name="description_auto_isf">Meest recente algoritme voor gevorderde gebruikers met AutoISF uitbreidingen</string><string name="settingsexport">Exporteer instellingen</string><string name="careportal_settings_export_message">Instellingen exporteren: %1$s</string><string name="triggerPodChangeDesc">Pod geactiveerd</string><string name="graph_scale_24h">24u</string><string name="openapsama_bgAccel_ISF_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose waarde aan het versnellen is waardoor ISF versterkt en de insulinetoediening mogelijk toeneemt.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="triggerPumpBatteryLevelDesc">Pomp batterij niveau %1$s %2$.0f</string><string name="steps_shortname">STAPPEN</string><string name="triggerReservoirLevelLabel">Reservoir niveau</string><string name="triggerCannulaAgeDesc">Canule leeftijd %1$s %2$.1f uur</string><string name="variable_sensitivity_shortname">VSENS</string><string name="secs">%1$d s</string><string name="openapsama_dura_ISF_weight">dura_ISF weight\n(dura_ISF_weight)</string><string name="export_warning">Waarschuwing</string><string name="openapsama_autoISF_max_summary">Vergelijkbaar met autosens_max definieert dit hoe sterk ISF kan worden.\n\nDe standaard waarde 1.0 schakelt dit effect effectief uit.\n\nWAARSCHUWING: Wees extreem voorzichtig bij het gebruik van waarden boven de 2,5</string><string name="openapsama_smb_delivery_ratio_summary">Standaardwaarde: 0,5 Dit is een andere instelling voor de veiligheid van OpenAPS, en geeft aan welk deel van de benodigde totale insuline kan worden geleverd als SMB. Dit om te voorkomen dat mensen in een gevaarlijk situatie terechtkomen wanneer tegelijkertijd SMB verzoeken via een telefoon van een verzorger binnenkomen. Verhoog deze experimentele waarde langzaam en met voorzichtigheid.</string><string name="openapsama_dura_ISF_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose gedurende langere tijd verhoogd blijft waardoor ISF wordt versterkt en de insulinetoediening mogelijk toeneemt.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="fallback_to_isf_no_tdd">Terugval naar profiel gevoeligheid. Niet genoeg gegevens. Reden: %1$s</string><string name="use_dynamic_sensitivity_summary">Pas algoritme aan om dynamische gevoeligheid te gebruiken in plaats van profielwaarde</string><string name="openaps_auto_isf">Auto ISF</string></resources>

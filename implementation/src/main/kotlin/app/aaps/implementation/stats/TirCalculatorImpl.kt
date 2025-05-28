@@ -1,3 +1,4 @@
+// Modified for Eating Now
 package app.aaps.implementation.stats
 
 import android.annotation.SuppressLint
@@ -8,23 +9,23 @@ import android.view.Gravity
 import android.view.ViewGroup
 import android.widget.TableLayout
 import android.widget.TextView
-import app.aaps.core.data.configuration.Constants
-import app.aaps.core.interfaces.db.PersistenceLayer
+import app.aaps.core.interfaces.configuration.Constants
 import app.aaps.core.interfaces.profile.ProfileUtil
 import app.aaps.core.interfaces.resources.ResourceHelper
 import app.aaps.core.interfaces.stats.TIR
 import app.aaps.core.interfaces.stats.TirCalculator
 import app.aaps.core.interfaces.utils.DateUtil
 import app.aaps.core.interfaces.utils.MidnightTime
-import dagger.Reusable
+import app.aaps.database.impl.AppRepository
 import javax.inject.Inject
+import javax.inject.Singleton
 
-@Reusable
+@Singleton
 class TirCalculatorImpl @Inject constructor(
     private val rh: ResourceHelper,
     private val profileUtil: ProfileUtil,
     private val dateUtil: DateUtil,
-    private val persistenceLayer: PersistenceLayer
+    private val repository: AppRepository
 ) : TirCalculator {
 
     override fun calculate(days: Long, lowMgdl: Double, highMgdl: Double): LongSparseArray<TIR> {
@@ -33,7 +34,7 @@ class TirCalculatorImpl @Inject constructor(
         val startTime = MidnightTime.calcDaysBack(days)
         val endTime = MidnightTime.calc(dateUtil.now())
 
-        val bgReadings = persistenceLayer.getBgReadingsDataFromTimeToTime(startTime, endTime, true)
+        val bgReadings = repository.compatGetBgReadingsDataFromTime(startTime, endTime, true).blockingGet()
         val result = LongSparseArray<TIR>()
         for (bg in bgReadings) {
             val midnight = MidnightTime.calc(bg.timestamp)
@@ -50,7 +51,7 @@ class TirCalculatorImpl @Inject constructor(
         return result
     }
 
-    private fun averageTIR(tirs: LongSparseArray<TIR>): TIR {
+    override fun averageTIR(tirs: LongSparseArray<TIR>): TIR {
         val totalTir = if (tirs.size() > 0) {
             TirImpl(tirs.valueAt(0).date, tirs.valueAt(0).lowThreshold, tirs.valueAt(0).highThreshold)
         } else {
@@ -65,6 +66,27 @@ class TirCalculatorImpl @Inject constructor(
             totalTir.count += tir.count
         }
         return totalTir
+    }
+
+    override fun calculateByTime(timeStart: Long, hours: Double, lowMgdl: Double, highMgdl: Double): LongSparseArray<TIR> {
+        if (lowMgdl < 39) throw RuntimeException("Low below 39")
+        if (lowMgdl > highMgdl) throw RuntimeException("Low > High")
+        val timeEnd: Long = (timeStart + (hours * 3600000)).toLong()
+        val bgReadings = repository.compatGetBgReadingsDataFromTime(timeStart, timeEnd, true).blockingGet()
+
+        val result = LongSparseArray<TIR>()
+        for (bg in bgReadings) {
+            var tir = result[timeStart]
+            if (tir == null) {
+                tir = TirImpl(timeStart, lowMgdl, highMgdl)
+                result.append(timeStart, tir)
+            }
+            if (bg.value < 39) tir.error()
+            if (bg.value >= 39 && bg.value < lowMgdl) tir.below()
+            if (bg.value in lowMgdl..highMgdl) tir.inRange()
+            if (bg.value > highMgdl) tir.above()
+        }
+        return result
     }
 
     @SuppressLint("SetTextI18n")

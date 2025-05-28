@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--Autotune-->
+    
     <string name="dynisf_adjust_sensitivity">Aktiver TDD-basert sensitivitetsberegning for justering av basal og blodsukkermål</string>
     <string name="dynisf_adjust_sensitivity_summary">Bruker de siste 24t TDD/7D TDD til å beregne sensitivitet som grunnlag til å øke eller redusere basaldosen, samt justere blodsukkermål hvis disse valgene er aktivert, på samme måte som Autosens gjør. Det er anbefalt å starte med dette valget slått av</string>
     <string name="dyn_isf_adjust_title" formatted="false">Dynamisk ISF justeringsfaktor %</string>
     <string name="dyn_isf_adjust_summary" formatted="false">Justeringsfaktor for Dynamisk ISF. Verdier over 100% vil gi mer aggressive korreksjonsdoser, mens verdier under 100% vil gi mindre aggressive korreksjoner.</string>
     <string name="high_temptarget_raises_sensitivity_title">Høyt midlertidig mål øker sensitiviteten</string>
-    <string name="high_temptarget_raises_sensitivity_summary"><![CDATA[Øk sensitiviteten for midlertidig mål >= 5,6]]></string>
+    <string name="high_temptarget_raises_sensitivity_summary">Øk sensitiviteten for midlertidig mål &gt;= 5,6</string>
     <string name="low_temptarget_lowers_sensitivity_title">Lavt midlertidig mål reduserer sensitiviteten</string>
-    <string name="low_temptarget_lowers_sensitivity_summary"><![CDATA[Reduser sensitiviteten for midlertidig mål < 5,6]]></string>
+    <string name="low_temptarget_lowers_sensitivity_summary">Reduser sensitiviteten for midlertidig mål &lt; 5,6</string>
     <string name="openapssmb">OpenAPS SMB</string>
     <string name="openaps_smb_dynamic_isf">Dynamisk ISF</string>
     <string name="openaps_auto_isf">AutoISF</string>
@@ -90,13 +90,13 @@
     <string name="autosens_disabled_in_preferences">Autosens deaktivert i innstillinger</string>
     <string name="use_dynamic_sensitivity_title">Aktiver dynamisk sensitivitet</string>
     <string name="use_dynamic_sensitivity_summary">Juster algoritmen til å bruke dynamisk sensitivitet istedenfor profilverdi</string>
-    <!--    Verify if needed in safety-->
+    
     <string name="limiting_iob">Begrenser IOB til %1$.1f E på grunn av %2$s</string>
     <string name="maxvalueinpreferences">maks verdi i innstillingene</string>
     <string name="hardlimit">hard begrensning</string>
-    <!--    Autotune   -->
+    
     <string name="insulin_peak">Topp</string>
-    <!--    Loop -->
+    
     <string name="run_now">Kjør nå</string>
     <string name="smb_frequency_exceeded">En bolus er gitt i løpet av de siste 3 minuttene, dropper SMB</string>
     <string name="pump_not_initialized">Pumpen er ikke initialisert!</string>
@@ -123,7 +123,7 @@
     <string name="loop_open_mode_min_change_summary" formatted="false">I åpen Loopmodus vil AAPS be deg utføre en hendelse hvis forandringen er større enn denne verdien i %. Standard verdi er 20%</string>
     <string name="fallback_smb_no_tdd">Går tilbake til SMB. Ikke nok data om total daglig dose.</string>
     <string name="fallback_to_isf_no_tdd">Faller tilbake til profilsensitivitet. Ikke nok TDD-data. Årsak: %1$s</string>
-    <!-- Autotune -->
+    
     <string name="autotune_description">Hjelp til potensiell justering av profilen (ISF, IK og basaldoser)</string>
     <string name="autotune_shortname">AT</string>
     <string name="autotune_settings">Autotune innstillinger</string>
@@ -166,7 +166,7 @@
     <string name="autotune_profile_invalid">Ugyldig profil</string>
     <string name="not_available_full">Ikke tilgjengelig</string>
     <string name="pump_disconnected">Pumpe frakoblet</string>
-    <!--    autoISF -->
+    
     <string name="half_basal_exercise_target_title">Halv basal treningsmålverdi</string>
     <string name="half_basal_exercise_target_summary">Sett til et tall, f.eks. 160, noe som betyr at når midlertidig mål er 160 mg/dL (~8.9 mmol/l) og høy midlertidig mål øker sensitiviteten=sant, settes 50%% basal på dette nivået (120 = 75%%; 140 = 60%%).</string>
     <string name="autoISF_settings_title">AutoISF-innstillinger</string>
@@ -204,4 +204,4 @@
     <string name="enableSMB_EvenOn_OddOff_always_summary">\naktivert ...\nhvis aktivt mål (mmol/L) har partall desimal\neller aktivt mål (mg/dL) er partall\n\ndeaktivert ellers</string>
     <string name="openapsama_iob_threshold_percent_summary" formatted="false">Prosentandel av maxIOB over for når SMB\'er er deaktivert.\nStandardverdi: 100 %\nMed 100 % er denne funksjonen er effektivt deaktivert.</string>
     <string name="openapsama_iob_threshold_percent">maxIOB terskelprosent for SMB\n(iob_threshold_percent)</string>
-</resources>
+<string name="graph_scale_6h">6t</string><string name="export_result_message_expired">Eksport av innstillinger avbrutt: passord utløpt. Eksporter manuelt og skriv inn passord på nytt!</string><string name="triggerReservoirLevelDesc">Reservoarnivå %1$s %2$.0f</string><string name="export_expired">Utløpt</string><string name="graph_long_scale_24h">24 timer</string><string name="a11y_graph_scale_6h">graf-skala 6 timer</string><string name="export_settings_short">Tekst i behandlinger:</string><string name="a11y_graph_scale_12h">graf-skala 12 timer</string><string name="choose_from_map">Velg fra kartet</string><string name="extended_bolus_data_point_graph">%1$.2f E ( %2$.2f E/t )</string><string name="temp_basal_overview_short_name">M:</string><string name="graph_scale_18h">18t</string><string name="a11y_graph_scale">velg graf-skala</string><string name="triggerStepsCountDesc">Antall skritt per %1$s minutter %2$s %3$.0f</string><string name="sensitivity">Sensitivitet</string><string name="overview_show_steps">Skritt</string><string name="overview_show_variable_sens">Dynamisk ISF</string><string name="nav_export">Eksporter innstillinger</string><string name="rate_percent_duration">Dose: %1$.2f E/t (%2$.2f%%) Varighet: %3$d min</string><string name="export_result_message_about_to_expire">Innstillinger eksportert: passord er i ferd med å utløpe snart. Eksporter manuelt og skriv inn passord på nytt.</string><string name="export_result_message_failed">Eksport av innstillinger MISLYKTES!</string><string name="triggerStepsCountDropdownLabel">Varighet for måling</string><string name="isf_dynamic_label_warning">Algoritmen din kan gi dynamisk beregning av ISF. Verdiene nedenfor brukes bare som en reserveløsning i tilfelle av manglende data eller bare som en referanseverdi</string><string name="graph_scale_12h">12t</string><string name="location_permission_not_granted">Lokasjonstillatelse er ikke gitt. Tillat i android-innstillinger.</string><string name="triggerInsulinAgeDesc">Insulinalder %1$s %2$.1f time</string><string name="algorithm_long">Algoritmens sensitivitet: %.0f%%</string><string name="export_result_message_exported">Innstillinger eksportert</string><string name="exportsettings_message">Eksporter innstillinger: %1$s</string><string name="triggerPumpBatteryAgeDesc">Batterialder for pumpe %1$s %2$.1f time</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Deaktivert</string><string name="percent_rate_duration">Dose: %1$.2f%% (%2$.2f E/t) Varighet: %3$d min</string><string name="simple_mode_enabled">Enkel modus aktivert</string><string name="percent_rate_duration_formatted">&lt;b&gt;Dose&lt;/b&gt;: %1$.2f%% (%2$.2f E/t)&lt;br&gt;&lt;b&gt;Varighet&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Eksporter innstillinger</string><string name="triggerPodChangeLabel">Pod-aktivering</string><string name="triggerInsulinAgeLabel">Insulinalder</string><string name="triggerCannulaAgeLabel">Kanylealder</string><string name="triggerSensorAgeLabel">Sensoralder</string><string name="export_failed">Mislyktes</string><string name="triggerSensorAgeDesc">Sensoralder %1$s %2$.1f time</string><string name="temp_basal_tsf_absolute">%1$.2f E/t @%2$s</string><string name="graph_long_scale_12h">12 timer</string><string name="uel_select_directory">VELG MAPPE</string><string name="careportal_settings_export">Eksporter innstillinger</string><string name="triggerPumpBatteryLevelLabel">Batterinivå for pumpe</string><string name="extended_bolus_full">F %1$.2f E/t @%2$s %3$s/%4$s min</string><string name="temp_basal_tsf_fake_extended">%1$.2f E/t (%2$.2fF) @%3$s</string><string name="export_result_message_disabled">Advarsel (automatisering): Eksport av innstillinger er ikke aktivert!</string><string name="graph_long_scale_6h">6 timer</string><string name="uel_reset_aps_results">TILBAKESTILL APS-RESULTATER</string><string name="export_ok">OK</string><string name="autosens_long">Autosens-verdi: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Batterialder for pumpe</string><string name="export_alert">Varsel</string><string name="extended_bolus_medium">%1$.2f E/t %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">graf-skala 24 timer</string><string name="ic_dynamic_label_warning">Algoritmen din kan gi dynamisk beregning av IK. Verdiene nedenfor brukes bare som en reserveløsning i tilfelle av manglende data eller bare som en referanseverdi</string><string name="triggerStepsCountLabel">Antall skritt</string><string name="autosens_short">AS: %.0f%%</string><string name="rate_percent_duration_formatted">&lt;b&gt;Dose&lt;/b&gt;: %1$.2f E/t (%2$.2f%%) &lt;br&gt;&lt;b&gt;Varighet&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 timer</string><string name="isf_for_carbs">ISF for kalkulator og karboabsorpsjon: %1$.1f</string><string name="a11y_graph_scale_18h">graf-skala 18 timer</string><string name="settingsexport">Eksporter innstillinger</string><string name="careportal_settings_export_message">Eksporter innstillinger: %1$s</string><string name="triggerPodChangeDesc">Pod aktivert</string><string name="graph_scale_24h">24t</string><string name="triggerPumpBatteryLevelDesc">Batterinivå for pumpe %1$s %2$.0f</string><string name="steps_shortname">SKRITT</string><string name="triggerReservoirLevelLabel">Reservoarnivå</string><string name="triggerCannulaAgeDesc">Kanylealder %1$s %2$.1f time</string><string name="variable_sensitivity_shortname">DISF</string><string name="secs">%1$d s</string><string name="export_warning">Advarsel</string></resources>

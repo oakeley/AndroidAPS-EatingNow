@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--    General-->
+    
     <string name="refresh">רענן</string>
     <string name="error">שגיאה</string>
     <string name="profile_set_ok">הפרופיל הבזאלי עודכן במשאבה</string>
@@ -65,7 +65,7 @@
     <string name="carbs">פחמימות</string>
     <string name="invalid_profile">פרופיל לא חוקי!</string>
     <string name="no_profile_set">לא הוגדר פרופיל</string>
-    <string name="active"><![CDATA[<פועל>]]></string>
+    <string name="active">&lt;פועל&gt;</string>
     <string name="date">תאריך</string>
     <string name="units_label">יחידות</string>
     <string name="dia_label">DIA</string>
@@ -136,7 +136,7 @@
     <string name="a11y_low">נמוך</string>
     <string name="average">ממוצע</string>
     <string name="tir">זמן בטווח</string>
-    <string name="none"><![CDATA[<none>]]></string>
+    <string name="none">&lt;none&gt;</string>
     <string name="remove_label">הסר</string>
     <string name="activate_profile">הפעלת פרופיל</string>
     <string name="reset">איפוס</string>
@@ -170,32 +170,32 @@
     <string name="loopstatus_targets">ערכי מטרה:</string>
     <string name="loopstatus_OAPS_result">תוצאות OAPS:</string>
     <string name="nav_export">ייצוא הגדרות</string>
-    <!--    Protection-->
+    
     <string name="wrongpassword">סיסמה שגויה</string>
     <string name="wrongpin">קוד PIN שגוי</string>
     <string name="passwords_dont_match">הסיסמאות אינן תואמות</string>
     <string name="pin_dont_match">קודי PIN אינם תואמים</string>
-    <!--    Profile-->
+    
     <string name="basalprofilenotaligned">ערכי הבזאלי לא מותאמים לשעות: %1$s</string>
     <string name="minimalbasalvaluereplaced">ערכי הבזאלי הוחלפו בערכים הנתמכים המינימליים: %1$s</string>
     <string name="maximumbasalvaluereplaced">ערכי הבזאלי הוחלפו בערכים הנתמכים המינימליים: %1$s</string>
     <string name="profile_per_unit">/יח\'</string>
     <string name="profile_ins_units_per_hour">יח\'\\שעה</string>
     <string name="profile_carbs_per_unit">גר\'\\יח\'</string>
-    <!--    ProfileFunction-->
+    
     <string name="startprofile">הפעלת פרופיל %1$d%% במשך %2$d דק\'</string>
-    <!--    APSResult-->
+    
     <string name="cancel_temp">ביטול בזאלי זמני</string>
     <string name="let_temp_basal_run">אפשר לבזאלי זמני לרוץ</string>
     <string name="rate">מינון</string>
     <string name="duration">משך</string>
     <string name="reason">סיבה</string>
     <string name="nochangerequested">אין בקשות החלפה</string>
-    <!--    ProfileSwitch-->
+    
     <string name="zerovalueinprofile">פרופיל לא חוקי: %1$s</string>
-    <!--    Temptarget-->
+    
     <string name="mins">%1$d דק\'</string>
-    <!--    Translator-->
+    
     <string name="careportal">פורטל הטיפולים</string>
     <string name="careportal_bgcheck">בדיקת רמת סוכר בדם</string>
     <string name="careportal_mbg">רמת סוכר ידנית או כיול</string>
@@ -240,18 +240,18 @@
     <string name="loop">לולאה</string>
     <string name="ns">נייטסקאוט</string>
     <string name="record">הקלטה</string>
-    <!--    Command-->
+    
     <string name="connectiontimedout">החיבור חרג ממגבלת הזמן</string>
-    <!--    PumpEnactResult-->
+    
     <string name="enacted">נקבע</string>
     <string name="comment">תגובה</string>
     <string name="percent">אחוז</string>
     <string name="absolute">מוחלט</string>
     <string name="waitingforpumpresult">ממתין לתוצאות</string>
     <string name="smb_shortname">SMB</string>
-    <!--    CarbsReq-->
+    
     <string name="carbsreq">%1$d גר\' פחמימות דרושות ב-%2$d הדקות הקרובות</string>
-    <!--    TDDStatsActivity-->
+    
     <string name="cumulative_tdd">מינון יומי מצטבר (TDD)</string>
     <string name="expweight">TDD משוקלל אקספוננציאלי</string>
     <string name="basalrate">בזאלי</string>
@@ -264,9 +264,9 @@
     <string name="olddata_Message">הנתונים ישנים. לרענון לחצו \"טען מחדש\"</string>
     <string name="tbb">סה\"כ בזאלי בסיסי</string>
     <string name="tbb2">סה\"כ בזאלי בסיסי * 2</string>
-    <!--    Ntp-->
+    
     <string name="timedetection">זיהוי שעה</string>
-    <!-- User Entry -->
+    
     <string name="uel_bolus">בולוס</string>
     <string name="uel_bolus_calculator">מחשבון הבולוסים</string>
     <string name="uel_bolus_advisor">יועץ בולוס</string>
@@ -361,7 +361,7 @@
     <string name="uel_loop_change">הלולאה שונתה</string>
     <string name="uel_loop_removed">הלולאה הוסרה</string>
     <string name="uel_other">אחר</string>
-    <!-- HardLimits -->
+    
     <string name="profile_low_target">ערך המטרה הנמוך של הפרופיל</string>
     <string name="profile_high_target">ערך המטרה הגבוה של הפרופיל</string>
     <string name="temp_target_low_target">ערך תחתון של המטרה הזמנית</string>
@@ -376,7 +376,7 @@
     <string name="valueoutofrange">»הערך %1$s« מחוץ לתחום הקשיח</string>
     <string name="value_out_of_hard_limits">»הערך %1$s« %2$.2f מחוץ לתחום הקשיח</string>
     <string name="basal_value">ערך בזאלי</string>
-    <!-- Command Queue + readStatus reasons -->
+    
     <string name="bolus_u_min">בולוס %1$.2f יח\'</string>
     <string name="carbs_g">פחמימות %1$d גרם</string>
     <string name="extended_bolus_u_min">בולוס מושהה %1$.2f יח\' %2$d דק\'</string>
@@ -409,19 +409,19 @@
     <string name="algorithm_short">אלגו\': %.0f%%</string>
     <string name="a11y_file">קובץ</string>
     <string name="a11y_user">משתמש</string>
-    <!-- Autotune -->
+    
     <string name="autotune">כוונון אוטומטי</string>
     <string name="autotune_tune_days">ימי כיוונון :</string>
     <string name="autotune_select_profile">בחרו פרופיל לכוונון</string>
-    <!-- Alerts -->
+    
     <string name="raise_notifications_as_android_notifications">שימוש בהודעות מערכת עבור התראות ודיווחים</string>
     <string name="urgent_alarm">התראה דחופה</string>
     <string name="info">מידע</string>
-    <!-- BolusWizard -->
+    
     <string name="bolus_advisor">יועץ הבולוסים</string>
     <string name="bolus_advisor_message">יש לכם היפרגליקמיה. במקום לאכול עכשיו מומלץ לחכות לרמת סוכר נמוכה יותר. האם תרצו לעשות בולוס תיקון עכשיו ולאחר מכן תופעל תזכורת לאכול? במקרה זה, לא יירשמו פחמימות ויהיה עליכם להשתמש באשף מחדש כאשר תגשו לאכול.</string>
     <string name="cobvsiob">פחמ\' פעילות לעומת אינ\' פעיל</string>
-    <string name="slowabsorptiondetected"><![CDATA[<font color=\'%1$s\'>!!!!!! זוהתה ספיגת פחמימות איטית: %2$d%% מהזמן הצפוי. הערכת כמות הפחמימות הפעילות עלולה להיות ביתר ולכן תיתכן הזרקת אינסולין עודפת !!!!!!</font>]]></string>
+    <string name="slowabsorptiondetected">&lt;font color=\'%1$s\'&gt;!!!!!! זוהתה ספיגת פחמימות איטית: %2$d%% מהזמן הצפוי. הערכת כמות הפחמימות הפעילות עלולה להיות ביתר ולכן תיתכן הזרקת אינסולין עודפת !!!!!!&lt;/font&gt;</string>
     <string name="partialboluswizard">ספק את חלק זה מתוצאת אשף הבולוס [%]</string>
     <string name="partialboluswizard_reset_time">סף זמן נתונים ישנים [דק\']</string>
     <string name="bolus_constraint_applied_warn">מגבלת בולוס יושמה: %1$.2f עד %2$.2f יח\'</string>
@@ -447,7 +447,7 @@
     <string name="wizard_explain_tt_to">%1$s ל-%2$s</string>
     <string name="wizard_pump_not_available">המשאבה אינה זמינה!</string>
     <string name="quickwizard">אשף מהיר</string>
-    <!--    Preferences-->
+    
     <string name="child">ילד\\ה צעיר\\ה</string>
     <string name="teenage">מתבגר\\ת</string>
     <string name="adult">מבוגר\\ת</string>
@@ -457,9 +457,9 @@
     <string name="max_bolus_title">בולוס מקסימלי מותר [יח\']</string>
     <string name="max_carbs_title">מקסימום פחמימות מותר [גר\']</string>
     <string name="patient_type">סוג המטופל\\ת</string>
-    <!--    Protection-->
+    
     <string name="unlock_settings">שחרור נעילת הגדרות</string>
-    <!--    Pumps -->
+    
     <string name="battery_label">סוללה</string>
     <string name="reservoir_label">מכל</string>
     <string name="last_connection_label">התחברות אחרונה</string>
@@ -489,13 +489,13 @@
     <string name="pairing">מצמד</string>
     <string name="initializing">מאתחל...</string>
     <string name="secs" comment="second short">%1$d שניות</string>
-    <!--    Constraints-->
+    
     <string name="limitingbasalratio">מגביל את הקצב הבזאלי המרבי ל-%1$.2f יח\' לשעה בגלל %2$s</string>
     <string name="pumplimit">מגבלת משאבה</string>
     <string name="limitingpercentrate">מגביל את אחוז הקצב הבזאלי המרבי ל-%1$d%% בגלל %2$s</string>
     <string name="itmustbepositivevalue">זה חייב להיות ערך חיובי</string>
     <string name="limitingbolus">מגביל בולוס ל-%1$.1f יח\' בגלל %2$s</string>
-    <!--    Dialogs-->
+    
     <string name="confirmation">אישור</string>
     <string name="message">הודעה</string>
     <string name="ok">אישור</string>
@@ -504,35 +504,35 @@
     <string name="yes">כן</string>
     <string name="no">לא</string>
     <string name="close">סגור</string>
-    <!-- TwoMessagesDialog -->
+    
     <string name="password_preferences_decrypt_prompt">אתם תתבקשו למלא סיסמה ראשית שתשמש לפיענוח ההעדפות המיובאות.</string>
-    <!-- <unattended_export> -->
-    <!-- <unattended_export result messages> -->
+    
+    
     <string name="export_result_message_exported">הגדרות יוצאו</string>
     <string name="export_result_message_failed">יצוא ההגדרות נכשל!</string>
-    <!-- NumberPicker -->
+    
     <string name="a11y_min_button_description">הפחתת %1$s ב-%2$s</string>
     <string name="a11y_plus_button_description">תוספת %1$s ב-%2$s</string>
     <string name="you_are_on_allowed_limit">הגעתם לגבול המותר</string>
     <string name="format_hour_minute">%1$d ש\' %2$d דק\'</string>
-    <!-- datetime layout -->
+    
     <string name="event_time_label">שעת אירוע</string>
-    <!-- BluetoothDevicePreference -->
+    
     <string name="need_connect_permission">האפליקציה צריכה הרשאה לבלוטות\'</string>
-    <!--    Combo-->
+    
     <string name="user_request" comment="26 characters max for translation">בקשת משתמש</string>
     <string name="pump_paired" comment="26 characters max for translation">המשאבה צומדה</string>
-    <!--    BlePreCheck-->
+    
     <string name="ble_not_supported">בלוטות\' באנרגיה נמוכה לא נתמך.</string>
     <string name="ble_not_supported_or_not_paired">בלוטות\' באנרגיה נמוכה (BLE) לא נתמך או שהמכשיר אינו מצומד.</string>
     <string name="ble_not_enabled">בלוטות\' כבוי.</string>
     <string name="location_not_found_title">המיקום אינו מופעל</string>
     <string name="location_not_found_message">בכדי שסריקת בלוטות\' תעבוד יש לאפשר מיקום. xDrip לא עוקב אחר המיקום חוץ מבמקרה שבו הפעלתם את אפשרות הודעות החירום</string>
-    <!--    Preferences -->
+    
     <string name="nav_plugin_preferences">העדפות תוסף</string>
-    <!-- SmsCommunicator -->
+    
     <string name="smscommunicator_missingsmspermission">הרשאות SMS חסרות</string>
-    <!-- About -->
+    
     <string name="cta_dont_kill_my_app_info">איך לא להשבית את האפליקציה שלי?</string>
     <string name="fabric_upload_disabled">העלאת רשומות קריסה מושבתת!</string>
     <string name="about_link_urls">\n\nתיעוד:\nhttps://wiki.aaps.app\n\nפייסבוק:\nhttps://www.facebook.com/groups/AndroidAPSUsers</string>
@@ -554,11 +554,11 @@
         <item quantity="many">%1$d דקות</item>
         <item quantity="other">%1$d דקות</item>
     </plurals>
-    <!--    Maintenance-->
+    
     <string name="cleanup_db_confirm">אתם בטוחים שברצונכם לנקות את מסד הנתונים? \nפעולה זו תמחק את הנתונים הישנים מ-3 החודשים האחרונים.</string>
     <string name="cleanup_db_confirm_sync">האם ברצונכם לנקות את מסד הנתונים?\nשינויים הנמצאים במעקב ונתונים היסטוריים הישנים מ-3 חודשים יימחקו.\nפעולה זו תזרז משמעותית את מהירות הסינכרון המלא.</string>
     <string name="cleared_entries">רשומות שנמחקו</string>
-    <!--    Weekday-->
+    
     <string name="weekday_sunday_short">א׳</string>
     <string name="weekday_saturday_short">ש\'</string>
     <string name="weekday_friday_short">ו׳</string>
@@ -566,7 +566,7 @@
     <string name="weekday_wednesday_short">ד\'</string>
     <string name="weekday_tuesday_short">ג\'</string>
     <string name="weekday_monday_short">ב\'</string>
-    <!-- WeekdayPicker -->
+    
     <string name="monday_short">ב\'</string>
     <string name="tuesday_short">ג\'</string>
     <string name="wednesday_short">ד\'</string>
@@ -574,7 +574,8 @@
     <string name="friday_short">ו\'</string>
     <string name="saturday_short">ש\'</string>
     <string name="sunday_short">א\'</string>
-    <!--    DecimalFormatterImpl -->
+    
     <string name="format_insulin_units1">%1$.1f יח\'</string>
     <string name="format_insulin_units">%1$.2f יח\'</string>
-</resources>
+<string name="autoISF_settings_summary">רגישות אוטומטית מאפשרת להתאים את יחס הרגישות (ISF) לתרחישים שונים של התנהגות הסוכר\n\nיכול להתאים גם לשימוש עם SMB</string><string name="graph_scale_6h">6 שע\'</string><string name="half_basal_exercise_target_title">Half basal exercise target</string><string name="openapsama_pp_ISF_weight_summary">This is the weight applied while glucose is rising and which strengthens ISF thereby potentially increasing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="dyn_isf_adjust_title">כיוונון פקטור הרגישות הדינאמית %</string><string name="export_result_message_expired">Settings export canceled: password expired. Export manually and (re)enter!</string><string name="dyn_isf_adjust_summary">כיוונון פקטור הרגישות הדינאמית. קבעו יותר מ-100% לקבלת תיקונים אגרסיביים יותר ופחות מ-100% לקבלת תיקונים עדינים יותר.</string><string name="triggerReservoirLevelDesc">Reservoir level %1$s %2$.0f</string><string name="export_expired">Expired</string><string name="graph_long_scale_24h">24 שעות</string><string name="a11y_graph_scale_6h">קנה מידת הגרף 6 שעות</string><string name="autoisf_shortname">רגישות אוטו\'</string><string name="export_settings_short">Text in treatments:</string><string name="openapsama_smb_delivery_ratio">fixed SMB delivery ratio\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Weight while BG decelerates\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">קנה מידת הגרף 12 שעות</string><string name="enableSMB_EvenOn_OddOff_always">Enable alternative activation of SMB depending on active target being even number</string><string name="choose_from_map">בחר מהמפה</string><string name="extended_bolus_data_point_graph">%1$.2f U ( %2$.2f U/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="openapsama_autoISF_min_summary">Similar to autosens_min this defines how weak ISF can become.\n\nThe default value 1.0 effectively shuts off this effect.</string><string name="openapsama_bgBrake_ISF_weight_summary">This is the weight applied while glucose decelerates and which weakens ISF thereby potentially reducing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="openapsama_smb_delivery_ratio_min_summary">ערך ברירת מחדל: 0.5 זהו הקצה הנמוך של יחס שמתגבר באופן ליניארי ולא ערך קבוע כפי שמצוין לעיל.</string><string name="graph_scale_18h">18 שע\'</string><string name="a11y_graph_scale">בחר קנה מידה של הגרף</string><string name="triggerStepsCountDesc">Steps count per %1$s minutes %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Default value: 0.5 This is the upper end of a linearly increasing ratio rather than the fix value above.</string><string name="overview_show_steps">צעדים</string><string name="openapsama_smb_delivery_ratio_max">variable SMB delivery ratio, upper end\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Set of options to increase the actual SMB size which can be delivered in situations where ISF was strengthened, i.e. fairly low ISF figure.\n\nUSE WITH CAUTION</string><string name="overview_show_variable_sens">רגישות משתנה</string><string name="rate_percent_duration">Rate: %1$.2f U/h (%2$.2f%%) Duration: %3$d min</string><string name="openapsama_pp_ISF_weight">postprandial ISF weight\n(pp_ISF_weight)</string><string name="export_result_message_about_to_expire">Settings exported: password about to expire soon. Export manually and (re)enter password.</string><string name="triggerStepsCountDropdownLabel">Measurement Duration</string><string name="openapsama_lower_ISFrange_weight_summary">This is the weight applied while glucose is below target and which weakens ISF thereby potentially reducing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="isf_dynamic_label_warning">Your algorithm can provide dynamic calculation of ISF. Values below can be used only as a fallback in case of missing data or as a reference value only</string><string name="graph_scale_12h">12 שע\'</string><string name="location_permission_not_granted">Location permission not granted. Allow in android settings.</string><string name="triggerInsulinAgeDesc">Insulin age %1$s %2$.1f hour</string><string name="exportsettings_message">Settings Export: %1$s</string><string name="triggerPumpBatteryAgeDesc">Pump battery age %1$s %2$.1f hour</string><string name="export_disabled">Disabled</string><string name="openapsama_iob_threshold_percent_summary">Percentage of maxIOB above which SMBs are disabled.\nDefault value: 100%\nWith 100% this feature is effectively disabled.</string><string name="percent_rate_duration">Rate: %1$.2f%% (%2$.2f U/h) Duration: %3$d min</string><string name="simple_mode_enabled">נבחר המצב הפשוט</string><string name="percent_rate_duration_formatted">&lt;b&gt;Rate&lt;/b&gt;: %1$.2f%% (%2$.2f U/h)&lt;br&gt;&lt;b&gt;Duration&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Export Settings</string><string name="triggerPodChangeLabel">Pod activation</string><string name="triggerInsulinAgeLabel">Insulin age</string><string name="openapsama_lower_ISFrange_weight">lower ISF-range weight\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Cannula age</string><string name="triggerSensorAgeLabel">Sensor age</string><string name="pump_disconnected">המשאבה מנותקת</string><string name="openapsama_iob_threshold_percent">maxIOB threshold percent for SMB\n(iob_threshold_percent)</string><string name="export_failed">Failed</string><string name="triggerSensorAgeDesc">Sensor age %1$s %2$.1f hour</string><string name="openapsama_bgAccel_ISF_weight">Weight while BG accelerates\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">higher ISF-range weight\n(higher_ISFrange_weight)</string><string name="temp_basal_tsf_absolute">%1$.2f U/h @%2$s</string><string name="graph_long_scale_12h">12 שעות</string><string name="half_basal_exercise_target_summary">Set to a number, e.g. 160, which means when temp target is 160 mg/dL and High temptarget raises sensitivity=true, run 50%% basal at this level (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">אפשר התאמת רגישות בתגובה להתנהגות רמת הסוכר</string><string name="openapsama_autoISF_max">Max autoISF ratio\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Default value: 1 This is another key OpenAPS safety cap, and specifies by what factor you can exceed the regular 120 maxSMB/maxUAM minutes. Increase this experimental value slowly and with caution.</string><string name="careportal_settings_export">Settings Export</string><string name="openapsama_autoISF_min">Min autoISF ratio\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Pump battery level</string><string name="extended_bolus_full">E %1$.2f U/h @%2$s %3$s/%4$s min</string><string name="openapsama_smb_delivery_ratio_bg_range">variable SMB delivery ratio, mapped glucose range\n(smb_delivery_ratio_bg_range)</string><string name="temp_basal_tsf_fake_extended">%1$.2f U/h (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Warning (automation): Settings export not enabled!</string><string name="enableSMB_EvenOn_OddOff_always_summary">\nenabled ...\nif active target(mmol/L) has even decimal\nor active target(mg/dL) is even number\n\ndisabled otherwise</string><string name="graph_long_scale_6h">6 שעות</string><string name="smb_delivery_settings_title">SMB delivery settings</string><string name="export_ok">OK</string><string name="triggerPumpBatteryAgeLabel">Pump battery age</string><string name="openapsama_smb_delivery_ratio_min">variable SMB delivery ratio, lower end\n(smb_delivery_ratio_min)</string><string name="export_alert">ALERT</string><string name="extended_bolus_medium">%1$.2f U/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">קנה מידת הגרף 24 שעות</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Default value: 0. The linearly increasing SMB delivery ratio is mapped to the glucose range [target_bg, target_bg+bg_range].\nAt target_bg the SMB ratio is smb_delivery_ratio_min, at target_bg+bg_range it is smb_delivery_ratio_max\nWith 0 the linearly increasing SMB ratio is disabled and the fixed smb_delivery_ratio is used.</string><string name="ic_dynamic_label_warning">Your algorithm can provide dynamic calculation of IC. Values below cen be used only as a fallback in case of missing data or as a reference value only</string><string name="triggerStepsCountLabel">Steps Count</string><string name="use_dynamic_sensitivity_title">אפשר רגישות דינמית</string><string name="autoISF_settings_title">הגדרות רגישות אוטומטית</string><string name="rate_percent_duration_formatted">&lt;b&gt;Rate&lt;/b&gt;: %1$.2f U/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Duration&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 שעות</string><string name="openapsama_higher_ISFrange_weight_summary">This is the weight applied while glucose is above target and which strengthens ISF thereby potentially increasing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="openapsama_smb_max_range_extension">הרחבת טווח SMB/UAM מקסימלי \n(smb_max_range_extension)</string><string name="a11y_graph_scale_18h">קנה מידת הגרף 18 שעות</string><string name="description_auto_isf">האלגוריתם העדכני ביותר, נועד למשתמשים מתקדמים עם ההרחבות השונות של רגישות אוטומטית</string><string name="settingsexport">Settings Export</string><string name="careportal_settings_export_message">Settings Export : %1$s</string><string name="triggerPodChangeDesc">Pod activated</string><string name="graph_scale_24h">24 שע\'</string><string name="openapsama_bgAccel_ISF_weight_summary">This is the weight applied while glucose accelerates and which strengthens ISF thereby potentially increasing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="triggerPumpBatteryLevelDesc">Pump battery level %1$s %2$.0f</string><string name="steps_shortname">צעדים</string><string name="triggerReservoirLevelLabel">Reservoir level</string><string name="triggerCannulaAgeDesc">Cannula age %1$s %2$.1f hour</string><string name="variable_sensitivity_shortname">רג\' משתנה</string><string name="openapsama_dura_ISF_weight">dura_ISF weight\n(dura_ISF_weight)</string><string name="export_warning">Warning</string><string name="openapsama_autoISF_max_summary">Similar to autosens_max this defines how strong ISF can become.\n\nThe default value 1.0 effectively shuts off this effect.\n\nWARNING: Be extremely careful when using values above 2.5</string><string name="openapsama_smb_delivery_ratio_summary">ערך ברירת מחדל: 0.5 זוהי מגבלת בטיחות נוספת של OpenAPS המגדירה איזה חלק מסך האינסולין הנדרש יכול להינתן כ-SMB. מגבלה זו נועדה למנוע כפילות הזרקת SMB הנגרמת מפקודות מהמטפל המרוחק בנוסף למכשיר הראשי. יש להגדיל ערך ניסיוני זה בהדרגה ובזהירות.</string><string name="openapsama_dura_ISF_weight_summary">This is the weight applied during longer lasting, elevated glucose plateaus and which strengthens ISF thereby potentially increasing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="fallback_to_isf_no_tdd">חוזר לרגישות ע\"פ הפרופיל. אין מספיק נתונים.
+סיבה: %1$s</string><string name="use_dynamic_sensitivity_summary">שנה אלגוריתם לשימוש ברגישות דינמית במקום ערך הפרופיל</string><string name="openaps_auto_isf">רגישות אוטומטית</string></resources>

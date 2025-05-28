@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--Autotune-->
+    
     <string name="dynisf_adjust_sensitivity">Включить коэффициент чувствительности на основе суточной дозировки инсулина TDD для изменения базальной скорости и целевых значений гликемии</string>
     <string name="dynisf_adjust_sensitivity_summary">Если эти опции включены, AAPS использует последние 24 часа TDD/7D TDD для расчета коэффициента чувствительности, на основе которого производится увеличение или снижение скорости базала, а также коррекция целевой гликемии, как и при работе Autosens. Рекомендуется начинать при выключенной опции</string>
     <string name="dyn_isf_adjust_title" formatted="false">Коэффициент регулировки динамического диапазона чувствительности ISF %</string>
     <string name="dyn_isf_adjust_summary" formatted="false">Коэффициент корректировки динамического диапазона чувствительности ISF. Установите более 100% для агрессивных доз коррекции и менее 100% для менее агрессивной коррекции.</string>
     <string name="high_temptarget_raises_sensitivity_title">Высокая ВЦ повышает чувствительность</string>
-    <string name="high_temptarget_raises_sensitivity_summary"><![CDATA[Повысить чувствительность для temptargets > = 100]]></string>
+    <string name="high_temptarget_raises_sensitivity_summary">Повысить чувствительность для temptargets &gt; = 100</string>
     <string name="low_temptarget_lowers_sensitivity_title">Низкая ВЦ снижает чувствительность</string>
-    <string name="low_temptarget_lowers_sensitivity_summary"><![CDATA[Понизить чувствительность для temptargets > = 100]]></string>
+    <string name="low_temptarget_lowers_sensitivity_summary">Понизить чувствительность для temptargets &gt; = 100</string>
     <string name="openapssmb">OpenAPS SMB</string>
     <string name="openaps_smb_dynamic_isf">Динамический ISF</string>
     <string name="openaps_auto_isf">Auto ISF</string>
@@ -90,13 +90,13 @@
     <string name="autosens_disabled_in_preferences">Автоматический подбор чувствительности Autosens отключен в настройках</string>
     <string name="use_dynamic_sensitivity_title">Включить динамическую чувствительность</string>
     <string name="use_dynamic_sensitivity_summary">Настроить алгоритм на использование динамической чувствительности вместо значений профиля</string>
-    <!--    Verify if needed in safety-->
+    
     <string name="limiting_iob">Ограничение активного инсулина IOB до %1$.1f ед. из-за %2$s</string>
     <string name="maxvalueinpreferences">максимальное значение в настройках</string>
     <string name="hardlimit">жесткий предел</string>
-    <!--    Autotune   -->
+    
     <string name="insulin_peak">Пик</string>
-    <!--    Loop -->
+    
     <string name="run_now">Выполнить сейчас</string>
     <string name="smb_frequency_exceeded">Болюс был подан в течение последних трех минут, минуя супер микро болюс SMB</string>
     <string name="pump_not_initialized">Помпа не инициализирована!</string>
@@ -123,7 +123,7 @@
     <string name="loop_open_mode_min_change_summary" formatted="false">Алгоритм ИПЖ выдаст всплывающее окно с запросом на новые изменения, только если изменение больше, чем это значение в %. Значение по умолчанию — 20%</string>
     <string name="fallback_smb_no_tdd">Возврат к SMB. Недостаточно данных TDD.</string>
     <string name="fallback_to_isf_no_tdd">Откат к чувствительности из профиля. Недостаточно данных. Причина: %1$s</string>
-    <!-- Autotune -->
+    
     <string name="autotune_description">Помощь в возможной корректировке профиля (ISF, IC, базал)</string>
     <string name="autotune_shortname">АвтТюн</string>
     <string name="autotune_settings">Настройки Autotune</string>
@@ -166,7 +166,7 @@
     <string name="autotune_profile_invalid">Неверный профиль</string>
     <string name="not_available_full">Недоступно</string>
     <string name="pump_disconnected">Помпа отключена</string>
-    <!--    autoISF -->
+    
     <string name="half_basal_exercise_target_title">Половина дозы базального инсулина при ВЦ Нагрузка</string>
     <string name="half_basal_exercise_target_summary">Установливается как число, например, 160 означает, что при ВЦ 160 мг/дл и настройке \"Высокая ВЦ повышает чувствительность =true\", активируется 50%% базальной скорости (120 = 75%%; 140 = 60%%).</string>
     <string name="autoISF_settings_title">Настройки AutoISF</string>
@@ -204,4 +204,4 @@
     <string name="enableSMB_EvenOn_OddOff_always_summary">\nвключены ...\nесли активная цель(ммоль/л) имеет четную десятичную часть\nили активная цель(мг/дл) - четное число\n\nв ином случае - отключены</string>
     <string name="openapsama_iob_threshold_percent_summary" formatted="false">Процент maxIOB выше которого SMB отключаются.\nЗначение по умолчанию: 100%\nПри значении в 100%, функция не имеет эффекта.</string>
     <string name="openapsama_iob_threshold_percent">Пороговый процент maxIOB для SMB\n(iob_threshold_percent)</string>
-</resources>
+<string name="graph_scale_6h">6ч</string><string name="export_result_message_expired">Экспорт настроек отменен: пароль перестал действовать. Экспортируйте их вручную и введите его заново!</string><string name="triggerReservoirLevelDesc">Уровень резервуара %1$s %2$.0f</string><string name="export_expired">Срок действия истёк</string><string name="graph_long_scale_24h">24 часа</string><string name="a11y_graph_scale_6h">масштаб шкалы 6 часов</string><string name="export_settings_short">Текст в терапии:</string><string name="a11y_graph_scale_12h">масштаб шкалы 12 часов</string><string name="choose_from_map">Choose from map</string><string name="extended_bolus_data_point_graph">%1$.2f ед ( %2$.2f ед/ч )</string><string name="temp_basal_overview_short_name">ВРЕМ:</string><string name="graph_scale_18h">18 ч</string><string name="a11y_graph_scale">выберите масштаб графика</string><string name="triggerStepsCountDesc">Количество шагов за %1$s минут %2$s %3$.0f</string><string name="sensitivity">Чувствительность</string><string name="overview_show_steps">Действия</string><string name="overview_show_variable_sens">Переменная чувствительность</string><string name="nav_export">экспорт настроек</string><string name="rate_percent_duration">Скорость: %1$.2fед/ч (%2$.2f%%) Продолжительность %3$d мин</string><string name="export_result_message_about_to_expire">Настройки были экспортированы: пароль скоро перестанет действовать. Экспортируйте их вручную и (заново) введите пароль.</string><string name="export_result_message_failed">ОШИБКА экспорта настроек!</string><string name="triggerStepsCountDropdownLabel">Продолжительность измерения</string><string name="isf_dynamic_label_warning">Алгоритм может обеспечить динамический расчет ISF. Значения ниже можно использовать только в качестве запасного варианта в случае отсутствия данных или только в качестве эталонного значения</string><string name="graph_scale_12h">12 ч</string><string name="location_permission_not_granted">Доступ к геолокации не предоставлен. Предоставьте в настройках Android.</string><string name="triggerInsulinAgeDesc">Время отработанное инсулином %1$s %2$.1f час</string><string name="algorithm_long">Autosens в алгоритме: %.0f%%</string><string name="export_result_message_exported">Настройки экспортированы</string><string name="exportsettings_message">Экспорт настроек %1$s</string><string name="triggerPumpBatteryAgeDesc">Батарея помпы отработала %1$s %2$.1f час</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Отключено</string><string name="percent_rate_duration">Скорость: %1$.2f%% (%2$.2f U/h) Продолжительность: %3$d мин</string><string name="simple_mode_enabled">Простой режим включен</string><string name="percent_rate_duration_formatted">&lt;b&gt;Скорость&lt;/b&gt;:%1$.2f %% (%2$.2f ед/ч)&lt;br&gt;&lt;b&gt; Продолжительность&lt;/b&gt; %3$d мин&lt;br&gt;</string><string name="exportsettings">Настройки экспорта</string><string name="triggerPodChangeLabel">Активация Pod\'а</string><string name="triggerInsulinAgeLabel">Инсулин проработал</string><string name="triggerCannulaAgeLabel">Время, отработанное катетером помпы</string><string name="triggerSensorAgeLabel">Время, отработанное сенсором</string><string name="export_failed">Сбой</string><string name="triggerSensorAgeDesc">Отработанное сенсором время %1$s %2$.1f час</string><string name="temp_basal_tsf_absolute">%1$.2f ед/ч @%2$s</string><string name="graph_long_scale_12h">12 часов</string><string name="uel_select_directory">ВЫБОР ДИРЕКТОРИИ</string><string name="careportal_settings_export">Экспорт настроек</string><string name="triggerPumpBatteryLevelLabel">Уровень заряда батареи помпы</string><string name="extended_bolus_full">ПБ%1$.2f ед/ @%2$s%3$s%4$s мин</string><string name="temp_basal_tsf_fake_extended">%1$.2f ед ( %2$.2f ед/ч)@%3$s</string><string name="export_result_message_disabled">Предупреждение (автоматизация): Экспорт настроек выключен!</string><string name="graph_long_scale_6h">6 часов</string><string name="uel_reset_aps_results">СБРОС РЕЗУЛЬТАТОВ APS</string><string name="export_ok">OK</string><string name="autosens_long">Значение Autosens: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Время отработанное батареей помпы</string><string name="export_alert">ВНИМАНИЕ</string><string name="extended_bolus_medium">%1$.2f ед/ч %2$s%3$s</string><string name="a11y_graph_scale_24h">масштаб шкалы 24 часа</string><string name="ic_dynamic_label_warning">Алгоритм может обеспечить динамический расчет углеводного коэффициента IC. Значения ниже можно использовать только в качестве запасного варианта в случае отсутствия данных или только в качестве эталонного значения</string><string name="triggerStepsCountLabel">Количество шагов</string><string name="autosens_short">AS: %.0f%%</string><string name="rate_percent_duration_formatted">&lt;b&gt;Скорость&lt;/b&gt;: %1$.2f ед/ч (%2$.2f%%) &lt;br&gt;&lt;b&gt;Продолжительность&lt;/b&gt;: %3$d мин&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f %% @%2$s</string><string name="graph_long_scale_18h">18 часов</string><string name="isf_for_carbs">ISF для калькулятора и усвоения углеводов: %1$.1f</string><string name="a11y_graph_scale_18h">масштаб шкалы 18 часов</string><string name="settingsexport">Экспорт настроек</string><string name="careportal_settings_export_message">Экспорт настроек %1$s</string><string name="triggerPodChangeDesc">Pod активирован</string><string name="graph_scale_24h">24 ч</string><string name="triggerPumpBatteryLevelDesc">Уровень заряда батареи помпы %1$s %2$.0f</string><string name="steps_shortname">ШАГИ</string><string name="triggerReservoirLevelLabel">Уровень резервуара</string><string name="triggerCannulaAgeDesc">Отработанное катетером время %1$s %2$.1f час</string><string name="variable_sensitivity_shortname">ПЕРЕМЧУВСТВ</string><string name="secs">%1$d с</string><string name="export_warning">Внимание</string></resources>

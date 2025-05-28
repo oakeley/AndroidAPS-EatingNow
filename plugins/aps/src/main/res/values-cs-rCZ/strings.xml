@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--Autotune-->
+    
     <string name="dynisf_adjust_sensitivity">Povolit, aby citlivost založená na CDD mohla upravovat bazál a cílovou glykémii</string>
     <string name="dynisf_adjust_sensitivity_summary">K výpočtu citlivosti použité pro zvýšení nebo snížení bazálu se používá CDD za posledních 24 h / 7 D a také upravuje cílovou glykémii, pokud je tato možnost povolena, stejně jako to dělá Autosens. Tuto možnost je doporučeno pro začátek vypnout.</string>
     <string name="dyn_isf_adjust_title" formatted="false">Korekční faktor pro DynamicISF v %</string>
     <string name="dyn_isf_adjust_summary" formatted="false">Korekční faktor pro DynamicISF. Pro agresivnější korekční dávky nastavte hodnoty vyšší než 100 %, pro méně agresivní korekce nižší než 100 %.</string>
     <string name="high_temptarget_raises_sensitivity_title">Vysoký dočasný cíl zvýší senzitivitu</string>
-    <string name="high_temptarget_raises_sensitivity_summary"><![CDATA[Zvýšení senzitivity pro dočasné cíle >= 5.5]]></string>
+    <string name="high_temptarget_raises_sensitivity_summary">Zvýšení senzitivity pro dočasné cíle &gt;= 5.5</string>
     <string name="low_temptarget_lowers_sensitivity_title">Nízký dočasný cíl sníží senzitivitu</string>
-    <string name="low_temptarget_lowers_sensitivity_summary"><![CDATA[Nižší senzitivita pro dočasné cíle < 5.5]]></string>
+    <string name="low_temptarget_lowers_sensitivity_summary">Nižší senzitivita pro dočasné cíle &lt; 5.5</string>
     <string name="openapssmb">OpenAPS SMB</string>
     <string name="openaps_smb_dynamic_isf">Dynamická ISF</string>
     <string name="openaps_auto_isf">Auto ISF</string>
@@ -90,13 +90,13 @@
     <string name="autosens_disabled_in_preferences">Autosens zakázán v nastavení</string>
     <string name="use_dynamic_sensitivity_title">Povolit dynamickou citlivost</string>
     <string name="use_dynamic_sensitivity_summary">Upravte algoritmus pro použití dynamické citlivosti namísto hodnoty profilu</string>
-    <!--    Verify if needed in safety-->
+    
     <string name="limiting_iob">IOB omezeno na %1$.1f U: %2$s</string>
     <string name="maxvalueinpreferences">maximální hodnota v nastavení</string>
     <string name="hardlimit">pevný limit</string>
-    <!--    Autotune   -->
+    
     <string name="insulin_peak">Vrchol</string>
-    <!--    Loop -->
+    
     <string name="run_now">Spustit teď</string>
     <string name="smb_frequency_exceeded">Odeslán bolus během posledních 3 minut, SMB přeskočeno</string>
     <string name="pump_not_initialized">Pumpa není inicializována!</string>
@@ -123,7 +123,7 @@
     <string name="loop_open_mode_min_change_summary" formatted="false">Otevřená smyčka vytvoří novou žádost o změnu pouze v případě, že změna je větší než tato hodnota. Výchozí hodnota je 20 %</string>
     <string name="fallback_smb_no_tdd">Použit algoritmus SMB. Nedostatek dat o CDD.</string>
     <string name="fallback_to_isf_no_tdd">Použita hodnota citlivosti z profilu. Nedostatek dat. Důvod: %1$s</string>
-    <!-- Autotune -->
+    
     <string name="autotune_description">Pomoc s možnými úpravami profilu (citlivost, sacharidový poměr a bazální dávky)</string>
     <string name="autotune_shortname">AT</string>
     <string name="autotune_settings">Nastavení Autotune</string>
@@ -166,7 +166,7 @@
     <string name="autotune_profile_invalid">Neplatný profil</string>
     <string name="not_available_full">Nedostupný</string>
     <string name="pump_disconnected">Pumpa odpojena</string>
-    <!--    autoISF -->
+    
     <string name="half_basal_exercise_target_title">Poloviční bazál při cíli Aktivita</string>
     <string name="half_basal_exercise_target_summary">Nastaven na hodnotu, např. 160, což znamená, že je-li dočasný cíl 160 mg/dL (8,9 mmol) a možnost „Vysoký dočasný cíl zvyšuje senzititivu“ je povolená, spustí se při této hodnotě 50%% bazál (120 = 75%%; 140 = 60%%).</string>
     <string name="autoISF_settings_title">Nastavení AutoISF</string>
@@ -204,4 +204,4 @@
     <string name="enableSMB_EvenOn_OddOff_always_summary">\npovoleno...\nmá-li aktivní cíl (mmol/L) sudé číslo za desetinou čárkou\nnebo je-li hodnota aktivního cíle (mg/dL) sudé číslo\n\n\jinak zakázáno</string>
     <string name="openapsama_iob_threshold_percent_summary" formatted="false">Procento maxIOB, po jehož překročení jsou SMB zakázány.\nVýchozí hodnota: 100 %\nPři hodnotě 100 % je tato funkce vypnuta.</string>
     <string name="openapsama_iob_threshold_percent">Prahová hodnota maxIOB v procentech, při jejímž dosažení se vypnou SMB\n(iob_threshold_percent)</string>
-</resources>
+<string name="graph_scale_6h">6 h</string><string name="export_result_message_expired">Export nastavení zrušen: heslo vypršelo. Exportujte ručně a (znovu) zadejte heslo!</string><string name="triggerReservoirLevelDesc">Stav zásobníku %1$s %2$.0f</string><string name="export_expired">Vypršelo</string><string name="graph_long_scale_24h">24 hodin</string><string name="a11y_graph_scale_6h">měřítko grafu 6 hodin</string><string name="export_settings_short">Text v ošetřeních:</string><string name="a11y_graph_scale_12h">měřítko grafu 12 hodin</string><string name="choose_from_map">Vybrat z mapy</string><string name="extended_bolus_data_point_graph">%1$.2f U ( %2$.2f U/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="graph_scale_18h">18 h</string><string name="a11y_graph_scale">vyberte měřítko grafu</string><string name="triggerStepsCountDesc">Počet kroků za %1$s minut %2$s %3$.0f</string><string name="sensitivity">Citlivost</string><string name="overview_show_steps">Kroky</string><string name="overview_show_variable_sens">Proměnná citlivost</string><string name="nav_export">Exportovat nastavení</string><string name="rate_percent_duration">Hodnota: %1$.2f U/h (%2$.2f%%) Trvání: %3$d min</string><string name="export_result_message_about_to_expire">Nastavení exportováno: heslo brzy vyprší. Exportujte ručně a (znovu) zadejte heslo.</string><string name="export_result_message_failed">Nastavení NEJSOU správně exportována!</string><string name="triggerStepsCountDropdownLabel">Délka měření</string><string name="isf_dynamic_label_warning">Váš algoritmus dokáže poskytovat dynamický výpočet ISF. Níže uvedené hodnoty mohou být použity pouze jako záložní v případě chybějících údajů nebo jako referenční</string><string name="graph_scale_12h">12 h</string><string name="location_permission_not_granted">Oprávnění k přístupu k poloze zařízení nebylo uděleno. Povolte v nastavení systému Android.</string><string name="triggerInsulinAgeDesc">Stáří inzulínu %1$s %2$.1f h</string><string name="algorithm_long">Detekce citlivosti algoritmu: %.0f%%</string><string name="export_result_message_exported">Nastavení exportováno</string><string name="exportsettings_message">Export nastavení: %1$s</string><string name="triggerPumpBatteryAgeDesc">Stáří baterie pumpy %1$s %2$.1f h</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Zakázáno</string><string name="percent_rate_duration">Hodnota: %1$.2f%% (%2$.2f U/h) Trvání: %3$d min</string><string name="simple_mode_enabled">Jednoduchý režim povolen</string><string name="percent_rate_duration_formatted">&lt;b&gt;Hodnota&lt;/b&gt;: %1$.2f%% (%2$.2f U/h)&lt;br&gt;&lt;b&gt;Trvání&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Export nastavení</string><string name="triggerPodChangeLabel">Aktivace Podu</string><string name="triggerInsulinAgeLabel">Stáří inzulínu</string><string name="triggerCannulaAgeLabel">Stáří kanyly</string><string name="triggerSensorAgeLabel">Stáří senzoru</string><string name="export_failed">Chyba</string><string name="triggerSensorAgeDesc">Stáří senzoru %1$s %2$.1f h</string><string name="temp_basal_tsf_absolute">%1$.2f U/h @%2$s</string><string name="graph_long_scale_12h">12 hodin</string><string name="uel_select_directory">VYBERTE ADRESÁŘ</string><string name="careportal_settings_export">Export nastavení</string><string name="triggerPumpBatteryLevelLabel">Úroveň nabití baterie pumpy</string><string name="extended_bolus_full">E %1$.2f U/h @%2$s %3$s/%4$s min</string><string name="temp_basal_tsf_fake_extended">%1$.2f U/h (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Varování (automatizace): Není povolen export nastavení!</string><string name="graph_long_scale_6h">6 hodin</string><string name="uel_reset_aps_results">RESETOVAT VÝSLEDKY APS</string><string name="export_ok">OK</string><string name="autosens_long">Hodnota Autosense: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Stáří baterie v pumpě</string><string name="export_alert">VÝSTRAHA</string><string name="extended_bolus_medium">%1$.2f U/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">měřítko grafu 24 hodin</string><string name="ic_dynamic_label_warning">Váš algoritmus dokáže poskytovat dynamický výpočet IC. Níže uvedené hodnoty mohou být použity pouze jako záložní v případě chybějících údajů nebo jako referenční</string><string name="triggerStepsCountLabel">Počet kroků</string><string name="autosens_short">AS: %.0f%%</string><string name="rate_percent_duration_formatted">&lt;b&gt;Hodnota&lt;/b&gt;: %1$.2f U/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Trvání&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 hodin</string><string name="isf_for_carbs">ISF pro kalkulačku a absorbci sacharidů: %1$.1f</string><string name="a11y_graph_scale_18h">měřítko grafu 18 hodin</string><string name="settingsexport">Export nastavení</string><string name="careportal_settings_export_message">Export nastavení: %1$s</string><string name="triggerPodChangeDesc">Pod aktivován</string><string name="graph_scale_24h">24 h</string><string name="triggerPumpBatteryLevelDesc">Úroveň nabití baterie pumpy %1$s %2$.0f</string><string name="steps_shortname">KROKY</string><string name="triggerReservoirLevelLabel">Stav zásobníku</string><string name="triggerCannulaAgeDesc">Stáří kanyly %1$s %2$.1f h</string><string name="variable_sensitivity_shortname">VSEN</string><string name="secs">%1$d s</string><string name="export_warning">Varování</string></resources>

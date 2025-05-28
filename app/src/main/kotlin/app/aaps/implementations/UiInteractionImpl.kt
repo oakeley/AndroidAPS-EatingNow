@@ -1,5 +1,7 @@
+// Modified for Eating Now
 package app.aaps.implementations
 
+import app.aaps.ui.dialogs.ENTempTargetDialog
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
@@ -7,6 +9,7 @@ import androidx.annotation.RawRes
 import androidx.annotation.StringRes
 import androidx.fragment.app.FragmentManager
 import app.aaps.MainActivity
+import app.aaps.R
 import app.aaps.activities.HistoryBrowseActivity
 import app.aaps.activities.MyPreferenceFragment
 import app.aaps.activities.PreferencesActivity
@@ -14,9 +17,8 @@ import app.aaps.core.interfaces.notifications.Notification
 import app.aaps.core.interfaces.nsclient.NSAlarm
 import app.aaps.core.interfaces.rx.bus.RxBus
 import app.aaps.core.interfaces.rx.events.EventDismissNotification
-import app.aaps.core.interfaces.rx.events.EventNewNotification
 import app.aaps.core.interfaces.ui.UiInteraction
-import app.aaps.core.ui.dialogs.OKDialog
+import app.aaps.core.main.events.EventNewNotification
 import app.aaps.core.ui.toast.ToastUtils
 import app.aaps.plugins.configuration.activities.SingleFragmentActivity
 import app.aaps.plugins.main.general.overview.notifications.NotificationWithAction
@@ -41,11 +43,9 @@ import app.aaps.ui.dialogs.WizardDialog
 import app.aaps.ui.services.AlarmSoundService
 import app.aaps.ui.services.AlarmSoundServiceHelper
 import app.aaps.ui.widget.Widget
-import dagger.Reusable
 import dagger.android.HasAndroidInjector
 import javax.inject.Inject
 
-@Reusable
 class UiInteractionImpl @Inject constructor(
     private val context: Context,
     private val rxBus: RxBus,
@@ -62,9 +62,7 @@ class UiInteractionImpl @Inject constructor(
     override val preferencesActivity: Class<*> = PreferencesActivity::class.java
     override val myPreferenceFragment: Class<*> = MyPreferenceFragment::class.java
     override val quickWizardListActivity: Class<*> = QuickWizardListActivity::class.java
-
-    override val unitsEntries = arrayOf<CharSequence>("mg/dL", "mmol/L")
-    override val unitsValues = arrayOf<CharSequence>("mg/dl", "mmol")
+    override val prefGeneral: Int = R.xml.pref_general
 
     override fun runAlarm(status: String, title: String, @RawRes soundId: Int) {
         val i = Intent(context, errorHelperActivity)
@@ -131,6 +129,11 @@ class UiInteractionImpl @Inject constructor(
             .show(fragmentManager, "TempTargetDialog")
     }
 
+    override fun runENTempTargetDialog(fragmentManager: FragmentManager) {
+        ENTempTargetDialog()
+            .show(fragmentManager, "ENTempTargetDialog")
+    }
+
     override fun runExtendedBolusDialog(fragmentManager: FragmentManager) {
         ExtendedBolusDialog()
             .show(fragmentManager, "ExtendedBolusDialog")
@@ -167,15 +170,10 @@ class UiInteractionImpl @Inject constructor(
     }
 
     override fun runBolusProgressDialog(fragmentManager: FragmentManager, insulin: Double, id: Long) {
-        // Activity may be destroyed before Dialog pop up so try/catch
-        try {
-            BolusProgressDialog().also {
-                it.setInsulin(insulin)
-                it.setId(id)
-                it.show(fragmentManager, "BolusProgress")
-            }
-        } catch (_: Exception) {
-            // do nothing
+        BolusProgressDialog().also {
+            it.setInsulin(insulin)
+            it.setId(id)
+            it.show(fragmentManager, "BolusProgress")
         }
     }
 
@@ -203,10 +201,10 @@ class UiInteractionImpl @Inject constructor(
         rxBus.send(EventNewNotification(NotificationWithAction(injector, nsAlarm)))
     }
 
-    override fun addNotificationWithAction(id: Int, text: String, level: Int, buttonText: Int, action: Runnable, validityCheck: (() -> Boolean)?, @RawRes soundId: Int?, date: Long, validTo: Long) {
+    override fun addNotificationWithAction(id: Int, text: String, level: Int, buttonText: Int, action: Runnable, @RawRes soundId: Int?, date: Long) {
         rxBus.send(
             EventNewNotification(
-                NotificationWithAction(injector = injector, id = id, text = text, level = level, validityCheck = validityCheck)
+                NotificationWithAction(injector, id, text, level)
                     .action(buttonText, action)
                     .also {
                         it.date = date
@@ -216,31 +214,10 @@ class UiInteractionImpl @Inject constructor(
         )
     }
 
-    override fun addNotificationWithDialogResponse(id: Int, text: String, level: Int, @StringRes buttonText: Int, title: String, message: String, validityCheck: (() -> Boolean)?) {
-        rxBus.send(
-            EventNewNotification(
-                NotificationWithAction(injector, id, text, level, validityCheck)
-                    .also { n ->
-                        n.action(buttonText) {
-                            n.contextForAction?.let { OKDialog.show(it, title, message) }
-                        }
-                    })
-        )
-    }
-
-    override fun addNotification(id: Int, text: String, level: Int, @StringRes actionButtonId: Int, action: Runnable, validityCheck: (() -> Boolean)?) {
-        rxBus.send(
-            EventNewNotification(
-                NotificationWithAction(injector, id, text, level, validityCheck).apply {
-                    action(actionButtonId, action)
-                })
-        )
-    }
-
-    override fun showToastAndNotification(ctx: Context?, string: String, soundID: Int) {
+    override fun showToastAndNotification(ctx: Context?, string: String?, soundID: Int) {
         ToastUtils.showToastInUiThread(ctx, string)
         ToastUtils.playSound(ctx, soundID)
-        addNotification(Notification.TOAST_ALARM, string, Notification.URGENT)
+        addNotification(Notification.TOAST_ALARM, string!!, Notification.URGENT)
     }
 
     override fun startAlarm(@RawRes sound: Int, reason: String) {

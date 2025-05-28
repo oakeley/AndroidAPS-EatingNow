@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--    General-->
+    
     <string name="refresh">Yenile</string>
     <string name="error">Hata</string>
     <string name="profile_set_ok">Pompadaki Bazal profil güncellendi</string>
@@ -65,7 +65,7 @@
     <string name="carbs">Karbonhidrat</string>
     <string name="invalid_profile">Geçersiz profil!</string>
     <string name="no_profile_set">PROFİL AYARLANMADI</string>
-    <string name="active"><![CDATA[<Aktif>]]></string>
+    <string name="active">&lt;Aktif&gt;</string>
     <string name="date">Tarih</string>
     <string name="units_label">Birim</string>
     <string name="dia_label">İES</string>
@@ -138,7 +138,7 @@
     <string name="a11y_low">düşük</string>
     <string name="average">Ortalama</string>
     <string name="tir">TIR</string>
-    <string name="none"><![CDATA[<yok>]]></string>
+    <string name="none">&lt;yok&gt;</string>
     <string name="remove_label">KALDIR</string>
     <string name="activate_profile">Profil etkinleştir</string>
     <string name="reset">sıfırla</string>
@@ -179,32 +179,32 @@
     <string name="extended_bolus_medium">%1$.2f Ü/s %2$s/%3$s\'</string>
     <string name="nav_export">Dışa aktarma ayarları</string>
     <string name="location_permission_not_granted">Konum izni verilmedi. Android ayarlarında izin verin.</string>
-    <!--    Protection-->
+    
     <string name="wrongpassword">Hatalı parola</string>
     <string name="wrongpin">Yanlış PIN</string>
     <string name="passwords_dont_match">Şifreler eşleşmiyor</string>
     <string name="pin_dont_match">PIN\'ler eşleşmiyor</string>
-    <!--    Profile-->
+    
     <string name="basalprofilenotaligned">Bazal değerler saatlerle uyumlu değil: %1$s</string>
     <string name="minimalbasalvaluereplaced">Desteklenen minimum değerle değiştirilen bazal değer: %1$s</string>
     <string name="maximumbasalvaluereplaced">Bazal değeri maksimum desteklenen değerle değiştirilir: %1$s</string>
     <string name="profile_per_unit">/Ü</string>
     <string name="profile_ins_units_per_hour">Ü/s</string>
     <string name="profile_carbs_per_unit">g/Ü</string>
-    <!--    ProfileFunction-->
+    
     <string name="startprofile">%2$d dakika için %1$d%% profilini başlat</string>
-    <!--    APSResult-->
+    
     <string name="cancel_temp">Temp bazal iptal</string>
     <string name="let_temp_basal_run">Geçici bazala izin ver</string>
     <string name="rate">Oran</string>
     <string name="duration">Süre</string>
     <string name="reason">Sebep</string>
     <string name="nochangerequested">Değişiklik yapılmadı</string>
-    <!--    ProfileSwitch-->
+    
     <string name="zerovalueinprofile">Geçersiz profil: %1$s</string>
-    <!--    Temptarget-->
+    
     <string name="mins">%1$d dak</string>
-    <!--    Translator-->
+    
     <string name="careportal">Bakım Portalı</string>
     <string name="careportal_bgcheck">KŞ Kontrol</string>
     <string name="careportal_mbg">Manuel KŞ veya Kalibrasyon</string>
@@ -252,18 +252,18 @@
     <string name="loop">Döngü</string>
     <string name="ns">NS</string>
     <string name="record">Kayıt</string>
-    <!--    Command-->
+    
     <string name="connectiontimedout">Bağlantı zaman aşımına uğradı</string>
-    <!--    PumpEnactResult-->
+    
     <string name="enacted">Yürütüldü</string>
     <string name="comment">Yorum</string>
     <string name="percent">Yüzde</string>
     <string name="absolute">Mutlak</string>
     <string name="waitingforpumpresult">Sonuç bekleniyor...</string>
     <string name="smb_shortname">SMB</string>
-    <!--    CarbsReq-->
+    
     <string name="carbsreq">%2$d dakika içinde %1$d g ek karbonhidrat gerekiyor</string>
-    <!--    TDDStatsActivity-->
+    
     <string name="cumulative_tdd">Kümülatif GTD (Günlük Toplam Doz)</string>
     <string name="expweight">Üstel Ağırlıklı GTD</string>
     <string name="basalrate">Bazal</string>
@@ -276,9 +276,9 @@
     <string name="olddata_Message">Eski veriler, lütfen \"YENİDEN YÜKLE\"ye basın</string>
     <string name="tbb">Günlük bazal miktarı</string>
     <string name="tbb2">TBB * 2</string>
-    <!--    Ntp-->
+    
     <string name="timedetection">Zaman algılama</string>
-    <!-- User Entry -->
+    
     <string name="uel_bolus">BOLUS</string>
     <string name="uel_bolus_calculator">BOLUS HESAPLAYICI</string>
     <string name="uel_bolus_advisor">BOLUS DANIŞMANI</string>
@@ -373,7 +373,7 @@
     <string name="uel_loop_change">DÖNGÜ DEĞİŞTİ</string>
     <string name="uel_loop_removed">DÖNGÜ KALDIRILDI</string>
     <string name="uel_other">DİĞER</string>
-    <!-- HardLimits -->
+    
     <string name="profile_low_target">Düşük hedef profili</string>
     <string name="profile_high_target">Yüksek hedef profili</string>
     <string name="temp_target_low_target">Geçici hedef alt değeri</string>
@@ -388,7 +388,7 @@
     <string name="valueoutofrange">»%1$s« sınırların dışında</string>
     <string name="value_out_of_hard_limits">»%1$s« %2$.2f sınırların dışında</string>
     <string name="basal_value">Bazal değer</string>
-    <!-- Command Queue + readStatus reasons -->
+    
     <string name="bolus_u_min">BOLUS %1$.2f Ü</string>
     <string name="carbs_g">Karbonhidrat %1$d g</string>
     <string name="extended_bolus_u_min">YAYMA BOLUS %1$.2f Ü %2$d dak</string>
@@ -421,19 +421,19 @@
     <string name="algorithm_short">Alg: %.0f%%</string>
     <string name="a11y_file">dosya</string>
     <string name="a11y_user">kullanıcı</string>
-    <!-- Autotune -->
+    
     <string name="autotune">Otoayar</string>
     <string name="autotune_tune_days">Ayar günleri:</string>
     <string name="autotune_select_profile">Ayarlanacak profili seçin</string>
-    <!-- Alerts -->
+    
     <string name="raise_notifications_as_android_notifications">Uyarılar ve bildirimler için sistem bildirimlerini kullan</string>
     <string name="urgent_alarm">Acil önemli Alarm</string>
     <string name="info">BİLGİ</string>
-    <!-- BolusWizard -->
+    
     <string name="bolus_advisor">Bolus danışmanı</string>
     <string name="bolus_advisor_message">Yüksek glisemiksiniz. Şimdi yemek yemek yerine daha iyi glisemi beklemeniz önerilir. Şimdi bir düzeltme bolusu yapmak ve yemek zamanı geldiğinde size hatırlatmak ister misiniz? Bu durumda karbonhidrat kaydı yapılmaz ve size hatırlattığımızda sihirbazı tekrar kullanmanız gerekir.</string>
     <string name="cobvsiob">AKRB vs AİNS</string>
-    <string name="slowabsorptiondetected"><![CDATA[<font color=\'%1$s\'>!!!!! Yavaş karbonhidrat emilimi tespit edildi: zamanın %2$d%% si. Hesaplamanızı iki kez kontrol edin. Aktif Karbonhidrat (AKRB) olduğundan fazla tahmin edilebilir, bu nedenle daha fazla insülin verilebilir !!!!!</font>]]></string>
+    <string name="slowabsorptiondetected">&lt;font color=\'%1$s\'&gt;!!!!! Yavaş karbonhidrat emilimi tespit edildi: zamanın %2$d%% si. Hesaplamanızı iki kez kontrol edin. Aktif Karbonhidrat (AKRB) olduğundan fazla tahmin edilebilir, bu nedenle daha fazla insülin verilebilir !!!!!&lt;/font&gt;</string>
     <string name="partialboluswizard">Bolus sihirbazı sonucunun bu kadarını ilet [%]</string>
     <string name="partialboluswizard_reset_time">Eski KŞ süresi eşiği [min]</string>
     <string name="bolus_constraint_applied_warn">Bolus kısıtlaması uygulandı: %1$.2f Ü ile %2$.2f Ü</string>
@@ -459,7 +459,7 @@
     <string name="wizard_explain_tt_to">%1$s - %2$s</string>
     <string name="wizard_pump_not_available">Pompa mevcut değil!</string>
     <string name="quickwizard">Hızlı Asistan</string>
-    <!--    Preferences-->
+    
     <string name="child">Çocuk</string>
     <string name="teenage">Ergen</string>
     <string name="adult">Yetişkin</string>
@@ -469,9 +469,9 @@
     <string name="max_bolus_title">Maks izin verilen bolus [U]</string>
     <string name="max_carbs_title">Maks izin verilen karbonhidrat [g]</string>
     <string name="patient_type">Hasta tipi</string>
-    <!--    Protection-->
+    
     <string name="unlock_settings">Kilit açma ayarları</string>
-    <!--    Pumps -->
+    
     <string name="battery_label">Pil</string>
     <string name="reservoir_label">Rezervuar</string>
     <string name="last_connection_label">Son bağlantı</string>
@@ -501,13 +501,13 @@
     <string name="pairing">Eşleştiriliyor</string>
     <string name="initializing">Başlatılıyor ...</string>
     <string name="secs" comment="second short">%1$d s</string>
-    <!--    Constraints-->
+    
     <string name="limitingbasalratio">%2$s nedeniyle max bazal oranı %1$.2f Ü/s ile sınırlı</string>
     <string name="pumplimit">pompa sınırı</string>
     <string name="limitingpercentrate">%2$s\'den dolayı max yüzde oranı %1$d%% ile sınırlandırılıyor</string>
     <string name="itmustbepositivevalue">pozitif bir değer olmalıdır</string>
     <string name="limitingbolus">%2$s\'den dolayı bolus %1$.1f Ü ile sınırlandırılıyor</string>
-    <!--    Dialogs-->
+    
     <string name="confirmation">Onay</string>
     <string name="message">İleti</string>
     <string name="ok">Tamam</string>
@@ -516,44 +516,44 @@
     <string name="yes">Evet</string>
     <string name="no">Hayır</string>
     <string name="close">Kapat</string>
-    <!-- TwoMessagesDialog -->
+    
     <string name="password_preferences_decrypt_prompt">İçe aktarılan tercihlerin şifresini çözmek için gerekli olan ana parola sorulacaktır.</string>
-    <!-- <unattended_export> -->
+    
     <string name="export_ok">Tamam</string>
     <string name="export_warning">Uyarı</string>
     <string name="export_expired">Süresi doldu</string>
     <string name="export_disabled">Devre dışı</string>
     <string name="export_failed">Başarısız oldu</string>
     <string name="export_alert">UYARI</string>
-    <!-- <unattended_export result messages> -->
+    
     <string name="export_result_message_exported">Ayarlar dışa aktarıldı</string>
     <string name="export_result_message_failed">Ayarları dışa aktama BAŞARISIZ!</string>
     <string name="export_result_message_about_to_expire">Ayarlar dışa aktarıldı: parola yakında sona erecek. Manuel olarak dışa aktarın ve parolayı (tekrar) girin.</string>
     <string name="export_result_message_expired">Ayarların dışa aktarımı iptal edildi: parola süresi doldu. Manuel olarak dışa aktarın ve (tekrar) girin!</string>
     <string name="export_result_message_disabled">Uyarı (otomasyon): Ayarların dışa aktarılması etkin değil!</string>
-    <!-- NumberPicker -->
+    
     <string name="a11y_min_button_description">%2$s\'dan %1$s\'a azalma</string>
     <string name="a11y_plus_button_description">%2$s\'dan %1$s\'a artış</string>
     <string name="you_are_on_allowed_limit">İzin verilen limite ulaşıldı</string>
     <string name="format_hour_minute">%1$dsa %2$ddk</string>
-    <!-- datetime layout -->
+    
     <string name="event_time_label">Etkinlik saati</string>
-    <!-- BluetoothDevicePreference -->
+    
     <string name="need_connect_permission">Uygulama bluetooth iznine ihtiyac duyuyor</string>
-    <!--    Combo-->
+    
     <string name="user_request" comment="26 characters max for translation">Kullanıcı talebi</string>
     <string name="pump_paired" comment="26 characters max for translation">Pompa eşleştirildi</string>
-    <!--    BlePreCheck-->
+    
     <string name="ble_not_supported">Düşük Enerji Bluetooth desteklenmez.</string>
     <string name="ble_not_supported_or_not_paired">Düşük Enerji Bluetooth desteklenmiyor veya cihaz eşleştirilmedi.</string>
     <string name="ble_not_enabled">Bluetooth etkin değil.</string>
     <string name="location_not_found_title">Konum Etkin Değil</string>
     <string name="location_not_found_message">Bluetooth cihaz bulmanın daha yeni cihazlarda çalışması için konum etkinleştirilmelidir. AAPS konumunuzu izlemez ve eşleştirme başarılı olduktan sonra devre dışı bırakılabilir.</string>
-    <!--    Preferences -->
+    
     <string name="nav_plugin_preferences">Eklenti tercihleri</string>
-    <!-- SmsCommunicator -->
+    
     <string name="smscommunicator_missingsmspermission">SMS izni eksik</string>
-    <!-- About -->
+    
     <string name="cta_dont_kill_my_app_info">Uygulamamı devre dışı bırakma?</string>
     <string name="fabric_upload_disabled">Çökme günlükleri yükleme devre dışı bırakıldı!</string>
     <string name="about_link_urls">\n\nDokümantasyon:\nhttps://wiki.aaps.app\n\nfacebook:\nhttps://www.facebook.com/groups/AndroidAPSUsers</string>
@@ -569,11 +569,11 @@
         <item quantity="one">%1$d dakika</item>
         <item quantity="other">%1$d dakika</item>
     </plurals>
-    <!--    Maintenance-->
+    
     <string name="cleanup_db_confirm">Veritabanını temizlemek istiyor musunuz?\nİzlenen değişiklikleri ve 3 aydan eski geçmiş verileri kaldıracak.</string>
     <string name="cleanup_db_confirm_sync">Veritabanını temizlemek istiyor musunuz?\nBu, izlenen değişiklikleri ve 3 aydan daha eski geçmiş verileri kaldıracaktır.\nBunu yapmak, tam senkronizasyonu önemli ölçüde hızlandıracaktır.</string>
     <string name="cleared_entries">Temizlenen girdiler</string>
-    <!--    Weekday-->
+    
     <string name="weekday_sunday_short">Pzr</string>
     <string name="weekday_saturday_short">Cts</string>
     <string name="weekday_friday_short">Cum</string>
@@ -581,7 +581,7 @@
     <string name="weekday_wednesday_short">Çrş</string>
     <string name="weekday_tuesday_short">Salı</string>
     <string name="weekday_monday_short">Pts</string>
-    <!-- WeekdayPicker -->
+    
     <string name="monday_short">P</string>
     <string name="tuesday_short">S</string>
     <string name="wednesday_short">Ç</string>
@@ -589,11 +589,11 @@
     <string name="friday_short">C</string>
     <string name="saturday_short">C</string>
     <string name="sunday_short">P</string>
-    <!--    DecimalFormatterImpl -->
+    
     <string name="format_insulin_units1">%1$.1f Ü</string>
     <string name="format_insulin_units">%1$.2f Ü</string>
     <string name="percent_rate_duration">Oran: %1$.2f%% (%2$.2f Ü/s) Süre: %3$d dk</string>
     <string name="rate_percent_duration">Oran: %1$.2f Ü/s (%2$.2f%%) Süre: %3$d dk</string>
-    <string name="percent_rate_duration_formatted"><![CDATA[<b>Oran</b>: %1$.2f%% (%2$.2f Ü/s)<br><b>Süre</b>: %3$d dk<br>]]></string>
-    <string name="rate_percent_duration_formatted"><![CDATA[<b>Oran</b>: %1$.2f Ü/s (%2$.2f%%) <br><b>Süre</b>: %3$d dk<br>]]></string>
-</resources>
+    <string name="percent_rate_duration_formatted">&lt;b&gt;Oran&lt;/b&gt;: %1$.2f%% (%2$.2f Ü/s)&lt;br&gt;&lt;b&gt;Süre&lt;/b&gt;: %3$d dk&lt;br&gt;</string>
+    <string name="rate_percent_duration_formatted">&lt;b&gt;Oran&lt;/b&gt;: %1$.2f Ü/s (%2$.2f%%) &lt;br&gt;&lt;b&gt;Süre&lt;/b&gt;: %3$d dk&lt;br&gt;</string>
+<string name="autoISF_settings_summary">OtoİDF, insülin duyarlılık faktörünün (İDF) glikoz davranışının çeşitli senaryolarına uyarlanmasına olanak tanır\n\nAyrıca SMB iletim ayarlarını da uyarlayabilir</string><string name="graph_scale_6h">6s</string><string name="half_basal_exercise_target_title">Yarım bazal egzersiz hedefi</string><string name="openapsama_pp_ISF_weight_summary">Glikoz yükselirken uygulanan ve İDF\'yi güçlendirerek insülin salınımını potansiyel olarak artıran ağırlıktır.\n\nVarsayılan değer 0,0 bu şekilde kapalıdır.</string><string name="dyn_isf_adjust_title">DinamikİDF Ayarlama Faktörü %</string><string name="dyn_isf_adjust_summary">DinamikİDF için ayarlama faktörü. Daha agresif düzeltme dozları için %100\'ün üzerine, daha az agresif düzeltmeler için %100\'ün altına ayarlayın.</string><string name="triggerReservoirLevelDesc">Rezervuar seviyesi %1$s %2$.0f</string><string name="graph_long_scale_24h">24 saat</string><string name="a11y_graph_scale_6h">6 saatlik ölçek</string><string name="autoisf_shortname">OTOİDF</string><string name="export_settings_short">Tedavi metinleri:</string><string name="openapsama_smb_delivery_ratio">sabit SMB teslimat oranı\n(smb_teslimat_oranı)</string><string name="openapsama_bgBrake_ISF_weight">KŞ düşerken ağırlık\n(kşFren_İDF_ağırlığı)</string><string name="a11y_graph_scale_12h">12 saatlik ölçek</string><string name="enableSMB_EvenOn_OddOff_always">Etkin hedefin çift sayı olmasına bağlı olarak SMB\'nin alternatif aktivasyonunu etkinleştirin</string><string name="choose_from_map">Haritadan seç</string><string name="temp_basal_overview_short_name">GB:</string><string name="openapsama_autoISF_min_summary">otoduyarlılık_min\'e benzer şekilde İDF\'nin ne kadar etkisiz olabileceğini tanımlar.\n\nVarsayılan değer olan 1.0 Bu şekilde kapalıdır.</string><string name="openapsama_bgBrake_ISF_weight_summary">Kş düşerken uygulanan ve İDF\'yi zayıflatarak insülin iletimini potansiyel olarak azaltan ağırlıktır.\n\nVarsayılan değer olan 0,0 bu şekilde kapalıdır.</string><string name="openapsama_smb_delivery_ratio_min_summary">Varsayılan değer: 0,5 Bu, yukarıdaki sabit değerden ziyade doğrusal olarak artan bir oranın alt ucudur.</string><string name="graph_scale_18h">18s</string><string name="a11y_graph_scale">grafik ölçeğini seç</string><string name="triggerStepsCountDesc">Her %1$s dakikadaki %2$s %3$.0f Adım sayısı</string><string name="openapsama_smb_delivery_ratio_max_summary">Varsayılan değer: 0,5 Bu, yukarıdaki sabit değerden ziyade doğrusal olarak artan bir oranın üst ucudur.</string><string name="overview_show_steps">Adımlar</string><string name="openapsama_smb_delivery_ratio_max">değişken SMB iletim oranı, üst uç\n(smb_iletim_oranı_maks)</string><string name="smb_delivery_settings_summary">İDF\'nin güçlendirildiği durumlarda (yani oldukça düşük İDF durumu) iletilen SMB değerini artırmaya yönelik seçenekler kümesi.\n\nDİKKATLİ KULLANIN</string><string name="overview_show_variable_sens">Değişken duyarlılık</string><string name="openapsama_pp_ISF_weight">yemek sonrası İDF-ağırlığı\n(pp_İDF_ağırlığı)</string><string name="triggerStepsCountDropdownLabel">Ölçüm Süresi</string><string name="openapsama_lower_ISFrange_weight_summary">Glikoz hedefin altındayken uygulanan ve İDF\'yi zayıflatarak insülin iletimini potansiyel olarak azaltan ağırlıktır.\n\nVarsayılan değer olan 0,0 Bu şekilde kapalıdır.</string><string name="isf_dynamic_label_warning">Algoritmanız İDF\'nizi dinamik olarak hesaplayabilir. Aşağıdaki değerler yalnızca eksik veri olması durumunda bir geri dönüş olarak veya yalnızca bir referans değeri olarak kullanılabilir</string><string name="graph_scale_12h">12s</string><string name="triggerInsulinAgeDesc">İnsülin yaşı %1$s %2$.1f saat</string><string name="exportsettings_message">Ayarlar Dışa Aktarılıyor: %1$s</string><string name="triggerPumpBatteryAgeDesc">Pompa pil yaşı %1$s %2$.1f saat</string><string name="openapsama_iob_threshold_percent_summary">SMB\'lerin devre dışı bırakılacağı maksAİNS yüzdesi.\nVarsayılan değer: %100\n Bu özellik %100 değeri ile devre dışıdır.</string><string name="simple_mode_enabled">Basit Modu Etkinleştir</string><string name="triggerPodChangeLabel">Pod aktivasyonu</string><string name="triggerInsulinAgeLabel">İnsülin yaşı</string><string name="openapsama_lower_ISFrange_weight">alt İDF-aralığı ağırlığı\n(alt_İDF_aralığı_ağırlığı)</string><string name="triggerCannulaAgeLabel">Kanül yaşı</string><string name="triggerSensorAgeLabel">Sensör yaşı</string><string name="pump_disconnected">Pompa bağlantısı kesildi</string><string name="openapsama_iob_threshold_percent">SMB için maksAINS eşik yüzdesi\n(ains_eşik_yüzdesi)</string><string name="triggerSensorAgeDesc">Sensör yaşı %1$s %2$.1f saat</string><string name="openapsama_bgAccel_ISF_weight">KŞ yükselirken ağırlık\n(kşYüksel_İDF_ağrlığı)</string><string name="openapsama_higher_ISFrange_weight">daha yüksek İDF-aralığı ağırlığı\n(daha_yüksek_İDF_aralığı_ağırlığı)</string><string name="graph_long_scale_12h">12 saat</string><string name="half_basal_exercise_target_summary">Örneğin 160 gibi bir sayıya ayarlayın; bunun anlamı, geçici hedef 160 mg/dL olduğunda ve Yüksek geçici hedef duyarlılığı arttırır= doğru olduğunda, bu seviyede 50%% bazal çalışır (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">Glikoz davranışıyla İDF adaptasyonunu etkinleştirin</string><string name="openapsama_autoISF_max">Maks otoİDF oranı\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Varsayılan değer: 1 Bu, OpenAPS\'in bir diğer önemli güvenlik sınırıdır ve normalde 120 dakika olan maxSMB/maxUAM süresini hangi faktörle aşabileceğinizi belirtir. Bu deneysel değeri yavaşça ve dikkatli bir şekilde artırın.</string><string name="openapsama_autoISF_min">Min otoİDF oranı\n(otoİDF_min)</string><string name="triggerPumpBatteryLevelLabel">Pompa pil seviyesi</string><string name="openapsama_smb_delivery_ratio_bg_range">değişken SMB iletim oranı, haritalanmış glikoz aralığı\n(smb_iletim_oranı_kş_aralığı)</string><string name="enableSMB_EvenOn_OddOff_always_summary">\netkin ...\neğer aktif hedef (mmol/L) çift ondalık sayıya sahipse\nveya aktif hedef (mg/dL) çift sayıysa\n\ndevredışı</string><string name="graph_long_scale_6h">6 saat</string><string name="smb_delivery_settings_title">SMB iletim ayarları</string><string name="triggerPumpBatteryAgeLabel">Pompa pil yaşı</string><string name="openapsama_smb_delivery_ratio_min">değişken SMB iletim oranı, alt uç\n(smb_iletim_oranı_min)</string><string name="a11y_graph_scale_24h">24 saatlik ölçek</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Varsayılan değer: 0. Doğrusal olarak artan SMB iletim oranı glikoz aralığına [hedef_kş, hedef_kş+kş_aralığı] eşlenir.\nHedef_kş\'de SMB oranı smb_iletim_oranı_min, hedef_kş+kş_oranı\'nda smb_iletim_oranı_max olur.\n 0 ile doğrusal olarak artan SMB oranı devre dışı bırakılır ve sabit smb_iletim_oranı kullanılır.</string><string name="ic_dynamic_label_warning">Algoritmanız IC\'nizi dinamik olarak hesaplayabilir. Aşağıdaki değerler yalnızca eksik veri olması durumunda bir geri dönüş olarak veya yalnızca bir referans değeri olarak kullanılabilir</string><string name="triggerStepsCountLabel">Adım Sayacı</string><string name="use_dynamic_sensitivity_title">Dinamik duyarlılığı etkinleştir</string><string name="autoISF_settings_title">OtoİDF Ayarları</string><string name="graph_long_scale_18h">18 saat</string><string name="openapsama_higher_ISFrange_weight_summary">Glikoz hedefin üzerindeyken uygulanan ve İDF\'yi güçlendirerek insülin salınımını potansiyel olarak artıran ağırlıktır.\n\nVarsayılan değer olan 0,0 Bu şekilde kapalıdır.</string><string name="openapsama_smb_max_range_extension">SMB/UAM maks aralık uzantısı\n(smb_maks_aralık_uzantısı)</string><string name="a11y_graph_scale_18h">18 saatlik ölçek</string><string name="description_auto_isf">İleri düzey kullanıcılar için OtoİDF eklentili en son algoritma</string><string name="triggerPodChangeDesc">Pod Etkinleştirildi</string><string name="graph_scale_24h">24s</string><string name="openapsama_bgAccel_ISF_weight_summary">Kş yükselirken uygulanan ağırlıktır ve İDF\'yi güçlendirerek potansiyel olarak insülin salınımını artırır.\n\nVarsayılan değer 0.0 bu şekilde kapalıdır.</string><string name="triggerPumpBatteryLevelDesc">Pompa pil seviyesi %1$s %2$.0f</string><string name="steps_shortname">ADMLR</string><string name="triggerReservoirLevelLabel">Rezervuar seviyesi</string><string name="triggerCannulaAgeDesc">Kanül yaşı %1$s %2$.1f saat</string><string name="variable_sensitivity_shortname">DDYRLLK</string><string name="openapsama_dura_ISF_weight">süreç_İDF ağırlığı\n(süreç_İDF_ağırlığı)</string><string name="openapsama_autoISF_max_summary">otoduyarlılık_maks\'a benzer şekilde İDF\'nin ne kadar güçlü olabileceğini tanımlar.\n\nVarsayılan değer 1.0 Bu şekilde kapalıdır.\n\nUYARI: 2.5\'in üzerindeki değerleri kullanırken son derece dikkatli olun</string><string name="openapsama_smb_delivery_ratio_summary">Varsayılan değer: 0,5 Bu, OpenAPS\'in bir diğer önemli güvenlik sınırıdır ve toplam insülin ihtiyacının ne kadarının SMB olarak verilebileceğini belirtir. Aynı anda bakıcının telefonundan SMB istekleri ayarlayarak insanların tehlikeli bölgelere girmesini önlemek içindir. Bu deneysel değeri yavaşça ve dikkatli bir şekilde artırın.</string><string name="openapsama_dura_ISF_weight_summary">Daha uzun süreli, yüksek glikoz platoları sırasında uygulanan ve İDF\'yi güçlendirerek potansiyel olarak insülin iletimini artıran ağırlıktır.\n\nVarsayılan değer olan 0,0 Bu şekilde kapalıdır.</string><string name="fallback_to_isf_no_tdd">Profil duyarlılığına geri dönüş. Yeterli veri yok. Sebep: %1$s</string><string name="use_dynamic_sensitivity_summary">Algoritmayı profil değeri yerine dinamik hassasiyeti kullanacak şekilde ayarlayın</string><string name="openaps_auto_isf">Otomatik İDF</string></resources>

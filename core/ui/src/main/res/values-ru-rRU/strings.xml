@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--    General-->
+    
     <string name="refresh">Обновить</string>
     <string name="error">Ошибка</string>
     <string name="profile_set_ok">базальный профиль помпы обновлен</string>
@@ -65,7 +65,7 @@
     <string name="carbs">Углеводы</string>
     <string name="invalid_profile">Недопустимый профиль!</string>
     <string name="no_profile_set">ПРОФИЛЬ НЕ ЗАДАН</string>
-    <string name="active"><![CDATA[Активен]]></string>
+    <string name="active">Активен</string>
     <string name="date">Дата</string>
     <string name="units_label">единицы</string>
     <string name="dia_label">DIA (время действия инсулина)</string>
@@ -138,7 +138,7 @@
     <string name="a11y_low">низкий</string>
     <string name="average">Средний</string>
     <string name="tir">Время в целевом диапазоне</string>
-    <string name="none"><![CDATA[<отсутствует>]]></string>
+    <string name="none">&lt;отсутствует&gt;</string>
     <string name="remove_label">УДАЛИТЬ</string>
     <string name="activate_profile">Активировать профиль</string>
     <string name="reset">сброс</string>
@@ -179,32 +179,32 @@
     <string name="extended_bolus_medium">%1$.2f ед/ч %2$s%3$s</string>
     <string name="nav_export">Экспорт настроек</string>
     <string name="location_permission_not_granted">Доступ к геолокации не предоставлен. Предоставьте в настройках Android.</string>
-    <!--    Protection-->
+    
     <string name="wrongpassword">Неверный пароль</string>
     <string name="wrongpin">Неверный PIN-код</string>
     <string name="passwords_dont_match">Пароли не совпадают</string>
     <string name="pin_dont_match">PIN-коды не совпадают</string>
-    <!--    Profile-->
+    
     <string name="basalprofilenotaligned">Базальные значения не выровнены по часам: %1$s</string>
     <string name="minimalbasalvaluereplaced">Значение базала заменено минимальной поддерживаемой величиной: %1$s</string>
     <string name="maximumbasalvaluereplaced">Значение базала заменено максимальной поддерживаемой величиной: %1$s</string>
     <string name="profile_per_unit">/ед</string>
     <string name="profile_ins_units_per_hour">ед/ч</string>
     <string name="profile_carbs_per_unit">г/ед</string>
-    <!--    ProfileFunction-->
+    
     <string name="startprofile">Начать профиль %1$d%% на %2$d мин</string>
-    <!--    APSResult-->
+    
     <string name="cancel_temp">Отменить врем базал</string>
     <string name="let_temp_basal_run">Оставить временный базал работающим</string>
     <string name="rate">Скорость</string>
     <string name="duration">Продолжительность</string>
     <string name="reason">Основание</string>
     <string name="nochangerequested">Именения не запрошены</string>
-    <!--    ProfileSwitch-->
+    
     <string name="zerovalueinprofile">Недопустимый профиль: %1$s</string>
-    <!--    Temptarget-->
+    
     <string name="mins">%1$d мин.</string>
-    <!--    Translator-->
+    
     <string name="careportal">Портал терапии</string>
     <string name="careportal_bgcheck">Проверка ГК</string>
     <string name="careportal_mbg">Ввести значение ГК или калибровку</string>
@@ -252,18 +252,18 @@
     <string name="loop">Замкнутый цикл</string>
     <string name="ns">NS</string>
     <string name="record">Запись</string>
-    <!--    Command-->
+    
     <string name="connectiontimedout">Истекло время ожидания соединения</string>
-    <!--    PumpEnactResult-->
+    
     <string name="enacted">Выполнено</string>
     <string name="comment">Комментарий</string>
     <string name="percent">Процент</string>
     <string name="absolute">Абсолютный</string>
     <string name="waitingforpumpresult">Ожидание результата</string>
     <string name="smb_shortname">Супер микро болюс SMB</string>
-    <!--    CarbsReq-->
+    
     <string name="carbsreq">Необходимо дополнительно %1$d г углеводов в течение %2$d минут</string>
-    <!--    TDDStatsActivity-->
+    
     <string name="cumulative_tdd">Накопительная суточная доза TDD</string>
     <string name="expweight">экспоненциально взвешенные TDD</string>
     <string name="basalrate">базал</string>
@@ -276,9 +276,9 @@
     <string name="olddata_Message">Старые данные. Нажмите \"перезагрузка\"</string>
     <string name="tbb">общий базал</string>
     <string name="tbb2">общий базал*2</string>
-    <!--    Ntp-->
+    
     <string name="timedetection">Определение времени</string>
-    <!-- User Entry -->
+    
     <string name="uel_bolus">БОЛЮС</string>
     <string name="uel_bolus_calculator">КАЛЬКУЛЯТОР БОЛЮСА</string>
     <string name="uel_bolus_advisor">ПОМОЩНИК БОЛЮСА</string>
@@ -373,7 +373,7 @@
     <string name="uel_loop_change">КОНТУР ИЗМЕНЕН</string>
     <string name="uel_loop_removed">КОНТУР УДАЛЕН</string>
     <string name="uel_other">ДРУГОЕ</string>
-    <!-- HardLimits -->
+    
     <string name="profile_low_target">Нижнее целевое значение профиля</string>
     <string name="profile_high_target">Верхнее целевое значение профиля</string>
     <string name="temp_target_low_target">Нижнее значение временного целевого уровня</string>
@@ -388,7 +388,7 @@
     <string name="valueoutofrange">»%1$s« за пределами жестких ограничений</string>
     <string name="value_out_of_hard_limits">»%1$s« %2$.2f за пределами жестких ограничений</string>
     <string name="basal_value">Величина базала</string>
-    <!-- Command Queue + readStatus reasons -->
+    
     <string name="bolus_u_min">БОЛЮС %1$.2f ЕД</string>
     <string name="carbs_g">УГЛ %1$d г</string>
     <string name="extended_bolus_u_min">Пролонгированный болюс %1$.2f ед %2$d мин</string>
@@ -421,19 +421,19 @@
     <string name="algorithm_short">Alg: %.0f%%</string>
     <string name="a11y_file">файл</string>
     <string name="a11y_user">пользователь</string>
-    <!-- Autotune -->
+    
     <string name="autotune">Автонастройка</string>
     <string name="autotune_tune_days">Настроено дней:</string>
     <string name="autotune_select_profile">Выберите профиль для изменения</string>
-    <!-- Alerts -->
+    
     <string name="raise_notifications_as_android_notifications">Использовать системные уведомления для предупреждений и уведомлений</string>
     <string name="urgent_alarm">Сигнал тревоги</string>
     <string name="info">ИНФОРМАЦИЯ</string>
-    <!-- BolusWizard -->
+    
     <string name="bolus_advisor">Помощник болюса</string>
     <string name="bolus_advisor_message">У вас высокая гликемия. Лучше подождать, чем есть сейчас. Хотите сделать болюс на коррекцию и установить напоминание о приеме пищи? В этом случае углеводы не будут записаны и после напоминания надо будет снова воспользоваться помощником.</string>
     <string name="cobvsiob">угл COB к инс IOB</string>
-    <string name="slowabsorptiondetected"><![CDATA[<font color=\'%1$s\'>!!!!! Обнаружено медленное всасывание углеводов: %2$d%% времени. Еще раз проверьте свои расчеты. Возможно акт углеводы COB вне диапазона и может быть подано больше инсулина!!!!!</font>]]></string>
+    <string name="slowabsorptiondetected">&lt;font color=\'%1$s\'&gt;!!!!! Обнаружено медленное всасывание углеводов: %2$d%% времени. Еще раз проверьте свои расчеты. Возможно акт углеводы COB вне диапазона и может быть подано больше инсулина!!!!!&lt;/font&gt;</string>
     <string name="partialboluswizard">Подать эту часть рекомендации мастера болюса [%]</string>
     <string name="partialboluswizard_reset_time">Пороговое время для устаревшей ГК [min]</string>
     <string name="bolus_constraint_applied_warn">Применено ограничение болюса: %1$.2f ед. до %2$.2f ед.</string>
@@ -459,7 +459,7 @@
     <string name="wizard_explain_tt_to">%1$s до %2$s</string>
     <string name="wizard_pump_not_available">Нет помпы!</string>
     <string name="quickwizard">Мастер QuickWizard</string>
-    <!--    Preferences-->
+    
     <string name="child">Ребенок</string>
     <string name="teenage">Подросток</string>
     <string name="adult">Взрослый</string>
@@ -469,9 +469,9 @@
     <string name="max_bolus_title">Макс разрешенный болюс [U]</string>
     <string name="max_carbs_title">Макс разрешенные углеводы [g]</string>
     <string name="patient_type">Тип пациента</string>
-    <!--    Protection-->
+    
     <string name="unlock_settings">Разблокировать настройки</string>
-    <!--    Pumps -->
+    
     <string name="battery_label">батарея</string>
     <string name="reservoir_label">Резервуар</string>
     <string name="last_connection_label">прошлое соединение</string>
@@ -501,13 +501,13 @@
     <string name="pairing">Сопряжение</string>
     <string name="initializing">инициализация...</string>
     <string name="secs" comment="second short">%1$d с</string>
-    <!--    Constraints-->
+    
     <string name="limitingbasalratio">Макс базальный уровень ограничен до %1$.2f ед/ч вследствие %2$s</string>
     <string name="pumplimit">лимит помпы</string>
     <string name="limitingpercentrate">Макс процент базала ограничен до %1$d%% ед/ч вследствие %2$s</string>
     <string name="itmustbepositivevalue">величина должна быть положительной</string>
     <string name="limitingbolus">Макс уровень болюса ограничен до %1$.1f ед вследствие %2$s</string>
-    <!--    Dialogs-->
+    
     <string name="confirmation">Подтверждение</string>
     <string name="message">Сообщение</string>
     <string name="ok">OK</string>
@@ -516,44 +516,44 @@
     <string name="yes">Да</string>
     <string name="no">Нет</string>
     <string name="close">Закрыть</string>
-    <!-- TwoMessagesDialog -->
+    
     <string name="password_preferences_decrypt_prompt">Вам будет предложено ввести главный пароль, необходимый для расшифровки импортированных настроек.</string>
-    <!-- <unattended_export> -->
+    
     <string name="export_ok">OK</string>
     <string name="export_warning">Внимание</string>
     <string name="export_expired">Срок действия истёк</string>
     <string name="export_disabled">Отключено</string>
     <string name="export_failed">Сбой</string>
     <string name="export_alert">ВНИМАНИЕ</string>
-    <!-- <unattended_export result messages> -->
+    
     <string name="export_result_message_exported">Настройки экспортированы</string>
     <string name="export_result_message_failed">ОШИБКА экспорта настроек!</string>
     <string name="export_result_message_about_to_expire">Настройки были экспортированы: пароль скоро перестанет действовать. Экспортируйте их вручную и (заново) введите пароль.</string>
     <string name="export_result_message_expired">Экспорт настроек отменен: пароль перестал действовать. Экспортируйте их вручную и введите его заново!</string>
     <string name="export_result_message_disabled">Предупреждение (автоматизация): Экспорт настроек выключен!</string>
-    <!-- NumberPicker -->
+    
     <string name="a11y_min_button_description">снижение %1$s на %2$s</string>
     <string name="a11y_plus_button_description">увеличение %1$s на %2$s</string>
     <string name="you_are_on_allowed_limit">Разрешенный предел достигнут</string>
     <string name="format_hour_minute">%1$dч %2$dмин</string>
-    <!-- datetime layout -->
+    
     <string name="event_time_label">время события</string>
-    <!-- BluetoothDevicePreference -->
+    
     <string name="need_connect_permission">Приложению требуется разрешение Bluetooth</string>
-    <!--    Combo-->
+    
     <string name="user_request" comment="26 characters max for translation">Запрос пользователя</string>
     <string name="pump_paired" comment="26 characters max for translation">Помпа сопряжена</string>
-    <!--    BlePreCheck-->
+    
     <string name="ble_not_supported">Bluetooth с низким энергопотреблением не поддерживается.</string>
     <string name="ble_not_supported_or_not_paired">Bluetooth Low Energy не поддерживается или устройство не сопряжено.</string>
     <string name="ble_not_enabled">Bluetooth не включен.</string>
     <string name="location_not_found_title">Геолокация не включена</string>
     <string name="location_not_found_message">Для обнаружения Bluetooth на новых устройствах необходимо включить геолокацию. AAPS не отслеживает ваше местоположение и может быть отключен после успешного сопряжения.</string>
-    <!--    Preferences -->
+    
     <string name="nav_plugin_preferences">Настройки расширений</string>
-    <!-- SmsCommunicator -->
+    
     <string name="smscommunicator_missingsmspermission">Отсутствует смс разрешение</string>
-    <!-- About -->
+    
     <string name="cta_dont_kill_my_app_info">Не останавливать приложение?</string>
     <string name="fabric_upload_disabled">Загрузка журналов сбоя на сервер отключена!</string>
     <string name="about_link_urls">\n\nDocumentation:\nhttps://wiki.aaps.app\n\nFacebook:\nhttps://www.facebook.com/groups/AndroidAPSUsers</string>
@@ -575,11 +575,11 @@
         <item quantity="many">%1$d минут</item>
         <item quantity="other">%1$d мин</item>
     </plurals>
-    <!--    Maintenance-->
+    
     <string name="cleanup_db_confirm">Вы хотите очистить базу данных?\nЭто удалит отслеживаемые изменения и данные старше 3 месяцев.</string>
     <string name="cleanup_db_confirm_sync">Вы хотите очистить базу данных?\nЭто удалит отслеживаемые изменения и данные старше 3 месяцев.\nчто позволит значительно ускорить полную синхронизацию.</string>
     <string name="cleared_entries">Удалённые записи</string>
-    <!--    Weekday-->
+    
     <string name="weekday_sunday_short">Вс</string>
     <string name="weekday_saturday_short">Сб</string>
     <string name="weekday_friday_short">Пт</string>
@@ -587,7 +587,7 @@
     <string name="weekday_wednesday_short">Ср</string>
     <string name="weekday_tuesday_short">Вт</string>
     <string name="weekday_monday_short">Пн</string>
-    <!-- WeekdayPicker -->
+    
     <string name="monday_short">Пн</string>
     <string name="tuesday_short">Вт</string>
     <string name="wednesday_short">Ср</string>
@@ -595,11 +595,11 @@
     <string name="friday_short">Пт</string>
     <string name="saturday_short">Сб</string>
     <string name="sunday_short">Вс</string>
-    <!--    DecimalFormatterImpl -->
+    
     <string name="format_insulin_units1">%1$.1fед</string>
     <string name="format_insulin_units">%1$.2f ед</string>
     <string name="percent_rate_duration">Скорость: %1$.2f%% (%2$.2f U/h) Продолжительность: %3$d мин</string>
     <string name="rate_percent_duration">Скорость: %1$.2fед/ч (%2$.2f%%) Продолжительность %3$d мин</string>
-    <string name="percent_rate_duration_formatted"><![CDATA[<b>Скорость</b>:%1$.2f %% (%2$.2f ед/ч)<br><b> Продолжительность</b> %3$d мин<br>]]></string>
-    <string name="rate_percent_duration_formatted"><![CDATA[<b>Скорость</b>: %1$.2f ед/ч (%2$.2f%%) <br><b>Продолжительность</b>: %3$d мин<br>]]></string>
-</resources>
+    <string name="percent_rate_duration_formatted">&lt;b&gt;Скорость&lt;/b&gt;:%1$.2f %% (%2$.2f ед/ч)&lt;br&gt;&lt;b&gt; Продолжительность&lt;/b&gt; %3$d мин&lt;br&gt;</string>
+    <string name="rate_percent_duration_formatted">&lt;b&gt;Скорость&lt;/b&gt;: %1$.2f ед/ч (%2$.2f%%) &lt;br&gt;&lt;b&gt;Продолжительность&lt;/b&gt;: %3$d мин&lt;br&gt;</string>
+<string name="autoISF_settings_summary">АвтоISF позволяет адаптировать фактор чувствительности (ISF) к различных вариантам изменения гликемии\n\nОн также может изменять настройки микроболюсов SMB</string><string name="graph_scale_6h">6ч</string><string name="half_basal_exercise_target_title">Половина дозы базального инсулина при ВЦ Нагрузка</string><string name="openapsama_pp_ISF_weight_summary">Это вектор, который усиливает ISF при подъеме гликемии и потенциально увеличивает подачу инсулина.\n\n Значение по умолчанию 0,0 отключает этот эффект.</string><string name="dyn_isf_adjust_title">Коэффициент регулировки динамического диапазона чувствительности ISF %</string><string name="dyn_isf_adjust_summary">Коэффициент корректировки динамического диапазона чувствительности ISF. Установите более 100% для агрессивных доз коррекции и менее 100% для менее агрессивной коррекции.</string><string name="triggerReservoirLevelDesc">Уровень резервуара %1$s %2$.0f</string><string name="graph_long_scale_24h">24 часа</string><string name="a11y_graph_scale_6h">масштаб шкалы 6 часов</string><string name="autoisf_shortname">AUTOISF</string><string name="export_settings_short">Текст в терапии:</string><string name="openapsama_smb_delivery_ratio">Фикс. коэффициент ввода микроболюсов SMB\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Нагрузка при замедлении изменений ГК\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">масштаб шкалы 12 часов</string><string name="enableSMB_EvenOn_OddOff_always">Включить альтернативную активацию микроболюсов SMB при активной цели ГК выраженной целым числом</string><string name="choose_from_map">Choose from map</string><string name="temp_basal_overview_short_name">ВРЕМ:</string><string name="openapsama_autoISF_min_summary">Подобно autosens_min определяет насколько слабой может стать чувствительность ISF.\n\nЗначение по умолчанию 1.0 отключает этот эффект.</string><string name="openapsama_bgBrake_ISF_weight_summary">Это вектор, который ослабляет ISF при замедлении изменений гликемии тем самым потенциально уменьшая подачу инсулина.\n\n Значение по умолчанию 0,0 отключает этот эффект.</string><string name="openapsama_smb_delivery_ratio_min_summary">Значение по умолчанию: 0,5. Это нижний предел линейно растущего коэффициента, а не фиксированная величина как выше.</string><string name="graph_scale_18h">18 ч</string><string name="a11y_graph_scale">выберите масштаб графика</string><string name="triggerStepsCountDesc">Количество шагов за %1$s минут %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Значение по умолчанию: 0,5. Это верхний предел линейно растущего коэффициента, а не фиксированная величина как выше.</string><string name="overview_show_steps">Действия</string><string name="openapsama_smb_delivery_ratio_max">Верхняя граница переменного коэффициента ввода микроболюсов SMB\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Набор параметров для увеличения фактического размера микроболюсов SMB, которые могут быть применены при усилении ISF, т.е. при низких значениях ISF.\n\nИСПОЛЬЗОВАТЬ С ОСТОРОЖНОСТЬЮ</string><string name="overview_show_variable_sens">Переменная чувствительность</string><string name="openapsama_pp_ISF_weight">Изменяющая ISF после еды нагрузка\n(pp_ISF_weight)</string><string name="triggerStepsCountDropdownLabel">Продолжительность измерения</string><string name="openapsama_lower_ISFrange_weight_summary">Это вектор, который ослабляет ISF при гликемии ниже цели и потенциально уменьшает подачу инсулина.\n\n Значение по умолчанию 0,0 отключает этот эффект.</string><string name="isf_dynamic_label_warning">Алгоритм может обеспечить динамический расчет ISF. Значения ниже можно использовать только в качестве запасного варианта в случае отсутствия данных или только в качестве эталонного значения</string><string name="graph_scale_12h">12 ч</string><string name="triggerInsulinAgeDesc">Время отработанное инсулином %1$s %2$.1f час</string><string name="exportsettings_message">Экспорт настроек %1$s</string><string name="triggerPumpBatteryAgeDesc">Батарея помпы отработала %1$s %2$.1f час</string><string name="openapsama_iob_threshold_percent_summary">Процент maxIOB выше которого SMB отключаются.\nЗначение по умолчанию: 100%\nПри значении в 100%, функция не имеет эффекта.</string><string name="simple_mode_enabled">Простой режим включен</string><string name="triggerPodChangeLabel">Активация Pod\'а</string><string name="triggerInsulinAgeLabel">Инсулин проработал</string><string name="openapsama_lower_ISFrange_weight">Нагрузка диапазона ISF ниже цели\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Время, отработанное катетером помпы</string><string name="triggerSensorAgeLabel">Время, отработанное сенсором</string><string name="pump_disconnected">Помпа отключена</string><string name="openapsama_iob_threshold_percent">Пороговый процент maxIOB для SMB\n(iob_threshold_percent)</string><string name="triggerSensorAgeDesc">Отработанное сенсором время %1$s %2$.1f час</string><string name="openapsama_bgAccel_ISF_weight">Нагрузка при ускорении изменения ГК\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">Нагрузка диапазона ISF выше цели\n(higher_ISFrange_weight)</string><string name="graph_long_scale_12h">12 часов</string><string name="half_basal_exercise_target_summary">Установливается как число, например, 160 означает, что при ВЦ 160 мг/дл и настройке \"Высокая ВЦ повышает чувствительность =true\", активируется 50%% базальной скорости (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">Включить адаптивную чувствительность ISF в зависимости от поведения ГК</string><string name="openapsama_autoISF_max">Макс. коэффициент autoISF\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Значение по умолчанию: 1 Это еще один ключ безопасности OpenAPS который указывает, на какую величину можно превысить обычные 120 maxSMB/maxUAM минут. Увеличить его постепенно и с осторожностью.</string><string name="openapsama_autoISF_min">Мин. коэффициент autoISF\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Уровень заряда батареи помпы</string><string name="openapsama_smb_delivery_ratio_bg_range">Диапазон ГК переменного коэффициента ввода микроболюсов SMB\n(smb_delivery_ratio_bg_range)</string><string name="enableSMB_EvenOn_OddOff_always_summary">\nвключены ...\nесли активная цель(ммоль/л) имеет четную десятичную часть\nили активная цель(мг/дл) - четное число\n\nв ином случае - отключены</string><string name="graph_long_scale_6h">6 часов</string><string name="smb_delivery_settings_title">Настройки введения микроболюсов SMB</string><string name="triggerPumpBatteryAgeLabel">Время отработанное батареей помпы</string><string name="openapsama_smb_delivery_ratio_min">Нижняя граница переменного коэффициента ввода микроболюсов SMB\n(smb_delivery_ratio_min)</string><string name="a11y_graph_scale_24h">масштаб шкалы 24 часа</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Значение по умолчанию: 0. Линейно увеличивающийся коэффициент для ввода микроболюсов SMB сопоставляется с диапазоном гликемии [целевая ГК, целевая ГК+диапазон ГК].\nДля параметра target_bg (целевая ГК) коэффициент SMB равен минимальному коэффициенту подачи микроболюсов (smb_delivery_ratio_min), для параметра target_bg+bg_range - максимальному (smb_delivery_ratio_max).\n При нуле линейно увеличивающийся коэффициент SMB отключен; используется фиксированный коэффициент smb_delivery_ratio.</string><string name="ic_dynamic_label_warning">Алгоритм может обеспечить динамический расчет углеводного коэффициента IC. Значения ниже можно использовать только в качестве запасного варианта в случае отсутствия данных или только в качестве эталонного значения</string><string name="triggerStepsCountLabel">Количество шагов</string><string name="use_dynamic_sensitivity_title">Включить динамическую чувствительность</string><string name="autoISF_settings_title">Настройки AutoISF</string><string name="graph_long_scale_18h">18 часов</string><string name="openapsama_higher_ISFrange_weight_summary">Это вектор, который усиливает ISF при гликемии выше цели и потенциально увеличивает подачу инсулина.\n\n Значение по умолчанию 0,0 отключает этот эффект.</string><string name="openapsama_smb_max_range_extension">Увеличение макс. диапазона SMB/UAM\n(smb_max_range_extension)</string><string name="a11y_graph_scale_18h">масштаб шкалы 18 часов</string><string name="description_auto_isf">Новейший алгоритм для опытных пользователей с динамическим изменением чувствительности к инсулину ISF</string><string name="triggerPodChangeDesc">Pod активирован</string><string name="graph_scale_24h">24 ч</string><string name="openapsama_bgAccel_ISF_weight_summary">Это вектор, который усиливает ISF при ускорении повышения гликемии и потенциально увеличивает подачу инсулина.\n\n Значение по умолчанию 0,0 отключает этот эффект.</string><string name="triggerPumpBatteryLevelDesc">Уровень заряда батареи помпы %1$s %2$.0f</string><string name="steps_shortname">ШАГИ</string><string name="triggerReservoirLevelLabel">Уровень резервуара</string><string name="triggerCannulaAgeDesc">Отработанное катетером время %1$s %2$.1f час</string><string name="variable_sensitivity_shortname">ПЕРЕМЧУВСТВ</string><string name="openapsama_dura_ISF_weight">Нагрузка ISF при застое ГК\n(dura_ISF_weight)</string><string name="openapsama_autoISF_max_summary">Аналогично autosense_max определяет, насколько сильным может стать ISF. Значение 1.0 по умолчанию его отключает. Предупреждение: Будьте предельно осторожны при использовании значений выше 2.5</string><string name="openapsama_smb_delivery_ratio_summary">Значение по умолчанию: 0,5 Это еще один ключ безопасности OpenAPS, который указывает, какая доля всего требуемого инсулина может быть подана в виде микроболюсов SMB. Он создан для того, чтобы не допустить одновременной отправки запросов на SMB с телефона попечителей. Увеличивать эту экспериментальную величину медленно и с осторожностью.</string><string name="openapsama_dura_ISF_weight_summary">Это вес, применяемый при длительных повышениях уровня глюкозы, который усиливает ISF, потенциально увеличивая подачу инсулина.\n\П Значение по умолчанию 0,0 отключает этот эффект.</string><string name="fallback_to_isf_no_tdd">Откат к чувствительности из профиля. Недостаточно данных. Причина: %1$s</string><string name="use_dynamic_sensitivity_summary">Настроить алгоритм на использование динамической чувствительности вместо значений профиля</string><string name="openaps_auto_isf">Auto ISF</string></resources>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="bolus_constraint_applied">Aplikované obmedzenie bolusu</string>
     <string name="carbs_constraint_applied">Aplikované obmedzenie sacharidov</string>
@@ -11,10 +11,10 @@
     <string name="unit_minute_short">min</string>
     <string name="remind_to_bolus_later">Upozorniť na bolus neskôr</string>
     <string name="a11y_carb_reminder">nastaviť pripomienku</string>
-    <!--    Widget-->
+    
     <string name="configure">Konfigurovať priehľadnosť</string>
     <string name="widget_description">AAPS widget</string>
-    <!--     Activities-->
+    
     <string name="activity_monitor">Monitor aktivity</string>
     <string name="do_you_want_reset_stats">Chcete resetovať štatistiky aktivity?</string>
     <string name="do_you_want_recalculate_tdd_stats">Chcete prepočítať štatistiky CDD?</string>
@@ -32,22 +32,22 @@
     <string name="bg_other">Iné</string>
     <string name="bg_meter">Glukomer</string>
     <string name="bg_sensor">Senzor</string>
-    <!-- WizardDialog -->
+    
     <string name="format_bg_isf">%1$s ISF: %2$.1f</string>
     <string name="format_cob_ic">%1$.1fg IC: %2$.1f</string>
     <string name="format_carbs_ic">%1$.0fg IC: %2$.1f</string>
     <string name="treatments_wizard_total_label">Spolu</string>
-    <!-- FillDialog -->
+    
     <string name="fill_warning">Prosím uistite sa, že hodnota zodpovedá špecifikácií Vášho setu!</string>
     <string name="record_pump_site_change">Zaznamenať výmenu setu</string>
     <string name="record_insulin_cartridge_change">Zaznamenať výmenu inzulínu</string>
-    <!-- InsulinDialog -->
+    
     <string name="do_not_bolus_record_only">Nepodať bolus, iba zaznamenať</string>
-    <!-- ProfileSwitchDialog -->
+    
     <string name="reuse_profile_pct_hours">Znovu použiť %1$d%% %2$dh</string>
     <string name="timeshift_label">Posun času</string>
     <string name="percentage_label">% zmena</string>
-    <!-- LoopDialog -->
+    
     <string name="suspendloopfor1h">Pozastaviť uzavretý okruh na 1 h</string>
     <string name="suspendloopfor2h">Pozastaviť uzavretý okruh na 2 h</string>
     <string name="suspendloopfor3h">Pozastaviť uzavretý okruh na 3 h</string>
@@ -66,7 +66,7 @@
     <string name="duration2h">2 hodiny</string>
     <string name="duration3h">3 hodiny</string>
     <string name="duration10h">10 hodiny</string>
-    <!-- WizardDialog -->
+    
     <string name="a11_correction_percentage">správny výsledok v %</string>
     <string name="a11_correction_units">správny výsledok s jednotkami</string>
     <string name="two_hours">2h</string>
@@ -76,7 +76,7 @@
     <string name="carb_time_label">Čas jedla</string>
     <string name="a11y_set_carb_timer">nastaviť upozornenie na sacharidy</string>
     <string name="show_calculation">Zobraziť kalkuláciu</string>
-    <!-- Treatments -->
+    
     <string name="no_records_available">Nie sú k dispozícii žiadne záznamy</string>
     <string name="calculation_short">Kalk</string>
     <string name="treatments_iob_label_string">IOB:</string>
@@ -98,7 +98,7 @@
     <string name="clone_label">Klonovať</string>
     <string name="show_loop_records">Zobraziť záznamy uzavretého okruhu</string>
     <string name="show_hide_records">Skryť záznamy uzavretého okruhu</string>
-    <!-- ProfileHelperActivity -->
+    
     <string name="profile1">Profil 1</string>
     <string name="profile2">Profil 2</string>
     <string name="profile_type">Typ profilu</string>
@@ -114,11 +114,11 @@
     <string name="format_with_weight">Vek: %1$.0f Hmotnosť: %2$.0f kg</string>
     <string name="dpv_default_profile">Predvolený DPV profil</string>
     <string name="invalid_pct">Neplatný vstup %</string>
-    <!-- Other dialogs -->
+    
     <string name="basal_rate">Bazál</string>
-    <!--    BolusProgressDialog-->
+    
     <string name="stop_pressed">STLAČENÝ STOP</string>
-    <!--QuickWizard-->
+    
     <string name="a11y_only_on_watch">iba na hodinkách</string>
     <string name="a11y_only_on_phone">iba na telefóne</string>
     <string name="quickwizard_settings">Nastavenie rýchleho bolusu</string>
@@ -134,7 +134,7 @@
     <string name="change_your_input">Zmeňte zadanie!</string>
     <string name="confirm_treatment">Prosím potvrďte ošetrenie</string>
     <string name="recalculate">Prepočítať</string>
-    <!--    Widget-->
+    
     <string name="use_black_color">Použiť čiernu farbu</string>
     <string name="widget_configuration">Konfiguráciu widgetu</string>
     <string-array name="yes_no_positiveonly_negativeonly">
@@ -142,4 +142,4 @@
         <item>Iba kladné</item>
         <item>Iba záporné</item>
     </string-array>
-</resources>
+<string name="autoISF_settings_summary">AutoISF umožňuje upraviť citlivosť na inzulín (ISF) v rôznych scenároch správania sa glykémie.\n\nMôže tiež upraviť nastavenia SMB.</string><string name="graph_scale_6h">6h</string><string name="half_basal_exercise_target_title">Polovičný bazál pri cieli Aktivita</string><string name="openapsama_pp_ISF_weight_summary">Toto je váha ktorá je aplikovaná, keď glykémia stúpa a parameter, ktorý znižuje ISF, čím potenciálne zvyšuje množstvo dodaného inzulínu.\n\nPredvolená hodnota 0.0 túto funkciu vypne.</string><string name="dyn_isf_adjust_title">Korekčný faktor pre DynamicISF v %</string><string name="export_result_message_expired">Export nastavení zrušený: heslo vypršalo. Exportujte ručne a (znovu) zadajte heslo!</string><string name="dyn_isf_adjust_summary">Korekčný faktor pre dynamickú ISF. Pre agresivnejšie korekčné dávky nastavte hodnoty väčšie ako 100%, pre menej agresívne korekcie, menšie než 100%.</string><string name="triggerReservoirLevelDesc">Stav zásobníka %1$s %2$.0f</string><string name="export_expired">Expirované</string><string name="graph_long_scale_24h">24 hodín</string><string name="a11y_graph_scale_6h">rozsah grafu 6 hodín</string><string name="autoisf_shortname">AUTOISF</string><string name="export_settings_short">Text v ošetreniach:</string><string name="openapsama_smb_delivery_ratio">pevná veľkosť SMB\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Váha pri spomaľovaní glykémie\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">rozsah grafu 12 hodín</string><string name="enableSMB_EvenOn_OddOff_always">Povoliť alternativnu aktiváciu SMB v závislosti na tom, či je aktívny cieľ párne číslo</string><string name="choose_from_map">Vybrať z mapy</string><string name="extended_bolus_data_point_graph">%1$.2f JI ( %2$.2f JI/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="openapsama_autoISF_min_summary">Podobne ako autosens_min, toto definuje, ako slabé môže byť ISF.\n\nPredvolená hodnota 1.0 túto funciu úplne vypne.</string><string name="openapsama_bgBrake_ISF_weight_summary">Toto je váha ktorá je aplikovaná pri spomaľovaní vzostupu glykémie a parameter, ktorý zvyšuje ISF, čím potenciálne znižuje množstvo dodaného inzulínu.\n\nPredvolená hodnota 0,0 túto funkciu vypne.</string><string name="openapsama_smb_delivery_ratio_min_summary">Štandardná hodnota: 0.5 Toto je dolný limit lineárne narastajúcej veľkosti, skôr než fixné zvýšenie.</string><string name="graph_scale_18h">18h</string><string name="a11y_graph_scale">vyberte rozsah grafu</string><string name="triggerStepsCountDesc">Počet krokov za %1$s minút %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Štandardná hodnota: 0.5 Toto je horný limit lineárne narastajúcej veľkosti, skôr než fixné zvýšenie.</string><string name="sensitivity">Citlivosť</string><string name="overview_show_steps">Kroky</string><string name="openapsama_smb_delivery_ratio_max">premenlivá veľkosť SMB, horný limit\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Sada možností určených k zväčšeniu skutočnej veľkosti SMB, ktoré je možné vydať v situáciách, kedy je hodnota ISF nízka, napr. pomerne nízka číselná hodnota ISF.\n\POUŽÍVAJTE OPATRNE</string><string name="overview_show_variable_sens">Premenlivá citlivosť</string><string name="nav_export">Exportovať nastavenia</string><string name="rate_percent_duration">Hodnota: %1$.2f JI/h (%2$.2f%%) Trvanie: %3$d min</string><string name="openapsama_pp_ISF_weight">váha postprandiálneho ISF\n(pp_ISF_weight)</string><string name="export_result_message_about_to_expire">Nastavenia exportované: heslo čoskoro vyprší. Exportujte ručne a (znovu) zadajte heslo.</string><string name="export_result_message_failed">Nastavenia NIE SÚ správne exportované!</string><string name="triggerStepsCountDropdownLabel">Trvanie merania</string><string name="openapsama_lower_ISFrange_weight_summary">Toto je váha ktorá je aplikovaná v situácii, keď je glykémia pod cieľovou hodnotou a parameter, ktorý zvyšuje ISF, čím potenciálne znižuje množstvo dodaného inzulínu.\n\nPredvolená hodnota 0.0 túto funkciu vypne.</string><string name="isf_dynamic_label_warning">Váš algoritmus môže poskytnúť dynamický výpočet ISF. Nižšie uvedené hodnoty sú použité iba ako záložné v prípade chýbajúcich údajov, alebo iba ako referenčné hodnoty</string><string name="graph_scale_12h">12h</string><string name="location_permission_not_granted">Povolenie na zisťovanie polohy nebolo udelené. Povoľte v nastaveniach systému Android.</string><string name="triggerInsulinAgeDesc">Vek inzulínu %1$s %2$.1f h</string><string name="algorithm_long">Detekcia citlivosti algoritmu: %.0f%%</string><string name="export_result_message_exported">Nastavenia exportované</string><string name="exportsettings_message">Export nastavení: %1$s</string><string name="triggerPumpBatteryAgeDesc">Vek batérie v pumpe %1$s %2$.1f h</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Vypnuté</string><string name="openapsama_iob_threshold_percent_summary">Percento maxIOB, pri prekročení ktorého sú SMB zakázané.\nPredvolená hodnota: 100 %\nPri hodnote 100 % je táto funkcia vypnutá.</string><string name="percent_rate_duration">Hodnota: %1$.2f%% (%2$.2f JI/h) Trvanie: %3$d min</string><string name="simple_mode_enabled">Jednoduchý režim aktívny</string><string name="percent_rate_duration_formatted">&lt;b&gt;Hodnota&lt;/b&gt;: %1$.2f%% (%2$.2f JI/h)&lt;br&gt;&lt;b&gt;Trvanie&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Export nastavení</string><string name="triggerPodChangeLabel">Aktivácia Podu</string><string name="triggerInsulinAgeLabel">Vek inzulínu</string><string name="openapsama_lower_ISFrange_weight">váha nižšieho rozsahu ISF\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Vek kanyly</string><string name="triggerSensorAgeLabel">Vek senzora</string><string name="pump_disconnected">Pumpa odpojená</string><string name="openapsama_iob_threshold_percent">Prahová hodnota maxIOB v percentách. Ak sa dosiahne, vypnú sa SMB\n(iob_threshold_percent)</string><string name="export_failed">Chyba</string><string name="triggerSensorAgeDesc">Vek senzora %1$s %2$.1f h</string><string name="openapsama_bgAccel_ISF_weight">Váha pri zrýchľovaní glykémie\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">váha vyššieho rozsahu ISF\n(higher_ISFrange_weight)</string><string name="temp_basal_tsf_absolute">%1$.2f JI/h @%2$s</string><string name="graph_long_scale_12h">12 hodín</string><string name="half_basal_exercise_target_summary">Nastavený na hodnotu, napr. 160, čo znamená, že, ak je dočasný cieľ 160 mg/dL (8.9 mmol) a možnosť „Vysoký dočasný cieľ zvyšuje citlivosť“ je povolená, spustí sa pri tejto hodnote 50%% bazál (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">Povoliť úpravu ISF s ohľadom na vývoj glykémie</string><string name="uel_select_directory">VYBERTE PRIEČINOK</string><string name="openapsama_autoISF_max">Max. autoISF\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Štandardná hodnota: 1 Toto je ďalší bezpečnostný limit OpenAPS a špecifikuje, nakoľko môžete prekročiť štandardný limit 120 minút pre maxSMB/maxUAM. Zvyšujte túto experimentálnu hodnotu pomaly a opatrne.</string><string name="careportal_settings_export">Export nastavení</string><string name="openapsama_autoISF_min">Min. autoISF\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Vek batérie v pumpe</string><string name="extended_bolus_full">E %1$.2f JI/h @%2$s %3$s/%4$s min</string><string name="openapsama_smb_delivery_ratio_bg_range">premenlivá veľkosť SMB, mapovaný rozsah glykémie\n(smb_delivery_ratio_bg_range)</string><string name="temp_basal_tsf_fake_extended">%1$.2f JI/h (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Varovanie (automatika): Nie je povolený export nastavení!</string><string name="enableSMB_EvenOn_OddOff_always_summary">\npovolené...\nkeď má aktivny cieľ (mmol/L) párne číslo za desatinou čiarkou\nalebo ak je hodnota aktívneho cieľa (mg/dL) párne číslo\n\n\inak zakázané</string><string name="graph_long_scale_6h">6 hodín</string><string name="smb_delivery_settings_title">Nastavenie dávkovania SMB</string><string name="uel_reset_aps_results">RESETOVAŤ VÝSLEDKY AAPS</string><string name="export_ok">OK</string><string name="autosens_long">Hodnota Autosense: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Vek batérie v pumpe</string><string name="openapsama_smb_delivery_ratio_min">premenlivá veľkosť SMB, dolný limit\n(smb_delivery_ratio_min)</string><string name="export_alert">VÝSTRAHA</string><string name="extended_bolus_medium">%1$.2f JI/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">rozsah grafu 24 hodín</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Štandardná hodnota: 0. Lineárne narastajúca veľkosť SMB je naviazaná na rozsah glykémie [target_bg, target_bg+bg_range].\nPri target_bg veľkosť SMB zodpovedá smb_delivery_ratio_min, pri target_bg+bg_range zodpovedá smb_delivery_ratio_max\nPri hodnote 0 je lineárne narastajúca veľkosť SMB vypnutá a používa sa pevná hodnota smb_delivery_ratio.</string><string name="ic_dynamic_label_warning">Váš algoritmus môže poskytnúť dynamický výpočet ISF. Nižšie uvedené hodnoty sú použité iba ako záložné v prípade chýbajúcich údajov, alebo iba ako referenčné hodnoty</string><string name="triggerStepsCountLabel">Počet krokov</string><string name="use_dynamic_sensitivity_title">Povoliť dynamickú citlivosť</string><string name="autosens_short">AS: %.0f%%</string><string name="autoISF_settings_title">Nastavenia AutoISF</string><string name="rate_percent_duration_formatted">&lt;b&gt;Hodnota&lt;/b&gt;: %1$.2f JI/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Trvanie&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 hodín</string><string name="openapsama_higher_ISFrange_weight_summary">Toto je váha ktorá je aplikovaná v situácii, keď je glykémia nad cieľovou hodnotou a parameter, ktorý znižuje ISF, čím potenciálne zvyšuje podávanie inzulínu.\n\nPredvolená hodnota 0,0 túto funkciu efektívne vypne.</string><string name="openapsama_smb_max_range_extension">Max. rozšířenie rozsahu SMB/UAM\n(smb_max_range_extension)</string><string name="isf_for_carbs">ISF pre kalkulačku a vstrebávanie sacharidov: %1$.1f</string><string name="a11y_graph_scale_18h">rozsah grafu 18 hodín</string><string name="description_auto_isf">Najnovší algoritmus pre pokročilých užívateľov s rozšírením AutoISF</string><string name="settingsexport">Export nastavení</string><string name="careportal_settings_export_message">Export nastavení: %1$s</string><string name="triggerPodChangeDesc">Pod aktivovaný</string><string name="graph_scale_24h">24h</string><string name="openapsama_bgAccel_ISF_weight_summary">Toto je váha ktorá je aplikovaná, keď stúpanie glykémie zrýchľuje a parameter, ktorý znižuje ISF, čím potenciálne zvyšuje podávanie inzulínu.\n\nPredvolená hodnota 0,0 túto funkciu vypne.</string><string name="triggerPumpBatteryLevelDesc">Úroveň nabitia batérie v pumpe %1$s %2$.0f</string><string name="steps_shortname">KROKY</string><string name="triggerReservoirLevelLabel">Stav zásobníka</string><string name="triggerCannulaAgeDesc">Vek kanyly %1$s %2$.1f h</string><string name="variable_sensitivity_shortname">VSENS</string><string name="secs">%1$d s</string><string name="openapsama_dura_ISF_weight">váha dura_ISF\n(dura_ISF_weight)</string><string name="export_warning">Varovanie</string><string name="openapsama_autoISF_max_summary">Podobne ako autosens_max, toto definuje, aká silné môže byť ISF.\n\nPredvolená hodnota 1 túto funkciu vypne.\n\nUPOZORNENIE: Pri používaní hodnôt nad 2.5 je potrebné byť mimoriadne opatrný</string><string name="openapsama_smb_delivery_ratio_summary">Štandardná hodnota: 0.5 Toto je ďalšie dôležité bezpečnostné nastavenie OpenAPS, ktoré určuje, aké percento celkového inzulinu je možné vydať prostredníctvom SMB. Jeho zmyslom je zabrániť tomu, aby sa užívatelia vystavili riziku kvôli tomu, že by požiadavka na SMB odišla v tej istej chvíli prostredníctvom telefónu. Zvyšujte túto experimentálnu hodnotu pomaly a opatrne.</string><string name="openapsama_dura_ISF_weight_summary">Toto je váha ktorá je aplikovaná pri dlhotrvajúcej hyperglykémii a parameter, ktorý znižuje ISF, čím potenciálne zvyšuje množstvo dodaného inzulínu.\n\nPredvolená hodnota 0.0 túto funkciu vypne.</string><string name="fallback_to_isf_no_tdd">Použitá hodnota citlivosti z profilu. Nedostatok dát. Dôvod: %1$s</string><string name="use_dynamic_sensitivity_summary">Upravte algoritmus pre použitie dynamickej citlivosti namiesto hodnoty z profilu</string><string name="openaps_auto_isf">Auto ISF</string></resources>

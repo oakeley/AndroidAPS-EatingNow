@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--// Modified for Eating Now-->
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:validate="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:title="Eating Now Preferences"
+        app:initialExpandedChildrenCount="0">
+
+        <app.aaps.plugins.aps.loop.LoopVariantPreference
+            android:title="@string/en_variant_title"
+            android:defaultValue="stable"
+            android:selectable="true"
+            app:pluginFolder="EN" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="AAPS Settings"
+        app:initialExpandedChildrenCount="0">
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="3"
+            android:inputType="numberDecimal"
+            android:key="@string/key_treatmentssafety_maxbolus"
+            android:title="@string/max_bolus_title"
+            validate:floatmaxNumber="25.0"
+            validate:floatminNumber="0.1"
+            validate:testType="floatNumericRange" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="1"
+            android:dialogMessage="@string/openapsma_max_basal_summary"
+            android:inputType="numberDecimal"
+            android:key="@string/key_openapsma_max_basal"
+            android:title="@string/openapsma_max_basal_title"
+            validate:floatmaxNumber="25.0"
+            validate:floatminNumber="0.1"
+            validate:testType="floatNumericRange" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="3"
+            android:dialogMessage="@string/openapssmb_max_iob_summary"
+            android:inputType="numberDecimal"
+            android:key="@string/key_openapssmb_max_iob"
+            android:title="@string/openapssmb_max_iob_title"
+            validate:floatmaxNumber="70.0"
+            validate:floatminNumber="0"
+            validate:testType="floatNumericRange" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="openapsama_use_autosens"
+            android:summary="Restricted to maximum of 1 with dynamic ISF"
+            android:title="@string/openapsama_use_autosens" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="1.2"
+            android:dialogMessage="@string/openapsama_autosens_max_summary"
+            android:digits="0123456789.,"
+            android:inputType="numberDecimal"
+            android:key="@string/key_openapsama_autosens_max"
+            android:maxLines="20"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/openapsama_autosens_max"
+            validate:floatmaxNumber="3"
+            validate:floatminNumber="0.5"
+            validate:testType="floatNumericRange" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="0.7"
+            android:dialogMessage="@string/openapsama_autosens_min_summary"
+            android:inputType="numberDecimal"
+            android:key="@string/key_openapsama_autosens_min"
+            android:maxLines="20"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/openapsama_autosens_min"
+            validate:floatmaxNumber="1.0"
+            validate:floatminNumber="0.1"
+            validate:testType="floatNumericRange" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_use_smb"
+            android:summary="@string/enable_smb_summary"
+            android:title="@string/enable_smb" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="@string/key_use_smb"
+            android:key="@string/key_allowSMB_with_high_temptarget"
+            android:summary="@string/enable_smb_with_high_temp_target_summary"
+            android:title="@string/enable_smb_with_high_temp_target" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="@string/key_use_smb"
+            android:key="@string/key_enableSMB_always"
+            android:summary="@string/enable_smb_always_summary"
+            android:title="@string/enable_smb_always" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="@string/key_use_smb"
+            android:key="@string/key_enableSMB_with_COB"
+            android:summary="@string/enable_smb_with_cob_summary"
+            android:title="@string/enable_smb_with_cob" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="@string/key_use_smb"
+            android:key="@string/key_enableSMB_with_temptarget"
+            android:summary="@string/enable_smb_with_temp_target_summary"
+            android:title="@string/enable_smb_with_temp_target" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:dependency="@string/key_use_smb"
+            android:key="@string/key_enableSMB_after_carbs"
+            android:summary="@string/enable_smb_after_carbs_summary"
+            android:title="@string/enable_smb_after_carbs" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="3"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="@string/key_smb_interval"
+            android:maxLines="20"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/smb_interval_summary"
+            validate:maxNumber="10"
+            validate:minNumber="1"
+            validate:testType="numericRange" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="30"
+            android:digits="0123456789"
+            android:entries="@array/smbMaxMinutes"
+            android:entryValues="@array/smbMaxMinutes"
+            android:inputType="number"
+            android:key="@string/key_smb_max_minutes"
+            android:title="@string/smb_max_minutes_summary"
+            validate:maxNumber="120"
+            validate:minNumber="15"
+            validate:testType="numericRange" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="30"
+            android:dialogMessage="@string/uam_smb_max_minutes"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="@string/key_uam_smb_max_minutes"
+            android:maxLines="20"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/uam_smb_max_minutes_summary"
+            validate:maxNumber="300"
+            validate:minNumber="15"
+            validate:testType="numericRange" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_use_uam"
+            android:summary="@string/enable_uam_summary"
+            android:title="@string/enable_uam" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:enabled="true"
+            android:key="@string/key_sensitivity_raises_target"
+            android:summary="@string/sensitivity_raises_target_summary"
+            android:title="@string/sensitivity_raises_target_title" />
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_resistance_lowers_target"
+            android:summary="@string/resistance_lowers_target_summary"
+            android:title="@string/resistance_lowers_target_title" />
+        <!-- TODO AS-FIX -->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="@string/key_high_temptarget_raises_sensitivity"
+            android:summary="@string/high_temptarget_raises_sensitivity_summary"
+            android:title="High temptarget raises sensitivity" />
+        <!--            android:title="@string/high_temptarget_raises_sensitivity_title" />-->
+
+
+        <!-- TODO AS-FIX -->
+        <SwitchPreference
+            android:defaultValue="false"
+            android:enabled="true"
+            android:key="@string/key_low_temptarget_lowers_sensitivity"
+            android:summary="@string/low_temptarget_lowers_sensitivity_summary"
+            android:title="Low temptarget lowers sensitivity" />
+        <!--            android:title="@string/low_temptarget_lowers_sensitivity_title" />-->
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="1"
+            android:dialogMessage="@string/carbs_req_threshold_summary"
+            android:digits="0123456789"
+            android:inputType="number"
+            android:key="@string/key_carbsReqThreshold"
+            android:maxLines="20"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="@string/carbs_req_threshold_summary"
+            android:title="@string/carbs_req_threshold"
+            validate:maxNumber="200"
+            validate:minNumber="1"
+            validate:testType="numericRange" />
+
+        <Preference android:summary="@string/openapsama_link_to_preference_json_doc_txt">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/openapsama_link_to_preference_json_doc" />
+        </Preference>
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_always_use_shortavg"
+            android:summary="@string/always_use_short_avg_summary"
+            android:title="@string/always_use_short_avg" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="3"
+            android:dialogMessage="@string/openapsama_max_daily_safety_multiplier_summary"
+            android:digits="0123456789.,"
+            android:inputType="number"
+            android:key="@string/key_openapsama_max_daily_safety_multiplier"
+            android:maxLines="20"
+            android:selectAllOnFocus="true"
+            android:title="@string/openapsama_max_daily_safety_multiplier"
+            validate:maxNumber="20"
+            validate:minNumber="1"
+            validate:testType="numericRange" />
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+            android:defaultValue="4"
+            android:dialogMessage="@string/openapsama_current_basal_safety_multiplier_summary"
+            android:digits="0123456789.,"
+            android:inputType="number"
+            android:key="@string/key_openapsama_current_basal_safety_multiplier"
+            android:maxLines="20"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:title="@string/openapsama_current_basal_safety_multiplier"
+            validate:floatmaxNumber="20"
+            validate:floatminNumber="1"
+            validate:testType="floatNumericRange" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Eating Now: General"
+        android:summary="General settings for Eating Now"
+        app:initialExpandedChildrenCount="0">
+
+        <Preference android:summary="Eating Now operates within the Start and End time specified.\nLarger boluses from the Eating Now Window are allowed within this time range.">
+        </Preference>
+
+        <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="9"
+                android:dialogMessage="Enter Eating Now start time in 24h e.g. 9AM is 9"
+                android:inputType="number"
+                android:key="@string/key_eatingnow_timestart"
+                android:title="Start Time"
+                validate:maxNumber="23"
+                validate:minNumber="0"
+                validate:testType="numericRange" />
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="17"
+                android:dialogMessage="Enter Eating Now end time in 24h e.g. 17 is 5PM."
+                android:inputType="number"
+                android:key="@string/key_eatingnow_timeend"
+                android:title="End Time"
+                validate:maxNumber="23"
+                validate:minNumber="0"
+                validate:testType="numericRange" />
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="0"
+                android:dialogMessage="Meals after this time will not be considered as the first meal. Enter a time in 24h e.g. 13 is 1PM. 0 will disable the option."
+                android:inputType="number"
+                android:key="@string/key_eatingnow_bkfstcutoff"
+                android:title="Breakfast Cut-Off Time"
+                validate:maxNumber="18"
+                validate:minNumber="0"
+                validate:testType="numericRange" />
+
+<!--        <SwitchPreference-->
+<!--                android:defaultValue="false"-->
+<!--                android:key="key_enautostart"-->
+<!--                android:title="Enable EN after EN Start Time"-->
+<!--                android:summary="Allow EN to become active automatically after EN start time without COB or manual bolus entry." />-->
+
+            <Preference android:summary="SMB's can be restricted inside and outside of the Eating Now time range.">
+            </Preference>
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="0"
+                android:inputType="numberDecimal"
+                android:title="Daytime SMB Restriction"
+                android:key="@string/key_eatingnow_smbbgoffset_day"
+                android:dialogMessage="There will be no SMB when below this BG offset during the day unless COB or a TT lower or equal to normalTarget\ne.g. if normalTarget is 5.5 (99) and this setting is 1.5 (27) there will be no SMB below 7.0 (126)"
+                validate:floatmaxNumber="270.0"
+                validate:floatminNumber="0"
+                validate:testType="floatNumericRange" />
+
+             <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="0"
+                android:inputType="numberDecimal"
+                android:title="Overnight SMB Restriction"
+                android:key="@string/key_eatingnow_smbbgoffset"
+                android:dialogMessage="There will be no SMB when below this BG offset at night unless COB or a TT lower or equal to normalTarget\ne.g. if normalTarget is 5.5 (99) and this setting is 1.5 (27) there will be no SMB below 7.0 (126)"
+                validate:floatmaxNumber="270.0"
+                validate:floatminNumber="0"
+                validate:testType="floatNumericRange" />
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Eating Now Window Settings"
+            app:initialExpandedChildrenCount="0">
+
+            <Preference android:summary="Settings for within the EN Window activated when there is a manual bolus,carb entry or EN temptarget after the Start Time setting."></Preference>
+
+            <androidx.preference.PreferenceScreen
+                android:key="enw_breakfast_settings"
+                android:title="ENW Breakfast Settings">
+
+                <Preference
+                    android:title="ENW Breakfast Settings"
+                    android:summary="The first manual bolus, carb entry or an EN temptarget will activate the initial Eating Now Window."></Preference>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:key="@string/key_enbkfstwindowminutes"
+                    android:title="EN Window Duration for first meal of the day"
+                    android:dialogMessage="Window in minutes for increased maxBolus with COB or UAM.\n0 will disable and allow AAPS maxBolus limit."
+                    validate:maxNumber="120"
+                    validate:minNumber="0"
+                    validate:testType="numericRange" />
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="100"
+                    android:inputType="number"
+                    android:title="Breakfast ISF Weighting"
+                    android:key="@string/key_eatingnow_breakfastpct"
+                    android:dialogMessage="The breakfast ISF will be scaled during the breakfast eating window.\n100 will be no change.\n25 will use 25% of the current ISF/CR values."
+                    validate:maxNumber="100"
+                    validate:minNumber="1"
+                    validate:testType="numericRange" />
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="numberDecimal"
+                    android:key="@string/key_eatingnow_cobboost_maxbolus_breakfast"
+                    android:title="Breakfast COB maxBolus"
+                    android:dialogMessage="Breakfast COB maxBolus for BGL rises within the EN Window.\nThis will use ISF/CR percentage scaling if enabled.\nIf this value is larger than maxIOB it will be considered to be minutes of basal.\n0 will use existing maxBolus limit"
+                    validate:floatmaxNumber="180"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange"/>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="numberDecimal"
+                    android:key="@string/key_eatingnow_uam_maxbolus_breakfast"
+                    android:title="Breakfast UAM maxBolus"
+                    android:dialogMessage="Breakfast UAM maxBolus for BGL rises within the EN Window.\nThis will use ISF/CR percentage scaling if enabled.\nIf this value is larger than maxIOB it will be considered to be minutes of basal.\n0 will use existing maxBolus limit"
+                    validate:floatmaxNumber="180"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange"/>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:dialogMessage="Max insulin units received from treatments within breakfast eating window. Once reached insulin delivery will cease until the window ends."
+                    android:inputType="numberDecimal"
+                    android:key="key_enw_breakfast_max_tdd"
+                    android:title="Breakfast ENW max units"
+                    validate:floatmaxNumber="50.0"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange" />
+
+            </androidx.preference.PreferenceScreen>
+
+            <androidx.preference.PreferenceScreen
+                android:key="enw_other_meals_settings"
+                android:title="ENW Subsequent Meals Settings">
+
+                <Preference
+                    android:title="ENW Subsequent Meals Settings"
+                    android:summary="Once the initial ENW has ended other EN Windows may be activated in the same way."></Preference>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:digits="0123456789"
+                    android:inputType="number"
+                    android:key="@string/key_eatingnow_enwindowminutes"
+                    android:title="EN Window Duration for subsequent meals"
+                    android:dialogMessage="Window in minutes for increased maxBolus with COB or UAM.\n0 will disable and allow AAPS maxBolus limit."
+                    validate:maxNumber="120"
+                    validate:minNumber="0"
+                    validate:testType="numericRange" />
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="100"
+                    android:inputType="number"
+                    android:title="ENW ISF Weighting"
+                    android:key="@string/key_eatingnow_pct"
+                    android:dialogMessage="The meals after breakfast ISF will be scaled during the eating window.\n100 will be no change.\n25 will use 25% of the current ISF/CR values."
+                    validate:maxNumber="100"
+                    validate:minNumber="1"
+                    validate:testType="numericRange" />
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="numberDecimal"
+                    android:key="@string/key_eatingnow_uamboost_maxbolus"
+                    android:title="ENW UAM maxBolus"
+                    android:dialogMessage="UAM maxBolus for all BGL rises without COB within the EN Window.\nIf this value is larger than maxIOB it will be considered to be minutes of basal.\n0 will use existing AAPS maxBolus limit."
+                    validate:floatmaxNumber="200"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange"/>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="numberDecimal"
+                    android:key="@string/key_eatingnow_cobboost_maxbolus"
+                    android:title="ENW COB maxBolus"
+                    android:dialogMessage="COB maxBolus for BGL rises within the EN Window.\nIf this value is larger than maxIOB it will be considered to be minutes of basal.\n0 will use existing AAPS maxBolus limit."
+                    validate:floatmaxNumber="200"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange"/>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:dialogMessage="Max insulin units received from treatments within subsequent eating windows. Once reached insulin delivery will cease until the window ends."
+                    android:inputType="numberDecimal"
+                    android:key="key_enw_max_tdd"
+                    android:title="ENW max units for subsequent meals"
+                    validate:floatmaxNumber="50.0"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange" />
+
+            </androidx.preference.PreferenceScreen>
+
+            <androidx.preference.PreferenceScreen
+                android:key="prebolus_settings"
+                android:title="PreBolus Settings">
+
+                <Preference
+                    android:title="PreBolus Settings"
+                    android:summary="An optional prebolus may be given at the start of the Eating Now temp target."></Preference>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="numberDecimal"
+                    android:key="@string/key_eatingnow_uambgboost_maxbolus_bkfast"
+                    android:title="PreBolus for Breakfast"
+                    android:dialogMessage="PreBolus for breakfast within the EN-TT Window only."
+                    validate:floatmaxNumber="15"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange"/>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="numberDecimal"
+                    android:key="@string/key_eatingnow_uambgboost_maxbolus"
+                    android:title="PreBolus for other meals"
+                    android:dialogMessage="PreBolus for other meals within the EN-TT Window only."
+                    validate:floatmaxNumber="15"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange"/>
+
+            </androidx.preference.PreferenceScreen>
+
+            <androidx.preference.PreferenceScreen
+                android:key="outside_enw"
+                android:title="Outside ENW Settings"
+                android:summary="Settings not applicable for EN Windows.">
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="numberDecimal"
+                    android:key="@string/key_eatingnow_noenw_maxbolus"
+                    android:title="Outside ENW maxBolus"
+                    android:dialogMessage="maxBolus for BGL rises outside the EN Window.\nIf this value is larger than maxIOB it will be considered to be minutes of basal.\n0 will use existing AAPS maxBolus limit."
+                    validate:floatmaxNumber="200"
+                    validate:floatminNumber="0"
+                    validate:testType="floatNumericRange"/>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="75"
+                    android:inputType="number"
+                    android:title="SMB Percentage outside ENW"
+                    android:key="en_smb_percent"
+                    android:dialogMessage="All treatments outside ENW will provide SMB as a percentage of insulinReq with remaining as TBR. This is restricted to the respective prediction types maxBolus (UAM, UAM+ and BG+). Other temptargets will not be impacted. Does not apply overnight."
+                    validate:maxNumber="100"
+                    validate:minNumber="0"
+                    validate:testType="numericRange" />
+
+<!--                <SwitchPreference-->
+<!--                    android:defaultValue="false"-->
+<!--                    android:key="key_noentt_use_tbr"-->
+<!--                    android:title="Disable SMB outside EN-TT"-->
+<!--                    android:summary="All treatments outside of an Eating Now temptarget will disable SMB and use TBR restricted to the respective prediction types maxBolus (UAM, UAM+ and BG+). Other temptargets will not be impacted." />-->
+
+        </androidx.preference.PreferenceScreen>
+
+        <androidx.preference.PreferenceScreen
+            android:key="enw_advanced"
+            android:title="ENW Advanced Settings"
+            android:summary="Advanced Settings for EN Windows.">
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="0"
+                android:inputType="numberDecimal"
+                android:key="@string/key_enwminbolus"
+                android:title="EN Window Min Bolus"
+                android:dialogMessage="EN Window will not be activated with boluses below this amount."
+                validate:floatmaxNumber="10"
+                validate:floatminNumber="0"
+                validate:testType="floatNumericRange"/>
+
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="key_use_enw_overnight"
+                android:title="Allow ENW Overnight"
+                android:summary="ENW will be active after EN End Time with COB or EN-TT." />
+
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="key_use_ghostcob_always"
+                android:title="Use GhostCOB always"
+                android:summary="Always ignore COB predictions and rely solely on UAM. ENW will still be activated if COB entry is above Min COB Limit below." />
+
+            <SwitchPreference
+                android:dependency="key_use_ghostcob_always"
+                android:defaultValue="false"
+                android:key="key_use_ghostcob"
+                android:title="Use GhostCOB after ENW"
+                android:summary="Ignore COB after EN Window finished and rely on UAM predictions. Can help with lingering carbs." />
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="0"
+                android:digits="0123456789"
+                android:inputType="number"
+                android:key="key_mincob"
+                android:title="Min COB Limit"
+                android:dialogMessage="COB entries at or below this value will not trigger EN Window."
+                validate:maxNumber="100"
+                validate:minNumber="0"
+                validate:testType="numericRange" />
+
+<!--            <app.aaps.core.validators.ValidatingEditTextPreference-->
+<!--                android:defaultValue="0"-->
+<!--                android:inputType="numberDecimal"-->
+<!--                android:key="@string/key_eatingnow_noenw_maxbolus"-->
+<!--                android:title="Outside ENW maxBolus"-->
+<!--                android:dialogMessage="maxBolus for BGL rises outside the EN Window.\nIf this value is larger than maxIOB it will be considered to be minutes of basal.\n0 will use existing AAPS maxBolus limit."-->
+<!--                validate:floatmaxNumber="200"-->
+<!--                validate:floatminNumber="0"-->
+<!--                validate:testType="floatNumericRange"/>-->
+
+<!--            <SwitchPreference-->
+<!--                android:defaultValue="false"-->
+<!--                android:key="key_noentt_use_tbr"-->
+<!--                android:title="Disable SMB outside EN-TT"-->
+<!--                android:summary="All treatments outside of an Eating Now temptarget will disable SMB and use TBR restricted to the respective prediction types maxBolus (UAM, UAM+ and BG+). Other temptargets will not be impacted." />-->
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="75"
+                android:inputType="number"
+                android:title="SMB Percentage within ENW"
+                android:key="enw_smb_percent"
+                android:dialogMessage="All treatments within ENW will provide SMB as a percentage of insulinReq with remaining as TBR. This is restricted to the respective prediction types maxBolus (UAM, UAM+ and BG+). Other temptargets will not be impacted."
+                validate:maxNumber="100"
+                validate:minNumber="0"
+                validate:testType="numericRange" />
+
+        </androidx.preference.PreferenceScreen>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="UAM+ Settings"
+            android:summary="Settings related to UAM+"
+            app:initialExpandedChildrenCount="0">
+
+            <Preference android:summary="UAM+ will exaggerate UAM predictions to provide more insulin sooner when BG delta is accelerating. An optional prebolus may also be given."></Preference>
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="0"
+                android:inputType="numberDecimal"
+                android:key="@string/key_eatingnow_uamplus_maxbolus_bkfast"
+                android:title="UAM+ Breakfast maxBolus"
+                android:dialogMessage="UAM+ Breakfast maxBolus for accelerated UAM BG rise.\nIf this value is larger than maxIOB it will be considered to be minutes of basal.\n0 will disable UAM+ and fallback to usual UAM prediction."
+                validate:floatmaxNumber="200"
+                validate:floatminNumber="0"
+                validate:testType="floatNumericRange"/>
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:defaultValue="0"
+                android:inputType="numberDecimal"
+                android:key="@string/key_eatingnow_uamplus_maxbolus"
+                android:title="UAM+ maxBolus"
+                android:dialogMessage="UAM+ maxBolus for accelerated UAM BG rise.\nIf this value is larger than maxIOB it will be considered to be minutes of basal.\n0 will disable UAM+ and fallback to usual UAM prediction."
+                validate:floatmaxNumber="200"
+                validate:floatminNumber="0"
+                validate:testType="floatNumericRange"/>
+
+            <androidx.preference.PreferenceScreen
+                android:key="uamplus_advanced"
+                android:title="Advanced Settings"
+                android:summary="Advanced Settings for UAM+">
+
+                <SwitchPreference
+                    android:defaultValue="false"
+                    android:key="key_use_uamplus_noenw"
+                    android:title="Allow UAM+ SMB outside ENW"
+                    android:summary="Allow UAM+ to provide an EN UAM+ maxBolus SMB when not within ENW and AAPS insulinReq is positive." />
+
+                <SwitchPreference
+                    android:defaultValue="false"
+                    android:key="key_use_enw_iob_smb"
+                    android:title="Deliver ENW insulin faster"
+                    android:summary="Within ENW insulinReq will be increased to a minimum proportion of ENW-IOB for half of the window duration. SMB maxBolus remains, ensure ENW IOB is set correctly." />
+
+            </androidx.preference.PreferenceScreen>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="ISF Settings"
+            android:summary="ISF related settings."
+            app:initialExpandedChildrenCount="0">
+
+            <SwitchPreference
+                android:defaultValue="true"
+                android:key="key_use_dynamicISF"
+                android:title="Use dynamic ISF"
+                android:summary="As BG increases ISF will become stronger when enabled." />
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:dependency="key_use_dynamicISF"
+                android:defaultValue="0"
+                android:inputType="numberDecimal"
+                android:key="@string/key_eatingnow_isfbgscaler"
+                android:title="ISF BG Scaler"
+                android:dialogMessage="As BG increases ISF will become stronger.\nThe level of scaling can be adjusted.\n0 = normal scaling, 5 is 5% stronger, -5 is 5% weaker ISF scaling.\nRecommended setting is 0."
+                validate:floatmaxNumber="20"
+                validate:floatminNumber="-20"
+                validate:testType="floatNumericRange" />
+
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="key_use_sens_tdd"
+                android:title="Use TDD for ISF"
+                android:summary="Use TDD as the basis for calculating the ISF at target. This will override the profile ISF." />
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:dependency="key_use_sens_tdd"
+                android:defaultValue="100"
+                android:inputType="numberDecimal"
+                android:key="@string/key_sens_tdd_scale"
+                android:dialogMessage="This will use a percentage of the calculated TDD ISF. If TDD ISF is too strong it can be reduced e.g. 75 will use 75% of the calculated TDD ISF."
+                android:title="TDD ISF Scaling"
+                validate:floatmaxNumber="100"
+                validate:floatminNumber="5"
+                validate:testType="floatNumericRange"/>
+
+            <app.aaps.core.validators.ValidatingEditTextPreference
+                android:dependency="key_use_sens_tdd"
+                android:defaultValue="100"
+                android:inputType="number"
+                android:title="MaxISF %"
+                android:key="@string/key_eatingnow_maxisfpct"
+                android:dialogMessage="Profile ISF will be used with this as a percentage.\n100 will limit TDD based ISF to profile ISF.\n150 will allow an ISF that is 150% stronger than profile.\n0 is no limit."
+                validate:maxNumber="200"
+                validate:minNumber="0"
+                validate:testType="numericRange" />
+
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="key_use_sr_tdd"
+                android:title="Use TDD based SensitivityRatio"
+                android:summary="Use recent TDD history to calculate current SensitivityRatio. Used for basal only. Min/Max Autosens values will be respected."/>
+
+            <androidx.preference.PreferenceScreen
+                android:key="outside_enw_sens"
+                android:title="Sensitivity and Resistance Settings"
+                android:summary="Settings to assist with time in range.">
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="number"
+                    android:title="TIRS % resistance per hour"
+                    android:key="@string/en_resistance_per_hour"
+                    android:dialogMessage="ISF will become stronger every loop iteration when bg is high. This will set Maximum resistance per hour in percentage. MaxISF is respected."
+                    validate:maxNumber="25"
+                    validate:minNumber="0"
+                    validate:testType="numericRange" />
+
+                <SwitchPreference
+                    android:defaultValue="false"
+                    android:key="en_use_bgplus"
+                    android:title="Enable BG+"
+                    android:summary="When BG is stable but high for an extended period of time eventualBG will be overridden."/>
+
+                <app.aaps.core.validators.ValidatingEditTextPreference
+                    android:defaultValue="0"
+                    android:inputType="number"
+                    android:title="Postprandial ISF Duration"
+                    android:key="@string/key_en_pp_isf_minutes"
+                    android:dialogMessage="After ENW has finished the ISF will remain stronger over this period in minutes."
+                    validate:maxNumber="180"
+                    validate:minNumber="0"
+                    validate:testType="numericRange" />
+
+            </androidx.preference.PreferenceScreen>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Eating Now: Experimental Variant"
+            android:summary="New features that are being tested within Experimental Variant. DO NOT USE."
+            app:initialExpandedChildrenCount="0">
+
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="key_use_sens_lctdd"
+                android:title="Use LCTDD for ISF"
+                android:summary="Use last cannula TDD as the basis for calculating the current ISF. This will override the profile ISF." />
+
+        </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

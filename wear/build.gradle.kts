@@ -45,6 +45,17 @@ android {
         targetSdk = Versions.wearTargetSdk
 
         buildConfigField("String", "BUILDVERSION", "\"${generateGitBuild()}-${generateDate()}\"")
+    
+    compileOptions {
+        // Let Meerkat/AS handle JVM version selection
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    
+    kotlinOptions {
+        // Conservative JVM target - let toolchain override if needed
+        jvmTarget = "1.8"
+    }
     }
 
     android {
@@ -55,6 +66,17 @@ android {
                 // instrumentation and that causes online (JavaAgent) instrumentation
                 // to fail in this project.
                 enableAndroidTestCoverage = false
+    
+    compileOptions {
+        // Let Meerkat/AS handle JVM version selection
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    
+    kotlinOptions {
+        // Conservative JVM target - let toolchain override if needed
+        jvmTarget = "1.8"
+    }
             }
         }
     }

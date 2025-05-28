@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- Omnipod - Keys -->
-    <!-- Omnipod - Pod Management -->
+    
+    
     <string name="omnipod_common_pod_management_title">Pod 管理</string>
     <string name="omnipod_common_pod_management_heading_actions">動作</string>
     <string name="omnipod_common_pod_management_heading_tools">工具</string>
@@ -12,7 +12,7 @@
     <string name="omnipod_common_pod_management_button_play_test_beep">播放測試嗶聲</string>
     <string name="omnipod_common_pod_management_button_playing_test_beep">播放測試嗶聲中…</string>
     <string name="omnipod_common_pod_management_button_pod_history">Pod 歷史</string>
-    <!-- Omnipod - Error -->
+    
     <string name="omnipod_common_error_pod_not_attached">無可用的 Pod</string>
     <string name="omnipod_common_error_set_basal_failed">設定基礎率檔案失敗。</string>
     <string name="omnipod_common_error_bolus_did_not_succeed">胰島素劑量設置失敗。</string>
@@ -33,14 +33,14 @@
     <string name="omnipod_common_error_failed_to_play_test_beep">播放測試嗶聲失敗</string>
     <string name="omnipod_common_error_time_out_of_sync">Pod 上的時間不同步。請在 Omnipod 標籤中更新時間。</string>
     <string name="omnipod_common_error_unexpected_exception">發生意外錯誤。請回報！（%1$s：%2$s）。</string>
-    <!-- Omnipod - Confirmation -->
+    
     <string name="omnipod_common_confirmation">確認</string>
     <string name="omnipod_common_confirmation_expiration_alerts_updated">警報配置已在 Pod 中更新。</string>
     <string name="omnipod_common_confirmation_time_on_pod_updated">Pod 上的時間已更新。</string>
     <string name="omnipod_common_confirmation_suspended_delivery">所有胰島素輸送已暫停。</string>
     <string name="omnipod_common_confirmation_silenced_alerts">啟動的警報已靜音。</string>
     <string name="omnipod_common_confirmation_delivery_resumed">胰島素輸送已恢復。</string>
-    <!-- Omnipod - Overview -->
+    
     <string name="omnipod_common_overview_button_set_time">設定時間</string>
     <string name="omnipod_common_overview_button_suspend_delivery">暫停</string>
     <string name="omnipod_common_overview_button_resume_delivery">恢復輸送</string>
@@ -66,7 +66,7 @@
     <string name="omnipod_common_overview_reservoir_value_over50">超過 50 U 剩餘</string>
     <string name="omnipod_common_overview_errors">錯誤</string>
     <string name="omnipod_common_uncertain">不確定</string>
-    <!-- Omnipod - Wizard Base -->
+    
     <string name="omnipod_common_wizard_button_cancel">取消</string>
     <string name="omnipod_common_wizard_button_finish">完成</string>
     <string name="omnipod_common_wizard_button_next">下一步</string>
@@ -75,7 +75,7 @@
     <string name="omnipod_common_wizard_button_discard_pod">丟棄 Pod</string>
     <string name="omnipod_common_wizard_exit_confirmation_text">您尚未完成所有步驟。確定要退出嗎？</string>
     <string name="omnipod_common_wizard_exit_confirmation_title">退出</string>
-    <!-- Omnipod - Pod Activation Wizard -->
+    
     <string name="omnipod_common_pod_activation_wizard_start_pod_activation_title">填充 Pod</string>
     <string name="omnipod_common_pod_activation_wizard_initialize_pod_title">初始化 Pod</string>
     <string name="omnipod_common_pod_activation_wizard_attach_pod_title">連線 Pod</string>
@@ -85,7 +85,7 @@
     <string name="omnipod_common_pod_activation_wizard_insert_cannula_text">嘗試設置初始基礎排程並植入套管。\n\n當套管成功植入時，您可以按 <b>下一步</b>。</string>
     <string name="omnipod_common_pod_activation_wizard_pod_activated_title">Pod 已啟動</string>
     <string name="omnipod_common_pod_activation_wizard_pod_activated_text">新的 Pod 現在已啟動。\n\n您的基礎排程已設定並且套管已植入。\n\n請確認套管已正確植入，如果您認為未植入，請更換您的 Pod。</string>
-    <!-- Omnipod - Pod Deactivation Wizard -->
+    
     <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_title">停用 Pod</string>
     <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_text">按 <b>下一步</b> 停用 Pod。\n\n<b>注意：</b> 這將暫停所有胰島素輸送並停用 Pod。</string>
     <string name="omnipod_common_pod_deactivation_wizard_deactivating_pod_title">停用 Pod</string>
@@ -96,7 +96,7 @@
     <string name="omnipod_common_pod_deactivation_wizard_pod_discarded_text">Pod 狀態已丟棄。胰島素輸送未暫停，因為 Pod 未正確停用！\n\n請將 Pod 從您的身體上移除並回收。</string>
     <string name="omnipod_common_pod_deactivation_wizard_discard_pod_confirmation">如果丟棄 Pod，您將無法再與其通訊。只有在所有通訊持續失敗時才應這樣做。您確定要丟棄 Pod 嗎？</string>
     <string name="omnipod_common_pod_deactivation_wizard_discard_pod">丟棄 Pod</string>
-    <!-- Omnipod - Preferences -->
+    
     <string name="omnipod_common_preferences_bolus_beeps_enabled">啟用胰島素劑量時，發出嗶聲</string>
     <string name="omnipod_common_preferences_basal_beeps_enabled">啟用設定檔基礎時，發出嗶聲</string>
     <string name="omnipod_common_preferences_smb_beeps_enabled">啟用 SMB 時，發出嗶聲</string>
@@ -120,7 +120,7 @@
     <string name="omnipod_common_preferences_notification_uncertain_smb_sound_enabled">已開啟不確定 SMB 通知的提示音</string>
     <string name="omnipod_common_preferences_notification_uncertain_bolus_sound_enabled">啟用不確定胰島素劑量通知音效</string>
     <string name="omnipod_dash_use_bonding">在 Android 15+ （Pixel 手機解法）上綁定藍牙裝置</string>
-    <!-- Omnipod - Pod Status -->
+    
     <string name="omnipod_common_pod_status_no_active_pod">無可用的 Pod</string>
     <string name="omnipod_common_pod_status_waiting_for_activation">設置進行中（等待 Pod 啟動）</string>
     <string name="omnipod_common_pod_status_waiting_for_cannula_insertion">設置進行中（等待植入套管）</string>
@@ -130,7 +130,7 @@
     <string name="omnipod_common_pod_status_pod_fault">Pod 故障</string>
     <string name="omnipod_common_pod_status_inactive">無啟動</string>
     <string name="omnipod_common_pod_status_pod_fault_description">Pod 故障：%1$03d %2$s</string>
-    <!-- Omnipod - Commands -->
+    
     <string name="omnipod_common_cmd_deactivate_pod">停用 Pod</string>
     <string name="omnipod_common_cmd_discard_pod">丟棄 Pod</string>
     <string name="omnipod_common_cmd_set_bolus">設置胰島素劑量</string>
@@ -154,7 +154,7 @@
     <string name="omnipod_common_cmd_cancel_fake_suspended_tbr">取消因 Pod 暫停而設置的假的臨時基礎</string>
     <string name="omnipod_common_cmd_split_tbr">拆分臨時基礎，因為取消時出現不確定故障</string>
     <string name="omnipod_common_cmd_play_test_beep">播放測試嗶聲</string>
-    <!-- Omnipod - Alerts -->
+    
     <string name="omnipod_common_alert_finish_pairing_reminder">完成配對提醒</string>
     <string name="omnipod_common_alert_finish_setup_reminder_reminder">完成設置提醒</string>
     <string name="omnipod_common_alert_expiration">Pod 即將到期</string>
@@ -162,21 +162,21 @@
     <string name="omnipod_common_alert_shutdown_imminent">即將關機</string>
     <string name="omnipod_common_alert_low_reservoir">低儲存槽</string>
     <string name="omnipod_common_alert_unknown_alert">未知警報</string>
-    <!-- Omnipod - Short status -->
+    
     <string name="omnipod_common_short_status_no_active_pod">無可用的 Pod</string>
     <string name="omnipod_common_short_status_last_connection">最後連線：%1$d 分鐘前</string>
     <string name="omnipod_common_short_status_last_bolus">最後注射：%1$s U @ %2$s</string>
     <string name="omnipod_common_short_status_temp_basal">臨時基礎率：%1$s</string>
     <string name="omnipod_common_short_status_extended_bolus">延長劑量：%1$s</string>
     <string name="omnipod_common_short_status_reservoir">儲存槽：%1$sU</string>
-    <!-- Omnipod - Other -->
+    
     <string name="omnipod_common_yes">是</string>
     <string name="omnipod_common_no">否</string>
     <string name="omnipod_common_ok">確定</string>
     <string name="omnipod_common_cancel">取消</string>
     <string name="omnipod_common_warning">警告</string>
     <string name="omnipod_common_disable_suspend_alerts">停用暫停警報</string>
-    <!-- Omnipod - Times -->
+    
     <string name="omnipod_common_moments_ago">剛才</string>
     <string name="omnipod_common_less_than_a_minute_ago">不到一分鐘前</string>
     <string name="omnipod_common_composite_time">%1$s 和 %2$s</string>
@@ -193,4 +193,4 @@
     <plurals name="omnipod_common_pod_alerts">
         <item quantity="other">Pod 警報：%1$s</item>
     </plurals>
-</resources>
+<string name="autoISF_settings_summary">AutoISF 允許在各種葡萄糖行為情境中調整胰島素敏感性因子 (ISF)\n\n它還可以調整SMB輸送設定</string><string name="graph_scale_6h">6h</string><string name="half_basal_exercise_target_title">半基礎運動目標</string><string name="openapsama_pp_ISF_weight_summary">這是當血糖上升時所應用的權重，會加強 ISF（胰島素敏感因子），因此可能增加胰島素的釋放量。\n\n預設值 0.0 實際上會關閉這個效果。</string><string name="dyn_isf_adjust_title">動態ISF調整係數%</string><string name="export_result_message_expired">設定匯出已取消: 密碼已過期。請手動匯出並（重新）輸入!</string><string name="dyn_isf_adjust_summary">動態ISF的調整係數。設置超過100％以進行更積極的矯正劑量，設置低於100％以進行較不積極的矯正。</string><string name="triggerReservoirLevelDesc">儲液槽液面 %1$s %2$.0f</string><string name="export_expired">過期</string><string name="graph_long_scale_24h">24小時</string><string name="a11y_graph_scale_6h">圖表刻度 6 小時</string><string name="autoisf_shortname">自動ISF</string><string name="export_settings_short">治療中的文字:</string><string name="openapsama_smb_delivery_ratio">固定的 SMB 傳輸率\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">血糖減速時的權重\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">圖表刻度12小時</string><string name="enableSMB_EvenOn_OddOff_always">啟用根據活動目標是偶數的情況下啟用SMB的替代啟動</string><string name="choose_from_map">從地圖中選擇</string><string name="extended_bolus_data_point_graph">%1$.2f U ( %2$.2f U/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="openapsama_autoISF_min_summary">類似於 autosens_min，這個設定定義了 ISF（胰島素敏感因子）的最弱程度。\n\n預設值 1.0 實際上會關閉這個效果。</string><string name="openapsama_bgBrake_ISF_weight_summary">這是當血糖減速時所應用的權重，會削弱 ISF（胰島素敏感因子），因此可能減少胰島素的釋放量。\n\n預設值 0.0 實際上會關閉這個效果。</string><string name="openapsama_smb_delivery_ratio_min_summary">預設值：0.5 這是線性遞增比例的下限，而不是前面提到的固定值。</string><string name="graph_scale_18h">18h</string><string name="a11y_graph_scale">選擇圖表比例</string><string name="triggerStepsCountDesc">每 %1$s 分鐘的步數統計 %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">預設值：0.5 這是線性遞增比例的上限，而不是前面提到的固定值。</string><string name="sensitivity">敏感度</string><string name="overview_show_steps">步數</string><string name="openapsama_smb_delivery_ratio_max">可變的 SMB 傳輸率的上限\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">這是一組選項，可以在ISF變強（即ISF數值較低）時，增加實際可輸送的SMB劑量。\n\n請小心使用</string><string name="overview_show_variable_sens">可變敏感度</string><string name="nav_export">Export settings</string><string name="rate_percent_duration">速率：%1$.2f U/h（%2$.2f%%）持續時間：%3$d 分鐘</string><string name="openapsama_pp_ISF_weight">餐後 ISF 權重\n(pp_ISF_weight)</string><string name="export_result_message_about_to_expire">設定已匯出: 密碼即將過期。請手動匯出並（重新）輸入密碼。</string><string name="export_result_message_failed">設定匯出失敗!</string><string name="triggerStepsCountDropdownLabel">測量持續時間</string><string name="openapsama_lower_ISFrange_weight_summary">這是當血糖低於目標時所應用的權重，會削弱 ISF（胰島素敏感因子），因此可能減少胰島素的釋放量。\n\n預設值 0.0 實際上會關閉這個效果。</string><string name="isf_dynamic_label_warning">你的演算法可以動態計算 ISF（胰島素敏感因子）。以下數值僅在資料遺失時作為備援使用。</string><string name="graph_scale_12h">12h</string><string name="location_permission_not_granted">位置權限未獲授權。請在 Android 設定中允許。</string><string name="triggerInsulinAgeDesc">胰島素使用時間 %1$s %2$.1f 小時</string><string name="algorithm_long">演算法中的自動靈敏值：%.0f%%</string><string name="export_result_message_exported">設定已匯出</string><string name="exportsettings_message">設定匯出: %1$s</string><string name="triggerPumpBatteryAgeDesc">幫浦電池使用時間 %1$s %2$.1f 小時</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">停用</string><string name="openapsama_iob_threshold_percent_summary">當 maxIOB 的百分比超過此數值時，SMBs（小量胰島素注射）將被停用。\n預設值：100%\n設定為 100% 時，這個功能實際上會被關閉。</string><string name="percent_rate_duration">速率：%1$.2f%%（%2$.2f U/h）持續時間：%3$d 分鐘</string><string name="simple_mode_enabled">簡易模式已啟用</string><string name="percent_rate_duration_formatted">&lt;b&gt;速率&lt;/b&gt;：%1$.2f%%（%2$.2f U/h）&lt;br&gt;&lt;b&gt;持續時間&lt;/b&gt;：%3$d 分鐘&lt;br&gt;</string><string name="exportsettings">匯出設定</string><string name="triggerPodChangeLabel">幫浦註冊</string><string name="triggerInsulinAgeLabel">胰島素使用時間</string><string name="openapsama_lower_ISFrange_weight">較低的 ISF 範圍權重\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">套管使用時間</string><string name="triggerSensorAgeLabel">傳感器使用時間</string><string name="pump_disconnected">幫浦已中斷連線</string><string name="openapsama_iob_threshold_percent">SMB 的 maxIOB 門檻值百分比設定\n(iob_threshold_percent)</string><string name="export_failed">失敗</string><string name="triggerSensorAgeDesc">傳感器使用時間 %1$s %2$.1f 小時</string><string name="openapsama_bgAccel_ISF_weight">血糖加速时的權重\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">較高的 ISF 範圍的權重\n(higher_ISFrange_weight)</string><string name="temp_basal_tsf_absolute">%1$.2f U/h @%2$s</string><string name="graph_long_scale_12h">12小時</string><string name="half_basal_exercise_target_summary">設定為一個數字，例如 160，這表示當臨時目標為 160 mg/dL 且高臨時目標提高敏感性=true時，在此數值運作 50%% 的基礎率（120 = 75%%；140 = 60%%）。</string><string name="openapsama_enable_autoISF">啟用根據血糖變化進行的 ISF 調整</string><string name="uel_select_directory">選擇目錄</string><string name="openapsama_autoISF_max">最大自動ISF比率\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">預設值：1 這是另一個重要的 OpenAPS 安全上限，指定了可以超過正常 120 maxSMB/maxUAM 分鐘的倍數。請慢慢地且謹慎地增加這個實驗值。</string><string name="careportal_settings_export">設定匯出</string><string name="openapsama_autoISF_min">最小自動ISF比率\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">幫浦電池電量</string><string name="extended_bolus_full">E %1$.2f U/h @%2$s %3$s/%4$s 分鐘</string><string name="openapsama_smb_delivery_ratio_bg_range">可變的 SMB 傳輸率對應的血糖範圍\n(smb_delivery_ratio_bg_range)\"</string><string name="temp_basal_tsf_fake_extended">%1$.2f U/h (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">警告（自動化）: 設定匯出未啟用!</string><string name="enableSMB_EvenOn_OddOff_always_summary">\n啟用 ...\n如果活動目標 (mmol/L) 是偶數小數\n或活動目標 (mg/dL) 是偶數\n\n否則停用</string><string name="graph_long_scale_6h">6小時</string><string name="smb_delivery_settings_title">SMB輸送設定</string><string name="uel_reset_aps_results">重置 APS 結果</string><string name="export_ok">確定</string><string name="autosens_long">自動靈敏值：%.0f%%</string><string name="triggerPumpBatteryAgeLabel">幫浦電池使用時間</string><string name="openapsama_smb_delivery_ratio_min">可變的 SMB 傳輸率的下限(smb_delivery_ratio_min)</string><string name="export_alert">警報</string><string name="extended_bolus_medium">%1$.2f U/h %2$s/%3$s 分</string><string name="a11y_graph_scale_24h">圖表刻度 24 小時</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">預設值：0。線性遞增的 SMB 傳輸率會對應到血糖範圍 [target_bg, target_bg+bg_range]。\n在 target_bg 時，SMB 比例為 smb_delivery_ratio_min；在 target_bg+bg_range 時，比例為 smb_delivery_ratio_max。\n如果設置為 0，線性遞增的 SMB 率會被停用，將使用固定的 smb_delivery_ratio。</string><string name="ic_dynamic_label_warning">你的演算法可以動態計算 IC（碳水化合物比值）。以下數值僅在資料遺失時作為備援使用。</string><string name="triggerStepsCountLabel">步數統計</string><string name="use_dynamic_sensitivity_title">啟用動態敏感度</string><string name="autosens_short">AS: %.0f%%</string><string name="autoISF_settings_title">自動ISF設定</string><string name="rate_percent_duration_formatted">&lt;b&gt;速率&lt;/b&gt;：%1$.2f U/h（%2$.2f%%）&lt;br&gt;&lt;b&gt;持續時間&lt;/b&gt;：%3$d 分鐘&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18小時</string><string name="openapsama_higher_ISFrange_weight_summary">這是當血糖高於目標時所應用的權重，會加強 ISF（胰島素敏感因子），因此可能增加胰島素的釋放量。\n\n預設值 0.0 實際上會關閉這個效果。</string><string name="openapsama_smb_max_range_extension">SMB/UAM 最大範圍延伸\n(smb_max_range_extension)</string><string name="isf_for_carbs">計算機和碳水化合物吸收的 ISF：%1$.1f</string><string name="a11y_graph_scale_18h">圖表刻度18小時</string><string name="description_auto_isf">最先進的演算法，適用於進階使用者並包含自動ISF擴展功能</string><string name="settingsexport">設定匯出</string><string name="careportal_settings_export_message">設定匯出: %1$s</string><string name="triggerPodChangeDesc">幫浦已註冊</string><string name="graph_scale_24h">24h</string><string name="openapsama_bgAccel_ISF_weight_summary">這是當血糖加速上升時所應用的權重，會加強 ISF（胰島素敏感因子），因此可能增加胰島素的釋放量。\n\n預設值 0.0 實際上會關閉這個效果。</string><string name="triggerPumpBatteryLevelDesc">幫浦電池電量 %1$s %2$.0f</string><string name="steps_shortname">步數</string><string name="triggerReservoirLevelLabel">儲液槽液面</string><string name="triggerCannulaAgeDesc">套管使用時間 %1$s %2$.1f 小時</string><string name="variable_sensitivity_shortname">可變敏感度</string><string name="secs">%1$d 秒</string><string name="openapsama_dura_ISF_weight">dura_ISF 權重\n(dura_ISF_weight)</string><string name="export_warning">警告</string><string name="openapsama_autoISF_max_summary">類似於 autosens_max，這個設定定義了 ISF（胰島素敏感因子）的強度。\n\n預設值 1.0 實際上會關閉這個效果。\n\n警告：使用超過 2.5 的數值時務必非常謹慎。</string><string name="openapsama_smb_delivery_ratio_summary">預設值：0.5 這是另一個重要的 OpenAPS 安全上限，指定了總胰島素需求中可以通過 SMB 輸送的比例。這樣做是為了防止在護理人員的手機上同時設置 SMB 請求時進入危險區域。請慢慢地且謹慎地增加這個實驗值。</string><string name="openapsama_dura_ISF_weight_summary">這是針對長時間高血糖平台期間所應用的權重，並加強 ISF（胰島素敏感因子），因此可能增加胰島素的釋放量。\n\n預設值 0.0 實際上會關閉這個效果。</string><string name="fallback_to_isf_no_tdd">回退使用設定檔敏感度(ISF)。資料不足，原因：%1$s</string><string name="use_dynamic_sensitivity_summary">調整算法使用動態敏感度，而不是設定檔中的 ISF 值</string><string name="openaps_auto_isf">自動ISF</string></resources>

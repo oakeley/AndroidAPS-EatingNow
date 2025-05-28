@@ -10,6 +10,17 @@ plugins {
 
 android {
     namespace = "app.aaps.plugins.constraints"
+    
+    compileOptions {
+        // Let Meerkat/AS handle JVM version selection
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    
+    kotlinOptions {
+        // Conservative JVM target - let toolchain override if needed
+        jvmTarget = "1.8"
+    }
 }
 
 dependencies {

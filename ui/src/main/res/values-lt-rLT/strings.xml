@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="bolus_constraint_applied">Pritaikytas boluso apribojimas</string>
     <string name="carbs_constraint_applied">Pritaikytas AV apribojimas</string>
@@ -11,10 +11,10 @@
     <string name="unit_minute_short">min.</string>
     <string name="remind_to_bolus_later">Priminti apie bolusą vėliau</string>
     <string name="a11y_carb_reminder">nustatyti priminimą</string>
-    <!--    Widget-->
+    
     <string name="configure">Derinti skaidrumą</string>
     <string name="widget_description">AAPS valdiklis</string>
-    <!--     Activities-->
+    
     <string name="activity_monitor">Aktyvumo stebėjimas</string>
     <string name="do_you_want_reset_stats">Ar norite iš naujo nustatyti aktyvumo statistiką?</string>
     <string name="do_you_want_recalculate_tdd_stats">Ar norite iš perskaičiuoti BPD statistiką?</string>
@@ -32,22 +32,22 @@
     <string name="bg_other">Kiti</string>
     <string name="bg_meter">Matuoklis</string>
     <string name="bg_sensor">Sensorius</string>
-    <!-- WizardDialog -->
+    
     <string name="format_bg_isf">%1$s JIF: %2$.1f</string>
     <string name="format_cob_ic">%1$.1fg IA: %2$.1f</string>
     <string name="format_carbs_ic">%1$.0fg IA: %2$.1f</string>
     <string name="treatments_wizard_total_label">Viso</string>
-    <!-- FillDialog -->
+    
     <string name="fill_warning">Įsitikinkite, kad nurodytas kiekis atitinka Jūsų infuzijos rinkinio specifikaciją!</string>
     <string name="record_pump_site_change">Įrašas apie infuzijos rinkinio keitimą</string>
     <string name="record_insulin_cartridge_change">Įrašas apie rezervuaro keitimą</string>
-    <!-- InsulinDialog -->
+    
     <string name="do_not_bolus_record_only">Boluso nesuleisti, tik įrašyti</string>
-    <!-- ProfileSwitchDialog -->
+    
     <string name="reuse_profile_pct_hours">Pakartotinai naudoti %1$d%% %2$dh</string>
     <string name="timeshift_label">Laiko perstūmimas</string>
     <string name="percentage_label">Procentais</string>
-    <!-- LoopDialog -->
+    
     <string name="suspendloopfor1h">Sustabdyti ciklą 1 val</string>
     <string name="suspendloopfor2h">Sustabdyti ciklą 2 val</string>
     <string name="suspendloopfor3h">Sustabdyti ciklą 3 val</string>
@@ -66,7 +66,7 @@
     <string name="duration2h">2 val.</string>
     <string name="duration3h">3 val.</string>
     <string name="duration10h">10 val.</string>
-    <!-- WizardDialog -->
+    
     <string name="a11_correction_percentage">pakeisti rezultatą %</string>
     <string name="a11_correction_units">pakeisti rezultatą vienetais</string>
     <string name="two_hours">2 val</string>
@@ -76,7 +76,7 @@
     <string name="carb_time_label">AV laikas</string>
     <string name="a11y_set_carb_timer">nustatyti AV laiko perspėjimą</string>
     <string name="show_calculation">Rodyti skaičiavimą</string>
-    <!-- Treatments -->
+    
     <string name="no_records_available">Nėra įrašų</string>
     <string name="calculation_short">Skaič.</string>
     <string name="treatments_iob_label_string">AIO:</string>
@@ -98,7 +98,7 @@
     <string name="clone_label">Klonuoti</string>
     <string name="show_loop_records">Rodyti ciklo įrašus</string>
     <string name="show_hide_records">Slėpti ciklo įrašus</string>
-    <!-- ProfileHelperActivity -->
+    
     <string name="profile1">Profilis 1</string>
     <string name="profile2">Profilis 2</string>
     <string name="profile_type">Profilio tipas</string>
@@ -114,11 +114,11 @@
     <string name="format_with_weight">Laikas: %1$d Svoris: %2$.0f kg</string>
     <string name="dpv_default_profile">Numatytasis profilis</string>
     <string name="invalid_pct">Netinkamas % įrašas</string>
-    <!-- Other dialogs -->
+    
     <string name="basal_rate">Valandinė bazė</string>
-    <!--    BolusProgressDialog-->
+    
     <string name="stop_pressed">Paspausta STOP</string>
-    <!--QuickWizard-->
+    
     <string name="a11y_only_on_watch">tik laikrodyje</string>
     <string name="a11y_only_on_phone">tik telefone</string>
     <string name="quickwizard_settings">Greitojo patarėjo nustatymai</string>
@@ -134,10 +134,10 @@
     <string name="change_your_input">Pakeiskite įvestus duomenis!</string>
     <string name="confirm_treatment">Patvirtinkite terapiją</string>
     <string name="recalculate">Perskaičiuoti</string>
-    <!--    Widget-->
+    
     <string-array name="yes_no_positiveonly_negativeonly">
         <item>Abu</item>
         <item>Tik teigiamas</item>
         <item>Tik neigiamas</item>
     </string-array>
-</resources>
+<string name="autoISF_settings_summary">Automatinis JIF leidžia koreguoti insulino jautrumo faktorių (JIF) įvairiose glikemijos elgsenos situacijose\n\nJis taip pat gali koreguoti SMB suleidimo nustatymus</string><string name="graph_scale_6h">6h</string><string name="half_basal_exercise_target_title">Pusė bazinio insulino fizinio krūvio metu</string><string name="openapsama_pp_ISF_weight_summary">Tai svoris, kuris taikomas, kai glikemija kyla, ir kuris stiprina JIF, taip potencialiai didindamas insulino suleidimą.\n\nNumatytoji reikšmė 0,0 iš esmės išjungia šį efektą.</string><string name="dyn_isf_adjust_title">Dinaminio JIF derinimo faktorius %</string><string name="export_result_message_expired">Nustatymų eksportavimas atšauktas: slaptažodis pasibaigęs. Eksportuokite rankiniu būdu ir (pakartotinai) įveskite!</string><string name="dyn_isf_adjust_summary">Dinaminio JIF derinimo faktorius. Nustatykite daugiau nei 100% agresyvesniam koregavimui arba mažiau nei 100% švelnesniam koregavimui.</string><string name="triggerReservoirLevelDesc">Rezervuaro lygis %1$s %2$.0f</string><string name="export_expired">Galiojimo laikas baigėsi</string><string name="graph_long_scale_24h">24 val.</string><string name="a11y_graph_scale_6h">6 valandų grafiko mastelis</string><string name="autoisf_shortname">AUTOISF</string><string name="export_settings_short">Tekstas terapijoje:</string><string name="openapsama_smb_delivery_ratio">fiksuotas SMB suleidimo dydis\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Svoris, kai KG kilimas sulėtėja\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">12 valandų grafiko mastelis</string><string name="enableSMB_EvenOn_OddOff_always">Įjungti alternatyvų SMB aktyvavimą, priklausomą nuo to, ar aktyvi tikslinė glikemija yra lyginis skaičius</string><string name="choose_from_map">Choose from map</string><string name="extended_bolus_data_point_graph">%1$.2f vv ( %2$.2f vv/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="openapsama_autoISF_min_summary">Panašiai kaip autosens_min, šis parametras apibrėžia, kiek silpnas gali tapti JIF.\n\n Numatytoji reikšmė 1,0 iš esmės išjungia šį efektą.</string><string name="openapsama_bgBrake_ISF_weight_summary">Tai svoris, kuris taikomas, kai glikemija mažėja, ir kuris silpnina JIF, taip potencialiai mažindamas insulino suleidimą.\n\nNumatytoji reikšmė 0,0 iš esmės išjungia šį efektą.</string><string name="openapsama_smb_delivery_ratio_min_summary">Numatytoji reikšmė: 0,5. Tai yra apatinė ribinė reikšmė, naudojama linijiniam santykiui didinti, o ne fiksuota reikšmė, kaip nurodyta aukščiau.</string><string name="graph_scale_18h">18h</string><string name="a11y_graph_scale">parinkti grafiko mastelį</string><string name="triggerStepsCountDesc">Žingsnių skaičius per %1$s min %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Numatytoji reikšmė: 0,5. Tai yra viršutinė ribinė reikšmė, naudojama linijiniam santykiui didinti, o ne fiksuota reikšmė, kaip nurodyta aukščiau.</string><string name="sensitivity">Jautrumas insulinui</string><string name="overview_show_steps">Žingsniai</string><string name="openapsama_smb_delivery_ratio_max">kintamas SMB suleidimo dydis, viršutinė riba\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Parinkčių rinkinys, skirtas padidinti faktinį SMB, kuris gali būti suleistas situacijose, kai JIF sustiprintas, t. y. gana žemas JIF skaičius.\n\nNAUDOTI ATSARGIAI</string><string name="overview_show_variable_sens">Kintamas jautrumas</string><string name="nav_export">Eksportuoti nustatymus</string><string name="rate_percent_duration">Dydis: %1$.2f vv/val. (%2$.2f%%) Trukmė: %3$d min</string><string name="openapsama_pp_ISF_weight">JIF-diapazono svoris po valgio\n(pp_ISF_weight)</string><string name="export_result_message_about_to_expire">Nustatymai eksportuoti: slaptažodis greitai baigs galioti. Eksportuokite rankiniu būdu ir (pakartotinai) įveskite slaptažodį.</string><string name="export_result_message_failed">Nustatymų eksportas NEPAVYKO!</string><string name="triggerStepsCountDropdownLabel">Trukmė</string><string name="openapsama_lower_ISFrange_weight_summary">Tai svoris, kuris taikomas, kai glikemija yra mažesnė už tikslinę, ir kuris silpnina JIF, taip potencialiai mažindamas insulino suleidimą.\n\nNumatytoji reikšmė 0,0 iš esmės išjungia šį efektą.</string><string name="isf_dynamic_label_warning">Algoritmas gali dinamiškai apskaičiuoti JIF reikšmę. Pateiktos reikšmės naudojamos tik kaip atsarginis variantas, jei trūksta duomenų</string><string name="graph_scale_12h">12h</string><string name="location_permission_not_granted">Vietos nustatymo leidimas nesuteiktas. Suteikite leidimą Android nustatymuose.</string><string name="triggerInsulinAgeDesc">Insulino laikas %1$s %2$.1f val.</string><string name="algorithm_long">Autosens algoritme: %.0f%%</string><string name="export_result_message_exported">Nustatymai eksportuoti</string><string name="exportsettings_message">Nustatymų eksportas: %1$s</string><string name="triggerPumpBatteryAgeDesc">Pompos baterijos laikas %1$s %2$.1f val.</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Išjungta</string><string name="openapsama_iob_threshold_percent_summary">Didžiausio AIO procentas, virš kurio SMB yra išjungiami.\nNumatytoji reikšmė: 100%\nEsant 100%, ši funkcija yra išjungta.</string><string name="percent_rate_duration">Dydis: %1$.2f%% (%2$.2f vv/val) Trukmė: %3$d min</string><string name="simple_mode_enabled">Paprastas režimas įjungtas</string><string name="percent_rate_duration_formatted">&lt;b&gt;Dydis&lt;/b&gt;: %1$.2f%% (%2$.2f vv/val.)&lt;br&gt;&lt;b&gt;Trukmė&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Eksportuoti nustatymus</string><string name="triggerPodChangeLabel">Pod aktyvavimas</string><string name="triggerInsulinAgeLabel">Insulino laikas</string><string name="openapsama_lower_ISFrange_weight">žemesnio JIF-diapazono svoris\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Kateterio laikas</string><string name="triggerSensorAgeLabel">Sensoriaus laikas</string><string name="pump_disconnected">Pompa atjungta</string><string name="openapsama_iob_threshold_percent">Didžiausio AIO ribos procentas SMB\n(iob_threshold_percent)</string><string name="export_failed">Nepavyko</string><string name="triggerSensorAgeDesc">Sensoriaus laikas %1$s %2$.1f val.</string><string name="openapsama_bgAccel_ISF_weight">Svoris, kai KG aktyviai kyla\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">aukštesnio JIF-diapazono svoris\n(higher_ISFrange_weight)</string><string name="temp_basal_tsf_absolute">%1$.2f vv/val @%2$s</string><string name="graph_long_scale_12h">12 val.</string><string name="half_basal_exercise_target_summary">Nustatykite skaičių, pvz., 8,0, kuris reiškia, kad kai laikinas tikslas yra 8,0 mmol/l ir aukštas laikinas tikslas padidina jautrumą = TAIP, nustatykite 50%% laikiną bazę šiame lygyje (6,0 = 75%%; 4,8 = 60%%).</string><string name="openapsama_enable_autoISF">Įjungti JIF adaptaciją pagal KG pokyčius</string><string name="uel_select_directory">KATALOGO PARINKIMAS</string><string name="openapsama_autoISF_max">Maks. autoJIF dydis\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Numatytoji reikšmė: 1. Tai dar vienas svarbus OpenAPS saugos apribojimas, kuris nurodo, kiek kartų galite viršyti įprastą 120 maxSMB/maxNDM minučių ribą. Šią eksperimentinę reikšmę didinkite lėtai ir atsargiai.</string><string name="careportal_settings_export">Nustatymų eksportavimas</string><string name="openapsama_autoISF_min">Min. autoJIF dydis\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Pompos baterijos lygis</string><string name="extended_bolus_full">E %1$.2f vv/h @%2$s %3$s/%4$s min</string><string name="openapsama_smb_delivery_ratio_bg_range">kintamas SMB suleidimo dydis, susietas su gliukozės diapazonu\n(smb_delivery_ratio_bg_range)</string><string name="temp_basal_tsf_fake_extended">%1$.2f vv/val (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Įspėjimas (automatizacija): Nustatymų eksportavimas neįjungtas!</string><string name="enableSMB_EvenOn_OddOff_always_summary">\nįjungta ...\njei aktyvaus tikslo (mmol/L) dešimtainė dalis yra lyginė\narba aktyvus tikslas (mg/dl) yra lyginis skaičius\n\nkitu atveju - išjungta</string><string name="graph_long_scale_6h">6 val.</string><string name="smb_delivery_settings_title">SMB suleidimo nustatymai</string><string name="uel_reset_aps_results">APS REZULTATŲ NUSTATYMAS IŠ NAUJO</string><string name="export_ok">OK</string><string name="autosens_long">Autosens vertė: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Pompos baterijos laikas</string><string name="openapsama_smb_delivery_ratio_min">kintamas SMB suleidimo dydis, apatinė riba\n(smb_delivery_ratio_min)</string><string name="export_alert">DĖMESIO</string><string name="extended_bolus_medium">%1$.2f vv/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">24 valandų grafiko mastelis</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Numatytoji reikšmė: 0. Linijiškai didėjantis SMB leidimo santykis yra susietas su gliukozės diapazonu [target_bg, target_bg+bg_range].\nTies target_bg SMB dydis yra smb_delivery_ratio_min, ties target_bg+bg_range yra smb_delivery_ratio_max\nTies 0, linijiškai didėjantis SMB leidimo santykis yra išjungiamas ir naudojamas fiksuotas smb_delivery_ratio dydis.</string><string name="ic_dynamic_label_warning">Algoritmas gali dinamiškai apskaičiuoti IA reikšmę. Pateiktos reikšmės naudojamos tik kaip atsarginis variantas, jei trūksta duomenų</string><string name="triggerStepsCountLabel">Žingsniai</string><string name="use_dynamic_sensitivity_title">Įjungti dinaminį jautrumą</string><string name="autosens_short">AS: %.0f%%</string><string name="autoISF_settings_title">Automatinio JIF nustatymai</string><string name="rate_percent_duration_formatted">&lt;b&gt;Dydis&lt;/b&gt;: %1$.2f vv/val. (%2$.2f%%) &lt;br&gt;&lt;b&gt;Trukmė&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 val.</string><string name="openapsama_higher_ISFrange_weight_summary">Tai svoris, kuris taikomas, kai glikemija didesnė už tikslinę, ir kuris stiprina JIF, taip potencialiai didindamas insulino suleidimą.\n\nNumatytoji reikšmė 0,0 iš esmės išjungia šį efektą.</string><string name="openapsama_smb_max_range_extension">SMB/NDM maksimalaus dydžio prailginimas\n(smb_max_range_extension)</string><string name="isf_for_carbs">JIF skaičiuotuvui ir AV įsisavinimui: %1$.1f</string><string name="a11y_graph_scale_18h">18 valandų grafiko mastelis</string><string name="description_auto_isf">Naujausias algoritmas patyrusiems naudotojams su automatiniu JIF</string><string name="settingsexport">Nustatymų eksportavimas</string><string name="careportal_settings_export_message">Nustatymų eksportavimas: %1$s</string><string name="triggerPodChangeDesc">Pod aktyvuotas</string><string name="graph_scale_24h">24h</string><string name="openapsama_bgAccel_ISF_weight_summary">Tai svoris, kuris taikomas, kai glikemija sparčiai kyla, ir kuris stiprina JIF, taip potencialiai didindamas insulino suleidimą.\n\nNumatytoji reikšmė 0,0 iš esmės išjungia šį efektą.</string><string name="triggerPumpBatteryLevelDesc">Pompos baterijos lygis %1$s %2$.0f</string><string name="steps_shortname">ŽINGSNIAI</string><string name="triggerReservoirLevelLabel">Rezervuaro lygis</string><string name="triggerCannulaAgeDesc">Kateterio laikas %1$s %2$.1f val.</string><string name="variable_sensitivity_shortname">VSENS</string><string name="secs">%1$d sek.</string><string name="openapsama_dura_ISF_weight">dura_ISF svoris\n(dura_ISF_weight)</string><string name="export_warning">Įspėjimas</string><string name="openapsama_autoISF_max_summary">Panašiai kaip autosens_max, ši parinktis nustato, koks stiprus gali tapti JIF.\n\nNumatytoji reikšmė 1,0 faktiškai išjungia šį efektą.\n\nĮSPĖJIMAS: Būkite itin atsargūs naudodami reikšmes, didesnes nei 2,5</string><string name="openapsama_smb_delivery_ratio_summary">Numatytoji reikšmė: 0,5. Tai yra dar vienas svarbus OpenAPS saugos apribojimas, kuris nurodo, kokią dalį viso reikalingo insulino galima skirti kaip SMB. Šis apribojimas skirtas išvengti pavojingų situacijų, kai SMB užklausos siunčiamos tuo pačiu metu sekėjo globėjo telefono. Šią eksperimentinę reikšmę didinkite lėtai ir atsargiai.</string><string name="openapsama_dura_ISF_weight_summary">Tai svoris, kuris taikomas per ilgesnės trukmės aukštą glikemiją, ir kuris stiprina JIF, taip potencialiai didindamas insulino suleidimą.\n\nNumatytoji reikšmė 0,0 iš esmės išjungia šį efektą.</string><string name="fallback_to_isf_no_tdd">Grįžtama į profilio nustatytą jautrumą. Nepakanka duomenų. Priežastis: %1$s</string><string name="use_dynamic_sensitivity_summary">Pritaikyti algoritmą naudoti dinaminį jautrumą vietoje profilio reikšmės</string><string name="openaps_auto_isf">Automatinis JIF</string></resources>

@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--    General-->
+    
     <string name="refresh">Oppdater</string>
     <string name="error">Feil</string>
     <string name="profile_set_ok">Basalprofil i pumpen er oppdatert</string>
@@ -65,7 +65,7 @@
     <string name="carbs">Karbo</string>
     <string name="invalid_profile">Ugyldig profil!</string>
     <string name="no_profile_set">INGEN PROFIL VALGT</string>
-    <string name="active"><![CDATA[<Aktiv>]]></string>
+    <string name="active">&lt;Aktiv&gt;</string>
     <string name="date">Dato</string>
     <string name="units_label">Enheter</string>
     <string name="dia_label">DIA</string>
@@ -138,7 +138,7 @@
     <string name="a11y_low">lavt</string>
     <string name="average">Gjennomsnitt</string>
     <string name="tir">TIR</string>
-    <string name="none"><![CDATA[<ingen>]]></string>
+    <string name="none">&lt;ingen&gt;</string>
     <string name="remove_label">FJERN</string>
     <string name="activate_profile">Aktiver profil</string>
     <string name="reset">tilbakestill</string>
@@ -179,32 +179,32 @@
     <string name="extended_bolus_medium">%1$.2f E/t %2$s/%3$s\'</string>
     <string name="nav_export">Eksporter innstillinger</string>
     <string name="location_permission_not_granted">Lokasjonstillatelse er ikke gitt. Tillat i android-innstillinger.</string>
-    <!--    Protection-->
+    
     <string name="wrongpassword">Feil passord</string>
     <string name="wrongpin">Feil PIN-kode</string>
     <string name="passwords_dont_match">Passord stemmer ikke overens</string>
     <string name="pin_dont_match">PIN-kodene samsvarer ikke</string>
-    <!--    Profile-->
+    
     <string name="basalprofilenotaligned">Basalverdier er ikke angitt på hele timer: %1$s</string>
     <string name="minimalbasalvaluereplaced">Basalverdi erstattet med minste tillate verdi: %1$s</string>
     <string name="maximumbasalvaluereplaced">Basalverdi erstattet med høyeste tillate verdi: %1$s</string>
     <string name="profile_per_unit">/E</string>
     <string name="profile_ins_units_per_hour">E/t</string>
     <string name="profile_carbs_per_unit">g/E</string>
-    <!--    ProfileFunction-->
+    
     <string name="startprofile">Start profil %1$d%% i %2$d min</string>
-    <!--    APSResult-->
+    
     <string name="cancel_temp">Avbryt midl. basal</string>
     <string name="let_temp_basal_run">Fortsett midl. basal</string>
     <string name="rate">Dose</string>
     <string name="duration">Varighet</string>
     <string name="reason">Årsak</string>
     <string name="nochangerequested">Ingen endring behøves</string>
-    <!--    ProfileSwitch-->
+    
     <string name="zerovalueinprofile">Ugyldig profil: %1$s</string>
-    <!--    Temptarget-->
+    
     <string name="mins">%1$d min</string>
-    <!--    Translator-->
+    
     <string name="careportal">Helseportal</string>
     <string name="careportal_bgcheck">BS-kontroll</string>
     <string name="careportal_mbg">Manuelt BS eller kalibrering</string>
@@ -252,18 +252,18 @@
     <string name="loop">Loop</string>
     <string name="ns">NS</string>
     <string name="record">Registrer</string>
-    <!--    Command-->
+    
     <string name="connectiontimedout">Tilkoblingen ble tidsavbrutt</string>
-    <!--    PumpEnactResult-->
+    
     <string name="enacted">Utført</string>
     <string name="comment">Kommentar</string>
     <string name="percent">Prosent</string>
     <string name="absolute">Absolutt</string>
     <string name="waitingforpumpresult">Venter på resultat</string>
     <string name="smb_shortname">SMB</string>
-    <!--    CarbsReq-->
+    
     <string name="carbsreq">%1$d g ekstra karbohydrater kreves innen %2$d minutter</string>
-    <!--    TDDStatsActivity-->
+    
     <string name="cumulative_tdd">Akkumulert TDD</string>
     <string name="expweight">Eksponentielt vektet TDD</string>
     <string name="basalrate">Basal</string>
@@ -276,9 +276,9 @@
     <string name="olddata_Message">Gamle data. Vennligst trykk \"HENT\"</string>
     <string name="tbb">Total grunnbasal</string>
     <string name="tbb2">TBB * 2</string>
-    <!--    Ntp-->
+    
     <string name="timedetection">Tidsdetektering</string>
-    <!-- User Entry -->
+    
     <string name="uel_bolus">BOLUS</string>
     <string name="uel_bolus_calculator">BOLUSKALKULATOR</string>
     <string name="uel_bolus_advisor">BOLUSASSISTENT</string>
@@ -373,7 +373,7 @@
     <string name="uel_loop_change">LOOP ENDRET</string>
     <string name="uel_loop_removed">LOOP FJERNET</string>
     <string name="uel_other">ANNET</string>
-    <!-- HardLimits -->
+    
     <string name="profile_low_target">Profil lavt mål</string>
     <string name="profile_high_target">Profil høyt mål</string>
     <string name="temp_target_low_target">Nedre grense for midlertidig mål</string>
@@ -388,7 +388,7 @@
     <string name="valueoutofrange">»%1$s« er utenfor lovlige grenseverdier</string>
     <string name="value_out_of_hard_limits">»%1$s« %2$.2f er utenfor lovlige grenseverdier</string>
     <string name="basal_value">Basalverdi</string>
-    <!-- Command Queue + readStatus reasons -->
+    
     <string name="bolus_u_min">BOLUS %1$.2f E</string>
     <string name="carbs_g">KARBO %1$d g</string>
     <string name="extended_bolus_u_min">UTVIDET BOLUS %1$.2f E %2$d min</string>
@@ -421,19 +421,19 @@
     <string name="algorithm_short">Alg: %.0f%%</string>
     <string name="a11y_file">fil</string>
     <string name="a11y_user">bruker</string>
-    <!-- Autotune -->
+    
     <string name="autotune">Autotune</string>
     <string name="autotune_tune_days">Antall dager:</string>
     <string name="autotune_select_profile">Velg profil du vil justere</string>
-    <!-- Alerts -->
+    
     <string name="raise_notifications_as_android_notifications">Bruk systemvarslinger for alarmer og varslinger</string>
     <string name="urgent_alarm">Viktig varsel</string>
     <string name="info">INFO</string>
-    <!-- BolusWizard -->
+    
     <string name="bolus_advisor">Bolusveiviser</string>
     <string name="bolus_advisor_message">Du har høyt blodsukker. I stedet for å spise nå er det bedre å utsette det til du har et lavere blodsukker. Ønsker du å sette en korreksjonsbolus nå og få en påminnelse om når det er på tide å spise? I dette tilfellet vil ingen karbohydrater registreres nå, og du må bruke boluskalkulatoren igjen når vi gir deg en påminnelse.</string>
     <string name="cobvsiob">COB vs IOB</string>
-    <string name="slowabsorptiondetected"><![CDATA[<font color=\'%1$s\'>!! Advarsel: Oppdaget treg absorpsjon av karbohydrater: %2$d%% av tiden. Dobbeltsjekk din beregning. COB kan være misvisende og du risikerer å få for mye insulin !!</font>]]></string>
+    <string name="slowabsorptiondetected">&lt;font color=\'%1$s\'&gt;!! Advarsel: Oppdaget treg absorpsjon av karbohydrater: %2$d%% av tiden. Dobbeltsjekk din beregning. COB kan være misvisende og du risikerer å få for mye insulin !!&lt;/font&gt;</string>
     <string name="partialboluswizard">Doser denne delen av resultatet fra boluskalkulatoren [%]</string>
     <string name="partialboluswizard_reset_time">Terskel for gammel BS-verdi [min]</string>
     <string name="bolus_constraint_applied_warn">Bolus begrensning brukt: %1$.2f E til %2$.2f E</string>
@@ -459,7 +459,7 @@
     <string name="wizard_explain_tt_to">%1$s til %2$s</string>
     <string name="wizard_pump_not_available">Ingen pumpe tilgjengelig!</string>
     <string name="quickwizard">Hurtigknapp</string>
-    <!--    Preferences-->
+    
     <string name="child">Barn</string>
     <string name="teenage">Tenåring</string>
     <string name="adult">Voksen</string>
@@ -469,9 +469,9 @@
     <string name="max_bolus_title">Maks tillatt bolus [E]</string>
     <string name="max_carbs_title">Maks tillatt karbohydrater [g]</string>
     <string name="patient_type">Pasienttype</string>
-    <!--    Protection-->
+    
     <string name="unlock_settings">Lås opp innstillinger</string>
-    <!--    Pumps -->
+    
     <string name="battery_label">Batteri</string>
     <string name="reservoir_label">Reservoar</string>
     <string name="last_connection_label">Siste tilkobling</string>
@@ -501,13 +501,13 @@
     <string name="pairing">Sammenkobler</string>
     <string name="initializing">Initialiserer...</string>
     <string name="secs" comment="second short">%1$d s</string>
-    <!--    Constraints-->
+    
     <string name="limitingbasalratio">Begrenser maks basaldose til %1$.2f E/t på grunn av %2$s</string>
     <string name="pumplimit">pumpebegrensning</string>
     <string name="limitingpercentrate">Begrenser maks prosentsats til %1$d%% på grunn av %2$s</string>
     <string name="itmustbepositivevalue">det på være positiv verdi</string>
     <string name="limitingbolus">Begrenser bolus til %1$.1f E på grunn av %2$s</string>
-    <!--    Dialogs-->
+    
     <string name="confirmation">Bekreftelse</string>
     <string name="message">Melding</string>
     <string name="ok">OK</string>
@@ -516,44 +516,44 @@
     <string name="yes">Ja</string>
     <string name="no">Nei</string>
     <string name="close">Lukk</string>
-    <!-- TwoMessagesDialog -->
+    
     <string name="password_preferences_decrypt_prompt">Du må angi et hovedpassord som vil bli brukt for å lese inn og dekryptere innstillinger.</string>
-    <!-- <unattended_export> -->
+    
     <string name="export_ok">OK</string>
     <string name="export_warning">Advarsel</string>
     <string name="export_expired">Utløpt</string>
     <string name="export_disabled">Deaktivert</string>
     <string name="export_failed">Mislyktes</string>
     <string name="export_alert">Varsel</string>
-    <!-- <unattended_export result messages> -->
+    
     <string name="export_result_message_exported">Innstillinger eksportert</string>
     <string name="export_result_message_failed">Eksport av innstillinger MISLYKTES!</string>
     <string name="export_result_message_about_to_expire">Innstillinger eksportert: passord er i ferd med å utløpe snart. Eksporter manuelt og skriv inn passord på nytt.</string>
     <string name="export_result_message_expired">Eksport av innstillinger avbrutt: passord utløpt. Eksporter manuelt og skriv inn passord på nytt!</string>
     <string name="export_result_message_disabled">Advarsel (automatisering): Eksport av innstillinger er ikke aktivert!</string>
-    <!-- NumberPicker -->
+    
     <string name="a11y_min_button_description">reduser %1$s med %2$s</string>
     <string name="a11y_plus_button_description">øk %1$s med %2$s</string>
     <string name="you_are_on_allowed_limit">Tillatt grense nådd</string>
     <string name="format_hour_minute">%1$dt %2$dm</string>
-    <!-- datetime layout -->
+    
     <string name="event_time_label">Tidspunkt for hendelse</string>
-    <!-- BluetoothDevicePreference -->
+    
     <string name="need_connect_permission">Appen trenger bluetooth-tillatelse</string>
-    <!--    Combo-->
+    
     <string name="user_request" comment="26 characters max for translation">Brukerforespørsel</string>
     <string name="pump_paired" comment="26 characters max for translation">Pumpe sammenkoblet</string>
-    <!--    BlePreCheck-->
+    
     <string name="ble_not_supported">Lavenergi Bluetooth er ikke støttet.</string>
     <string name="ble_not_supported_or_not_paired">Lavenergi Bluetooth er ikke støttet eller enheten er ikke sammenkoblet.</string>
     <string name="ble_not_enabled">Bluetooth er ikke aktivert.</string>
     <string name="location_not_found_title">Stedstjeneste er ikke aktivert</string>
     <string name="location_not_found_message">Bluetooth søk på nye mobiler virker bare når posisjonstjeneste er aktivert. AAPS lagrer ikke dine posisjonsdata og den kan derfor slås av etter vellykket sammenkobling.</string>
-    <!--    Preferences -->
+    
     <string name="nav_plugin_preferences">Innstillinger for plugin</string>
-    <!-- SmsCommunicator -->
+    
     <string name="smscommunicator_missingsmspermission">Mangler SMS-tillatelse</string>
-    <!-- About -->
+    
     <string name="cta_dont_kill_my_app_info">Ikke steng appen min?</string>
     <string name="fabric_upload_disabled">Opplast av krasjlogger er deaktivert!</string>
     <string name="about_link_urls">\n\nDokumentasjon:\nhttps://androidaps.readthedocs.io\n\nFacebook:\nhttps://www.facebook.com/groups/AndroidAPSUsers</string>
@@ -569,11 +569,11 @@
         <item quantity="one">%1$d minutt</item>
         <item quantity="other">%1$d minutter</item>
     </plurals>
-    <!--    Maintenance-->
+    
     <string name="cleanup_db_confirm">Vil du rydde opp i databasen?\nDet vil fjerne sporede endringer og historiske data eldre enn 3 måneder.</string>
     <string name="cleanup_db_confirm_sync">Vil du rydde opp i databasen?\nDet vil fjerne sporede endringer og historiske data eldre enn 3 måneder.\nÅ gjøre dette vil øke hastigheten på synkronisering betydelig.</string>
     <string name="cleared_entries">Fjernet oppføringer</string>
-    <!--    Weekday-->
+    
     <string name="weekday_sunday_short">Søn</string>
     <string name="weekday_saturday_short">Lør</string>
     <string name="weekday_friday_short">Fre</string>
@@ -581,7 +581,7 @@
     <string name="weekday_wednesday_short">Ons</string>
     <string name="weekday_tuesday_short">Tir</string>
     <string name="weekday_monday_short">Man</string>
-    <!-- WeekdayPicker -->
+    
     <string name="monday_short">M</string>
     <string name="tuesday_short">Ti</string>
     <string name="wednesday_short">O</string>
@@ -589,11 +589,11 @@
     <string name="friday_short">F</string>
     <string name="saturday_short">L</string>
     <string name="sunday_short">S</string>
-    <!--    DecimalFormatterImpl -->
+    
     <string name="format_insulin_units1">%1$.1f E</string>
     <string name="format_insulin_units">%1$.2f E</string>
     <string name="percent_rate_duration">Dose: %1$.2f%% (%2$.2f E/t) Varighet: %3$d min</string>
     <string name="rate_percent_duration">Dose: %1$.2f E/t (%2$.2f%%) Varighet: %3$d min</string>
-    <string name="percent_rate_duration_formatted"><![CDATA[<b>Dose</b>: %1$.2f%% (%2$.2f E/t)<br><b>Varighet</b>: %3$d min<br>]]></string>
-    <string name="rate_percent_duration_formatted"><![CDATA[<b>Dose</b>: %1$.2f E/t (%2$.2f%%) <br><b>Varighet</b>: %3$d min<br>]]></string>
-</resources>
+    <string name="percent_rate_duration_formatted">&lt;b&gt;Dose&lt;/b&gt;: %1$.2f%% (%2$.2f E/t)&lt;br&gt;&lt;b&gt;Varighet&lt;/b&gt;: %3$d min&lt;br&gt;</string>
+    <string name="rate_percent_duration_formatted">&lt;b&gt;Dose&lt;/b&gt;: %1$.2f E/t (%2$.2f%%) &lt;br&gt;&lt;b&gt;Varighet&lt;/b&gt;: %3$d min&lt;br&gt;</string>
+<string name="autoISF_settings_summary">AutoISF gjør det mulig å tilpasse insulinsensitivitetsfaktoren (ISF) i ulike scenarier av glukoseadferd\n\nDet kan også tilpasse SMB leveringsinnstillinger</string><string name="graph_scale_6h">6t</string><string name="half_basal_exercise_target_title">Halv basal treningsmålverdi</string><string name="openapsama_pp_ISF_weight_summary">Dette er vekten som tillegges når glukosen stiger og som styrker ISF og dermed potensielt øker insulinleveransen.\n\nStandardverdien 0.0 skrur effektivt av denne effekten.</string><string name="dyn_isf_adjust_title">Dynamisk ISF justeringsfaktor %</string><string name="dyn_isf_adjust_summary">Justeringsfaktor for Dynamisk ISF. Verdier over 100% vil gi mer aggressive korreksjonsdoser, mens verdier under 100% vil gi mindre aggressive korreksjoner.</string><string name="triggerReservoirLevelDesc">Reservoarnivå %1$s %2$.0f</string><string name="graph_long_scale_24h">24 timer</string><string name="a11y_graph_scale_6h">graf-skala 6 timer</string><string name="autoisf_shortname">AUTOISF</string><string name="export_settings_short">Tekst i behandlinger:</string><string name="openapsama_smb_delivery_ratio">fast SMB-leveringsforhold\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Vekting mens BS bremser\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">graf-skala 12 timer</string><string name="enableSMB_EvenOn_OddOff_always">Aktiver alternativ aktivering av SMB avhengig av om aktiv målverdi er et partall</string><string name="choose_from_map">Velg fra kartet</string><string name="temp_basal_overview_short_name">M:</string><string name="openapsama_autoISF_min_summary">På samme måte som autosens_min definerer dette hvor svak ISF kan bli.\n\nStandardverdien 1.0 demper effektivt denne effekten.</string><string name="openapsama_bgBrake_ISF_weight_summary">Dette er vekten som tillegges når glukosen er deakselererer og svekker ISF og dermed potensielt reduserer insulinleveransen.\n\nStandardverdien 0.0 skrur effektivt av denne effekten.</string><string name="openapsama_smb_delivery_ratio_min_summary">Standardverdi: 0.5 Dette er den nedre enden av et lineært økende forhold i stedet for fiksverdien ovenfor.</string><string name="graph_scale_18h">18t</string><string name="a11y_graph_scale">velg graf-skala</string><string name="triggerStepsCountDesc">Antall skritt per %1$s minutter %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Standardverdi: 0.5 Dette er den øvre enden av et lineært økende forhold i stedet for fiksverdien ovenfor.</string><string name="overview_show_steps">Skritt</string><string name="openapsama_smb_delivery_ratio_max">variabel SMB-leveringsforhold, øvre ende\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Sett med alternativer for å øke den faktiske SMB-størrelsen som kan leveres i situasjoner der ISF ble styrket, f.eks. ganske lavt ISF-tall.\n\nBRUK MED FORSIKTIGHET</string><string name="overview_show_variable_sens">Dynamisk ISF</string><string name="openapsama_pp_ISF_weight">postprandial ISF-vekting\n(pp_ISF_weight)</string><string name="triggerStepsCountDropdownLabel">Varighet for måling</string><string name="openapsama_lower_ISFrange_weight_summary">Dette er vekten som tillegges når glukosen er under målet og svekker ISF og dermed potensielt reduserer insulinleveransen.\n\nStandardverdien 0.0 skrur effektivt av denne effekten.</string><string name="isf_dynamic_label_warning">Algoritmen din kan gi dynamisk beregning av ISF. Verdiene nedenfor brukes bare som en reserveløsning i tilfelle av manglende data eller bare som en referanseverdi</string><string name="graph_scale_12h">12t</string><string name="triggerInsulinAgeDesc">Insulinalder %1$s %2$.1f time</string><string name="exportsettings_message">Eksporter innstillinger: %1$s</string><string name="triggerPumpBatteryAgeDesc">Batterialder for pumpe %1$s %2$.1f time</string><string name="openapsama_iob_threshold_percent_summary">Prosentandel av maxIOB over for når SMB\'er er deaktivert.\nStandardverdi: 100 %\nMed 100 % er denne funksjonen er effektivt deaktivert.</string><string name="simple_mode_enabled">Enkel modus aktivert</string><string name="triggerPodChangeLabel">Pod-aktivering</string><string name="triggerInsulinAgeLabel">Insulinalder</string><string name="openapsama_lower_ISFrange_weight">nedre ISF-områdevekting\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Kanylealder</string><string name="triggerSensorAgeLabel">Sensoralder</string><string name="pump_disconnected">Pumpe frakoblet</string><string name="openapsama_iob_threshold_percent">maxIOB terskelprosent for SMB\n(iob_threshold_percent)</string><string name="triggerSensorAgeDesc">Sensoralder %1$s %2$.1f time</string><string name="openapsama_bgAccel_ISF_weight">Vekting mens BS akselererer\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">høyere ISF-områdevekting\n(higher_ISFrange_weight)</string><string name="graph_long_scale_12h">12 timer</string><string name="half_basal_exercise_target_summary">Sett til et tall, f.eks. 160, noe som betyr at når midlertidig mål er 160 mg/dL (~8.9 mmol/l) og høy midlertidig mål øker sensitiviteten=sant, settes 50%% basal på dette nivået (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">Aktiver ISF-tilpasning etter glukoseoppførsel</string><string name="openapsama_autoISF_max">Maksimal AutoISF-forhold\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Standardverdi: 1 Dette er en annen viktig OpenAPS sikkerhetsgrense, og angir med hvilken faktor du kan overstige de vanlige 120 maxSMB/maxUAM-minuttene. Øk denne eksperimentelle verdien sakte og med forsiktighet.</string><string name="openapsama_autoISF_min">Minimal AutoISF-forhold\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Batterinivå for pumpe</string><string name="openapsama_smb_delivery_ratio_bg_range">variabel SMB leveringsforhold, kartlagt glukoseområde\n(smb_delivery_ratio_bg_range)</string><string name="enableSMB_EvenOn_OddOff_always_summary">\naktivert ...\nhvis aktivt mål (mmol/L) har partall desimal\neller aktivt mål (mg/dL) er partall\n\ndeaktivert ellers</string><string name="graph_long_scale_6h">6 timer</string><string name="smb_delivery_settings_title">SMB leveringsinnstillinger</string><string name="triggerPumpBatteryAgeLabel">Batterialder for pumpe</string><string name="openapsama_smb_delivery_ratio_min">variabel SMB leveringsforhold, nedre ende\n(smb_delivery_ratio_min)</string><string name="a11y_graph_scale_24h">graf-skala 24 timer</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Standardverdi: 0. Det lineært økende SMB-leveringsforholdet er kartlagt til glukoseområdet [target_bg, target_bg+bg_range].\nVed target_bg er SMB-forholdet smb_delivery_ratio_min, ved target_bg+bg_range er det smb_delivery_ratio_max.\nMed 0 er det lineært økende SMB-forholdet deaktivert og den faste smb_delivery_ratio brukes.</string><string name="ic_dynamic_label_warning">Algoritmen din kan gi dynamisk beregning av IK. Verdiene nedenfor brukes bare som en reserveløsning i tilfelle av manglende data eller bare som en referanseverdi</string><string name="triggerStepsCountLabel">Antall skritt</string><string name="use_dynamic_sensitivity_title">Aktiver dynamisk sensitivitet</string><string name="autoISF_settings_title">AutoISF-innstillinger</string><string name="graph_long_scale_18h">18 timer</string><string name="openapsama_higher_ISFrange_weight_summary">Dette er vekten som tillegges når glukosen er over målet og styrker ISF og dermed potensielt øker insulinleveransen.\n\nStandardverdien 0.0 skrur effektivt av denne effekten.</string><string name="openapsama_smb_max_range_extension">SMB/UAM maksimal rekkeviddeforlengelse\n(smb_max_range_extension)</string><string name="a11y_graph_scale_18h">graf-skala 18 timer</string><string name="description_auto_isf">Nyeste algoritme for avanserte brukere med utvidelsen AutoISF</string><string name="triggerPodChangeDesc">Pod aktivert</string><string name="graph_scale_24h">24t</string><string name="openapsama_bgAccel_ISF_weight_summary">Dette er vekten som tillegges når glukosen akselererer og som styrker ISF og dermed potensielt øker insulinleveransen.\n\nStandardverdien 0.0 skrur effektivt av denne effekten.</string><string name="triggerPumpBatteryLevelDesc">Batterinivå for pumpe %1$s %2$.0f</string><string name="steps_shortname">SKRITT</string><string name="triggerReservoirLevelLabel">Reservoarnivå</string><string name="triggerCannulaAgeDesc">Kanylealder %1$s %2$.1f time</string><string name="variable_sensitivity_shortname">DISF</string><string name="openapsama_dura_ISF_weight">dura_ISF-vekting\n(dura_ISF_weight)</string><string name="openapsama_autoISF_max_summary">På samme måte som autosens_max definerer dette hvor sterk ISF kan bli.\n\nStandardverdien 1 skrur effekten effektivt av.\n\nADVARSEL: Vær ekstremt forsiktig når du bruker verdier over 2.5</string><string name="openapsama_smb_delivery_ratio_summary">Standardverdi: 0.5 Dette er en annen viktig OpenAPS sikkerhetsgrense, og angir hvilken andel av den totale insulin som kreves kan leveres som SMB. Dette er for å forhindre at personer kommer inn i farlig territorium ved å sette SMB-forespørsler fra omsorgspersonens telefon samtidig. Øk denne eksperimentelle verdien sakte og med forsiktighet.</string><string name="openapsama_dura_ISF_weight_summary">Dette er vekten som tillegges over lengre forhøyet glukoseplatåer og som styrker ISF og dermed potensielt øker insulinleveransen.\n\nStandardverdien 0.0 skrur effektivt av denne effekten.</string><string name="fallback_to_isf_no_tdd">Faller tilbake til profilsensitivitet. Ikke nok TDD-data. Årsak: %1$s</string><string name="use_dynamic_sensitivity_summary">Juster algoritmen til å bruke dynamisk sensitivitet istedenfor profilverdi</string><string name="openaps_auto_isf">AutoISF</string></resources>

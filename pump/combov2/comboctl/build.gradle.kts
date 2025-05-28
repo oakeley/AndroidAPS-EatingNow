@@ -12,6 +12,17 @@ android {
         kotlin.srcDir("src/commonMain/kotlin")
         kotlin.srcDir("src/androidMain/kotlin")
         manifest.srcFile("src/androidMain/AndroidManifest.xml")
+    
+    compileOptions {
+        // Let Meerkat/AS handle JVM version selection
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    
+    kotlinOptions {
+        // Conservative JVM target - let toolchain override if needed
+        jvmTarget = "1.8"
+    }
     }
     sourceSets.getByName("test") {
         kotlin.srcDir("src/jvmTest/kotlin")

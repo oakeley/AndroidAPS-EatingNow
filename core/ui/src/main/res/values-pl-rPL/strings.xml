@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--    General-->
+    
     <string name="refresh">Odśwież</string>
     <string name="error">Błąd</string>
     <string name="profile_set_ok">Profil bazowy w pompie uaktualniony</string>
@@ -65,7 +65,7 @@
     <string name="carbs">Węglowodany</string>
     <string name="invalid_profile">Nieprawidłowy profil!</string>
     <string name="no_profile_set">NIE USTAWIONO PROFILU</string>
-    <string name="active"><![CDATA[<Aktywny>]]></string>
+    <string name="active">&lt;Aktywny&gt;</string>
     <string name="date">Data</string>
     <string name="units_label">Jednostki</string>
     <string name="dia_label">DIA</string>
@@ -89,7 +89,6 @@
     <string name="removerecord">Usuń wpis</string>
     <string name="loopisdisabled">Pętla jest wyłączona</string>
     <string name="alarm">Alarm</string>
-    <string name="exportsettings">Eksport ustawień</string>
     <string name="disableloop">Wyłącz pętle</string>
     <string name="enableloop">Włącz pętle</string>
     <string name="resumeloop">Wznów pętlę</string>
@@ -114,7 +113,7 @@
     <string name="bg_label">BG</string>
     <string name="calibration">Kalibracja</string>
     <string name="alarminxmin">Uruchom alarm za %1$d min</string>
-    <string name="treatmentdeliveryerror">Błąd podczas podawania bolusa. Sprawdź ręcznie ile faktycznie podano insuliny i ilość węglowodanów</string>
+    <string name="treatmentdeliveryerror">Błąd podczas podawania bolusa. Sprawdź ręcznie rzeczywiście dostarczoną ilość</string>
     <string name="bolus_reminder">Przypomnienie bolusa</string>
     <string name="duration_label">Czas trwania</string>
     <string name="shortgramm">g</string>
@@ -138,7 +137,7 @@
     <string name="a11y_low">niskie</string>
     <string name="average">Średnio</string>
     <string name="tir">TIR</string>
-    <string name="none"><![CDATA[<brak>]]></string>
+    <string name="none">&lt;brak&gt;</string>
     <string name="remove_label">USUŃ</string>
     <string name="activate_profile">Aktywuj profil</string>
     <string name="reset">ponowne uruchomienie</string>
@@ -171,50 +170,40 @@
     <string name="iob_label">Aktywna insulina (IOB)</string>
     <string name="loopstatus_targets">CELE:</string>
     <string name="loopstatus_OAPS_result">WYNIK OAPS:</string>
-    <string name="extended_bolus_data_point_graph">%1$.2f U ( %2$.2f U/h )</string>
-    <string name="temp_basal_tsf_fake_extended">%1$.2f U/h (%2$.2fE) @%3$s</string>
-    <string name="temp_basal_tsf_absolute">%1$.2f U/h @%2$s</string>
-    <string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string>
-    <string name="extended_bolus_full">E %1$.2f U/h @%2$s %3$s/%4$s min</string>
-    <string name="extended_bolus_medium">%1$.2f U/h %2$s/%3$s\'</string>
-    <string name="nav_export">Eksport ustawień</string>
-    <string name="location_permission_not_granted">Nie przyznano uprawnień do lokalizacji. Pozwól aplikacji AAPS na lokalizację w ustawieniach Androida.</string>
-    <!--    Protection-->
+    
     <string name="wrongpassword">Złe hasło</string>
     <string name="wrongpin">Nieprawidłowy PIN</string>
     <string name="passwords_dont_match">Hasła się nie zgadzają</string>
     <string name="pin_dont_match">Kody PIN nie pasują do siebie</string>
-    <!--    Profile-->
+    
     <string name="basalprofilenotaligned">Wartości bazy nie są ustawione w pełnych godzinach: %1$s</string>
     <string name="minimalbasalvaluereplaced">Wartość bazy zastąpiona minimalną obsługiwaną wartością: %1$s</string>
     <string name="maximumbasalvaluereplaced">Wartość bazy zastąpiona maksymalną obsługiwaną wartością: %1$s</string>
     <string name="profile_per_unit">/U</string>
     <string name="profile_ins_units_per_hour">U/h</string>
     <string name="profile_carbs_per_unit">g/U</string>
-    <!--    ProfileFunction-->
+    
     <string name="startprofile">Uruchom profil %1$d%% na %2$d min</string>
-    <!--    APSResult-->
+    
     <string name="cancel_temp">Anuluj bazę tymczasową</string>
     <string name="let_temp_basal_run">Pozwól na działanie bazy tymczasowej</string>
     <string name="rate">Wartość</string>
     <string name="duration">Czas trwania</string>
     <string name="reason">Powód</string>
     <string name="nochangerequested">Zmiana nie wymagana</string>
-    <!--    ProfileSwitch-->
+    
     <string name="zerovalueinprofile">Nieprawidłowy profil: %1$s</string>
-    <!--    Temptarget-->
+    
     <string name="mins">%1$d min</string>
-    <!--    Translator-->
+    
     <string name="careportal">PortalOpieki</string>
     <string name="careportal_bgcheck">Sprawdź BG</string>
     <string name="careportal_mbg">Ręczny pomiar cukru lub kalibracja</string>
     <string name="careportal_announcement">Powiadomienie</string>
-    <string name="careportal_settings_export">Eksport ustawień</string>
     <string name="careportal_note">Notatka</string>
     <string name="careportal_question">Pytanie</string>
     <string name="careportal_exercise">Ćwiczenia</string>
     <string name="careportal_announcement_message">Ogłoszenie: %1$s</string>
-    <string name="careportal_settings_export_message">Eksport ustawień : %1$s</string>
     <string name="careportal_note_message">Wskazówka: %1$s</string>
     <string name="careportal_question_message">Pytanie : %1$s</string>
     <string name="careportal_exercise_message">Ćwiczenie: %1$s</string>
@@ -247,23 +236,22 @@
     <string name="activity">Ćwiczenia</string>
     <string name="wear">Oprogramowanie Wear (Smartwatch)</string>
     <string name="automation">Automatyzacja</string>
-    <string name="settingsexport">Eksport ustawień</string>
     <string name="custom">Niestandardowe</string>
     <string name="loop">Pętla</string>
     <string name="ns">NS</string>
     <string name="record">Wpis</string>
-    <!--    Command-->
+    
     <string name="connectiontimedout">Przekroczono limit czasu połączenia</string>
-    <!--    PumpEnactResult-->
+    
     <string name="enacted">Wykonane</string>
     <string name="comment">Komentarz</string>
     <string name="percent">Procent</string>
     <string name="absolute">Całkowity</string>
     <string name="waitingforpumpresult">Oczekiwanie na wynik</string>
     <string name="smb_shortname">SMB</string>
-    <!--    CarbsReq-->
+    
     <string name="carbsreq">Zalecane podanie %1$d g węglowodanów w przeciągu %2$d minut</string>
-    <!--    TDDStatsActivity-->
+    
     <string name="cumulative_tdd">Kumulatywna TDD (dawka dzienna)</string>
     <string name="expweight">Ważona wykładniczo TDD</string>
     <string name="basalrate">Baza</string>
@@ -276,9 +264,9 @@
     <string name="olddata_Message">Stare dane, naciśnij \"ZAŁADUJ PONOWNIE\"</string>
     <string name="tbb">Suma dzienna bazy (TBB)</string>
     <string name="tbb2">TBB * 2</string>
-    <!--    Ntp-->
+    
     <string name="timedetection">Wykrywanie czasu</string>
-    <!-- User Entry -->
+    
     <string name="uel_bolus">BOLUS</string>
     <string name="uel_bolus_calculator">KALKULATOR BOLUSA</string>
     <string name="uel_bolus_advisor">KALKULATOR BOLUSA</string>
@@ -349,9 +337,7 @@
     <string name="delete_future_treatments">Usuń przyszłe zabiegi</string>
     <string name="uel_export_settings">EXPORT USTAWIEŃ</string>
     <string name="uel_import_settings">IMPORT USTAWIEŃ</string>
-    <string name="uel_select_directory">WYBIERZ KATALOG</string>
     <string name="uel_reset_databases">RESET BAZ DANYCH</string>
-    <string name="uel_reset_aps_results">RESET WYNIKÓW APS</string>
     <string name="uel_cleanup_databases">WYCZYŚĆ BAZY DANYCH</string>
     <string name="uel_export_databases">EKSPORT BAZ DANYCH</string>
     <string name="uel_import_databases">IMPORT BAZ DANCH</string>
@@ -373,7 +359,7 @@
     <string name="uel_loop_change">PĘTLA ZMIENIONA</string>
     <string name="uel_loop_removed">PĘTLA USUNIĘTA</string>
     <string name="uel_other">INNE</string>
-    <!-- HardLimits -->
+    
     <string name="profile_low_target">Dolna granica celu profilu</string>
     <string name="profile_high_target">Górna granica celu profilu</string>
     <string name="temp_target_low_target">Dolna wartość celu tymczasowego</string>
@@ -388,7 +374,7 @@
     <string name="valueoutofrange">Wartość »%1$s« jest poza dopuszczalną granicą</string>
     <string name="value_out_of_hard_limits">Wartość »%1$s« %2$.2f jest poza dopuszczalną granicą</string>
     <string name="basal_value">Wartość bazy</string>
-    <!-- Command Queue + readStatus reasons -->
+    
     <string name="bolus_u_min">BOLUS %1$.2f U</string>
     <string name="carbs_g">WĘGLOW. %1$d g</string>
     <string name="extended_bolus_u_min">BOLUS PRZEDŁ. %1$.2f U %2$d min</string>
@@ -415,19 +401,64 @@
     <string name="basalpct">Baza %</string>
     <string name="a11y_file">plik</string>
     <string name="a11y_user">użytkownik</string>
-    <!-- Autotune -->
+    
     <string name="autotune">Autotune</string>
+    <string name="autotune_description">Pomoc w ewentualnym dostosowaniu profilu (ISF, współczynnik węglowodanów i dawki bazowe)</string>
+    <string name="autotune_shortname">AT</string>
+    <string name="autotune_settings">Ustawienia Autotune</string>
+    <string name="autotune_auto_title">Zmiana profilu w Automatyzacji</string>
+    <string name="autotune_auto_summary">Jeśli włączono, autotune automatycznie zaktualizuje i przełączy się na podany profil po obliczeniu z reguły automatyzacji.</string>
+    <string name="autotune_categorize_uam_as_basal_title">Kategoryzuj UAM jako bazę</string>
+    <string name="autotune_categorize_uam_as_basal_summary">Włącz tylko wtedy, gdy sumiennie i dokładnie wprowadzano wszystkie zjedzone węglowodany. Z tą opcją nagłe wzrosty obserwowane przez Autotune będą używane do rekomendowania zmian dawki bazowej.</string>
+    <string name="autotune_tune_insulin_curve_title">Dostrój krzywą insuliny</string>
+    <string name="autotune_tune_insulin_curve_summary">Włącz tylko jeśli korzystasz z samodzielnie ustalanego profilu insuliny. Ta opcja dostraja szczyt działania insuliny (peak) i całkowity czas działania insuliny (DIA)</string>
+    <string name="autotune_default_tune_days_title">Liczba uwzględnianych dni danych</string>
+    <string name="autotune_circadian_ic_isf_title">Zastosuj średni wynik w dobowym rytmie IC/ISF</string>
+    <string name="autotune_circadian_ic_isf_summary">Autotune nie dostroi różnic okołodobowych, ta opcja zastosuje tylko średnią poprawkę do IC i ISF na twój wejściowy profil okołodobowy</string>
+    <string name="autotune_additional_log_title">Dołącz więcej informacji serwisowych do dziennika</string>
+    <string name="autotune_additional_log_summary">Włącz tylko na żądanie dewelopera aby zebrać i wysłać więcej informacji dziennika, aby pomóc w debugowaniu i naprawie wtyczki Autotune</string>
+    <string name="autotune_default_tune_days_summary">Domyślna liczba dni do przetworzenia przez Autotune (do 30)</string>
+    <string name="autotune_tunedprofile_name">Dostrojono</string>
+    <string name="autotune_profile">Profil :</string>
     <string name="autotune_tune_days">Dostrojonych dni :</string>
+    <string name="autotune_last_run">Ostatnio uruchomiono :</string>
+    <string name="autotune_warning">Ostrzeżenie :</string>
     <string name="autotune_select_profile">Wybierz profil do dostrojenia</string>
-    <!-- Alerts -->
+    <string name="autotune_ic_warning">Wybrany profil ma %1$d wartości IC. Autotune użyje %2$.2f g/U</string>
+    <string name="autotune_isf_warning">Wybrany profil ma %1$d wartości ISF. Autotune użyje %2$.1f %3$s/U</string>
+    <string name="autotune_error">Błąd w danych wejściowych, spróbuj uruchomić Autotune ponownie lub zmniejszyć liczbę dni</string>
+    <string name="autotune_error_more_days">Błąd w danych wejściowych, zwiększ liczbę dni</string>
+    <string name="autotune_warning_during_run">Rozpoczęto obliczenia Autotune, prosimy o cierpliwość</string>
+    <string name="autotune_warning_after_run">Uważnie sprawdź wyniki przed ich użyciem!</string>
+    <string name="autotune_partial_result">Wynik częściowy - dostrojono dzień %1$d / %2$d</string>
+    <string name="autotune_result">Wynik: %1$s</string>
+    <string name="autotune_param">Parametr</string>
+    <string name="autotune_percent">%</string>
+    <string name="autotune_missing">Brakujące</string>
+    <string name="autotune_profile_name">Profil Autotune %1$s</string>
+    <string name="autotune_run">Uruchom Autotune</string>
+    <string name="autotune_check_input_profile_button">Sprawdź profil wejściowy</string>
+    <string name="autotune_compare_profile">Porównaj profile</string>
+    <string name="autotune_copy_localprofile_button">Skopiuj do profilu lokalnego</string>
+    <string name="autotune_update_input_profile_button">Zaktualizuj profil wejściowy</string>
+    <string name="autotune_revert_input_profile_button">Przywróć profil wejściowy</string>
+    <string name="autotune_copy_local_profile_message">Utworzyć nowy profil lokalny z tego profilu Autotune?</string>
+    <string name="autotune_update_local_profile_message">Zaktualizować profil %1$s za pomocą profilu Autotune?</string>
+    <string name="autotune_revert_local_profile_message">Przywrócić profil %1$s przy użyciu profilu wejściowego?</string>
+    <string name="autotune_profile_invalid">Nieprawidłowy profil</string>
+    <string name="autotune_run_without_autoswitch">Autotune zakończył się bez przełączenia profilu</string>
+    <string name="autotune_run_with_autoswitch">W wyniku uruchomienia Autotune profil został automatycznie przełączony</string>
+    <string name="autotune_run_with_error">Błąd podczas ostatniego uruchomienia Autotune</string>
+    <string name="autotune_run_cancelled">Wykryto Autotune w toku, anulowano próbę kolejnego uruchomienia</string>
+    
     <string name="raise_notifications_as_android_notifications">Użyj powiadomień systemowych dla alertów i powiadomień</string>
     <string name="urgent_alarm">Pilny alarm</string>
     <string name="info">INFO</string>
-    <!-- BolusWizard -->
+    
     <string name="bolus_advisor">Doradca bolusa</string>
     <string name="bolus_advisor_message">Masz wysoką glikemię. Zamiast jeść teraz, zaleca się poczekać na wyrównanie poziomu cukru. Czy chcesz wykonać teraz bolus korekcyjny i otrzymać przypomnienie, kiedy nadejdzie czas na posiłek? W tym przypadku żadne węglowodany nie zostaną zarejestrowane i należy ponownie użyć kalkulatora, po otrzymaniu przypomnienia o posiłku.</string>
     <string name="cobvsiob">COB vs IOB</string>
-    <string name="slowabsorptiondetected"><![CDATA[<font color=\'%1$s\'>!!!!! Wykryto powolne wchłanianie węglowodanów: %2$d%% czasu. Sprawdź ponownie swoje obliczenia. COB mogły być przeszacowane przez co mogło być podane zbyt dużo insuliny !!!!!</font>]]></string>
+    <string name="slowabsorptiondetected">&lt;font color=\'%1$s\'&gt;!!!!! Wykryto powolne wchłanianie węglowodanów: %2$d%% czasu. Sprawdź ponownie swoje obliczenia. COB mogły być przeszacowane przez co mogło być podane zbyt dużo insuliny !!!!!&lt;/font&gt;</string>
     <string name="partialboluswizard">Dostarcz tą część dawki insuliny z wyniku kalkulatora bolusa [%]</string>
     <string name="partialboluswizard_reset_time">Próg czasu starej glikemii [min]</string>
     <string name="bolus_constraint_applied_warn">Zastosowano ograniczenie bolusa: %1$.2f U do %2$.2f U</string>
@@ -453,7 +484,7 @@
     <string name="wizard_explain_tt_to">%1$s do %2$s</string>
     <string name="wizard_pump_not_available">Pompa niedostępna!</string>
     <string name="quickwizard">Szybki Bolus</string>
-    <!--    Preferences-->
+    
     <string name="child">Dziecko</string>
     <string name="teenage">Nastolatek</string>
     <string name="adult">Osoba dorosła</string>
@@ -463,9 +494,9 @@
     <string name="max_bolus_title">Maks. dopuszczalny bolus [U]</string>
     <string name="max_carbs_title">Maks. dopuszczalne węglowodany [g]</string>
     <string name="patient_type">Typ pacjenta</string>
-    <!--    Protection-->
+    
     <string name="unlock_settings">Odblokuj ustawienia</string>
-    <!--    Pumps -->
+    
     <string name="battery_label">Bateria</string>
     <string name="reservoir_label">Zbiornik</string>
     <string name="last_connection_label">Ostatnie połączenie</string>
@@ -494,14 +525,14 @@
     <string name="password_cleared">Hasło usunięte!</string>
     <string name="pairing">Parowanie</string>
     <string name="initializing">Inicjuje ...</string>
-    <string name="secs" comment="second short">%1$d s</string>
-    <!--    Constraints-->
+    
     <string name="limitingbasalratio">Ograniczam maks. dawkę bazową do %1$.2f U/h z uwagi na %2$s</string>
     <string name="pumplimit">ograniczenie pompy</string>
     <string name="limitingpercentrate">Ograniczam maksymalną wartość w procentach do %1$d%% z uwagi na %2$s</string>
     <string name="itmustbepositivevalue">wartość musi być dodatnia</string>
     <string name="limitingbolus">Ograniczam bolus do %1$.1f U z uwagi na %2$s</string>
-    <!--    Dialogs-->
+    
+    
     <string name="confirmation">Potwierdzenie</string>
     <string name="message">Wiadomość</string>
     <string name="ok">OK</string>
@@ -510,44 +541,31 @@
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
     <string name="close">Zamknij</string>
-    <!-- TwoMessagesDialog -->
+    
     <string name="password_preferences_decrypt_prompt">Zostaniesz poproszony o hasło główne, które jest potrzebne do odszyfrowania zaimportowanych ustawień.</string>
-    <!-- <unattended_export> -->
-    <string name="export_ok">OK</string>
-    <string name="export_warning">Ostrzeżenie</string>
-    <string name="export_expired">Wygasły</string>
-    <string name="export_disabled">Wyłączony</string>
-    <string name="export_failed">Niepowodzenie</string>
-    <string name="export_alert">OSTRZEŻENIE</string>
-    <!-- <unattended_export result messages> -->
-    <string name="export_result_message_exported">Ustawienia wyeksportowane</string>
-    <string name="export_result_message_failed">Eksport ustawień nie powiódł się!</string>
-    <string name="export_result_message_about_to_expire">Ustawienia wyeksportowane: hasło wkrótce wygasa. Eksportuj ręcznie i (ponownie) wprowadź hasło.</string>
-    <string name="export_result_message_expired">Eksport ustawień anulowany: hasło wygasło. Eksportuj ręcznie i (ponownie) podaj hasło!</string>
-    <string name="export_result_message_disabled">Ostrzeżenie (automatyzacja): Eksport ustawień nie jest włączony!</string>
-    <!-- NumberPicker -->
+    
     <string name="a11y_min_button_description">zmniejszenie %1$s o %2$s</string>
     <string name="a11y_plus_button_description">zwiększenie %1$s o %2$s</string>
     <string name="you_are_on_allowed_limit">Osiągnięto dozwolony limit</string>
     <string name="format_hour_minute">%1$dh %2$dm</string>
-    <!-- datetime layout -->
+    
     <string name="event_time_label">Czas zdarzenia</string>
-    <!-- BluetoothDevicePreference -->
+    
     <string name="need_connect_permission">Aplikacja wymaga uprawnienia Bluetooth</string>
-    <!--    Combo-->
+    
     <string name="user_request" comment="26 characters max for translation">Żądanie użytkownika</string>
     <string name="pump_paired" comment="26 characters max for translation">Pompa sparowana</string>
-    <!--    BlePreCheck-->
+    
     <string name="ble_not_supported">Bluetooth Low Energy nie jest obsługiwany.</string>
     <string name="ble_not_supported_or_not_paired">Bluetooth Low Energy nie jest obsługiwany lub urządzenie nie jest sparowane.</string>
     <string name="ble_not_enabled">Bluetooth nie jest włączony.</string>
     <string name="location_not_found_title">Lokalizacja nie jest włączona</string>
     <string name="location_not_found_message">Aby uruchomić odnajdywanie Bluetooth na nowszych urządzeniach, lokalizacja musi być uruchomiona. AAPS nie śledzi twojej lokalizacji więc po udanym parowaniu urządzenia Bluetooth można wyłączyć lokalizację.</string>
-    <!--    Preferences -->
+    
     <string name="nav_plugin_preferences">Konfiguracja wtyczki</string>
-    <!-- SmsCommunicator -->
+    
     <string name="smscommunicator_missingsmspermission">Brak uprawnień SMS</string>
-    <!-- About -->
+    
     <string name="cta_dont_kill_my_app_info">Nie zabij mojej aplikacji?</string>
     <string name="fabric_upload_disabled">Przesyłanie dzienników awarii jest wyłączone!</string>
     <string name="about_link_urls">\n\nDokumentacja:\nhttps://wiki.aaps.app\n\nFacebook:\nhttps://www.facebook.com/groups/AndroidAPSUsers</string>
@@ -569,11 +587,11 @@
         <item quantity="many">%1$d minuty</item>
         <item quantity="other">%1$d minuty</item>
     </plurals>
-    <!--    Maintenance-->
+    
     <string name="cleanup_db_confirm">Czy chcesz wyczyścić bazę danych?\nTa operacja usunie odnotowane zmiany i dane historyczne starsze niż 3 miesiące.</string>
     <string name="cleanup_db_confirm_sync">Czy chcesz wyczyścić bazę danych?\nTa operacja usunie odnotowane zmiany i dane historyczne starsze niż 3 miesiące.\nWyczyszczenie bazy dramatycznie przyśpieszy pełną synchronizację.</string>
     <string name="cleared_entries">Usunięte wpisy</string>
-    <!--    Weekday-->
+    
     <string name="weekday_sunday_short">Nie</string>
     <string name="weekday_saturday_short">Sob</string>
     <string name="weekday_friday_short">Pią</string>
@@ -581,7 +599,7 @@
     <string name="weekday_wednesday_short">Śr</string>
     <string name="weekday_tuesday_short">Wt</string>
     <string name="weekday_monday_short">Pon</string>
-    <!-- WeekdayPicker -->
+    
     <string name="monday_short">P</string>
     <string name="tuesday_short">W</string>
     <string name="wednesday_short">Ś</string>
@@ -589,11 +607,7 @@
     <string name="friday_short">P</string>
     <string name="saturday_short">S</string>
     <string name="sunday_short">N</string>
-    <!--    DecimalFormatterImpl -->
+    
     <string name="format_insulin_units1">%1$.1f U</string>
     <string name="format_insulin_units">%1$.2f U</string>
-    <string name="percent_rate_duration">Dawka: %1$.2f%% (%2$.2f U/h) Czas: %3$d min</string>
-    <string name="rate_percent_duration">Dawka: %1$.2f U/h (%2$.2f%%) Czas: %3$d min</string>
-    <string name="percent_rate_duration_formatted"><![CDATA[<b>Dawka</b>: %1$.2f%% (%2$.2f U/h)<br><b>Czas</b>: %3$d min<br>]]></string>
-    <string name="rate_percent_duration_formatted"><![CDATA[<b>Dawka</b>: %1$.2f U/h (%2$.2f%%) <br><b>Czas</b>: %3$d min<br>]]></string>
-</resources>
+<string name="autoISF_settings_summary">AutoISF pozwala dostosowywać współczynnik wrażliwości insuliny (ISF) w różnych scenariuszach zachowania glukozy\n\nMoże również dostosowywać ustawienia podawania SMB</string><string name="graph_scale_6h">6h</string><string name="half_basal_exercise_target_title">Połowa bazy przy celu Ćwiczenia</string><string name="openapsama_pp_ISF_weight_summary">Jest to waga stosowana gdy glikemia rośnie, co wzmacnia ISF i w efekcie może potencjalnie zwiększyć podaż insuliny.\n\nDomyślna wartość 0.0 wyłącza ten efekt.</string><string name="dyn_isf_adjust_title">Współczynnik korygujący dynamicznego ISF %</string><string name="export_result_message_expired">Eksport ustawień anulowany: hasło wygasło. Eksportuj ręcznie i (ponownie) podaj hasło!</string><string name="dyn_isf_adjust_summary">Współczynnik korygujący dla dynamicznego ISF. Ustaw więcej niż 100% dla bardziej agresywnych dawek korekcyjnych i mniej niż 100% dla mniej agresywnych korekt.</string><string name="triggerReservoirLevelDesc">Poziom zbiornika %1$s %2$.0f</string><string name="export_expired">Wygasły</string><string name="graph_long_scale_24h">24 godziny</string><string name="a11y_graph_scale_6h">skala wykresu 6 godzin</string><string name="autoisf_shortname">AUTOISF</string><string name="export_settings_short">Eksp. ust.</string><string name="openapsama_smb_delivery_ratio">stały współczynnik podaży SMB\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Waga podczas zwalniania glikemi\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">skala wykresu 12 godzin</string><string name="enableSMB_EvenOn_OddOff_always">Włącz alternatywną aktywację SMB w zależności od tego, czy aktywny cel będzie liczbą parzystą</string><string name="choose_from_map">Choose from map</string><string name="extended_bolus_data_point_graph">%1$.2f U ( %2$.2f U/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="openapsama_autoISF_min_summary">Podobnie jak autosens_min, ta opcja definiuje to, jak słaby może stać się ISF.\n\nWartość domyślna 1.0 wyłącza ten efekt.</string><string name="openapsama_bgBrake_ISF_weight_summary">Jest to waga stosowana gdy glikemia zwalnia, co osłabia ISF i w efekcie może potencjalnie zmniejszyć podaż insuliny.\n\nDomyślna wartość 0.0 wyłącza ten efekt.</string><string name="openapsama_smb_delivery_ratio_min_summary">Wartość domyślna: 0,5. Jest to dolna granica liniowo rosnącego współczynnika, a nie ustalona powyżej wartość.</string><string name="graph_scale_18h">18h</string><string name="a11y_graph_scale">wybierz skalę wykresu</string><string name="triggerStepsCountDesc">Steps count per %1$s minutes %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Wartość domyślna: 0,5. Jest to górna granica liniowo rosnącego współczynnika, a nie ustalona powyżej wartość.</string><string name="sensitivity">Sensitivity</string><string name="overview_show_steps">Kroki</string><string name="openapsama_smb_delivery_ratio_max">zmienny współczynnik podaży SMB, góra zakresu\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Zestaw opcji umożliwiających zwiększenie rzeczywistego rozmiaru SMB, które mogą być podawane w sytuacjach, gdy ISF został wzmocniony, np. stosunkowo niska wartość liczbowa ISF.\n\nUŻYWAJ OSTROŻNIE</string><string name="overview_show_variable_sens">Zmienna czułość</string><string name="nav_export">Eksportuj ustawienia</string><string name="rate_percent_duration">Dawka: %1$.2f U/h (%2$.2f%%) Czas: %3$d min</string><string name="openapsama_pp_ISF_weight">poposiłkowa waga ISF\n(pp_ISF_weight)</string><string name="export_result_message_about_to_expire">Ustawienia wyeksportowane: hasło wkrótce wygasa. Eksportuj ręcznie i (ponownie) wprowadź hasło.</string><string name="export_result_message_failed">Eksport ustawień nie powiódł się!</string><string name="triggerStepsCountDropdownLabel">Measurement Duration</string><string name="openapsama_lower_ISFrange_weight_summary">Jest to waga stosowana gdy glikemia jest poniżej celu co osłabia ISF i w efekcie może potencjalnie zmniejszyć podaż insuliny.\n\nDomyślna wartość 0.0 wyłącza ten efekt.</string><string name="isf_dynamic_label_warning">Your algorithm can provide dynamic calculation of ISF. Values below can be used only as a fallback in case of missing data or as a reference value only</string><string name="graph_scale_12h">12h</string><string name="location_permission_not_granted">Nie przyznano uprawnień do lokalizacji. Pozwól aplikacji AAPS na lokalizację w ustawieniach Androida.</string><string name="triggerInsulinAgeDesc">Wiek insuliny %1$s %2$.1f h</string><string name="algorithm_long">Autosens in algorithm: %.0f%%</string><string name="export_result_message_exported">Ustawienia wyeksportowane</string><string name="exportsettings_message">Eksport ustawień: %1$s</string><string name="triggerPumpBatteryAgeDesc">Wiek baterii pompy %1$s %2$.1f h</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Wyłączony</string><string name="openapsama_iob_threshold_percent_summary">Procent maxIOB powyżej którego SMB są wyłączone.\nDomyślna wartość: 100%\nPrzy wartości 100% ta funkcja jest wyłączona.</string><string name="percent_rate_duration">Dawka: %1$.2f%% (%2$.2f U/h) Czas: %3$d min</string><string name="simple_mode_enabled">Włączony tryb uproszczony</string><string name="percent_rate_duration_formatted">&lt;b&gt;Dawka&lt;/b&gt;: %1$.2f%% (%2$.2f U/h)&lt;br&gt;&lt;b&gt;Czas&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Eksport ustawień</string><string name="triggerPodChangeLabel">Aktywacja poda</string><string name="triggerInsulinAgeLabel">Wiek insuliny</string><string name="openapsama_lower_ISFrange_weight">Waga dolnego zakresu ISF\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Wiek wkłucia</string><string name="triggerSensorAgeLabel">Wiek sensora</string><string name="pump_disconnected">Pompa odłączona</string><string name="openapsama_iob_threshold_percent">procent progu maxIOB dla SMB\n(iob_threshold d_percent)</string><string name="export_failed">Niepowodzenie</string><string name="triggerSensorAgeDesc">Wiek sensora %1$s %2$.1f h</string><string name="openapsama_bgAccel_ISF_weight">Waga podczas przyśpieszania glikemi\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">Waga górnego zakresu ISF\n(higher_ISFrange_weight)</string><string name="temp_basal_tsf_absolute">%1$.2f U/h @%2$s</string><string name="graph_long_scale_12h">12 godzin</string><string name="half_basal_exercise_target_summary">Ustaw liczbę, np. 160, co oznacza, że jeśli cel tymczasowy wynosi 160 mg/dl, i ustawiono opcję, że wysoki cel tymczasowy zwiększa czułość, to uruchom 50%% bazy na tym poziomie (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">Włącz dostosowywanie ISF zachowaniem glukozy</string><string name="uel_select_directory">WYBIERZ KATALOG</string><string name="openapsama_autoISF_max">Maksymalny współczynnik autoISF\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Domyślna wartość: 1. Jest to kolejny kluczowy limit bezpieczeństwa OpenAPS i określa, o ile (jaki mnożnik) możesz przekroczyć standardowe 120 minut [maxSMB/maxUAM]. Zwiększaj tę wartość eksperymentalną powoli i ostrożnie.</string><string name="careportal_settings_export">Eksport ustawień</string><string name="openapsama_autoISF_min">Minimalny współczynnik autoISF\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Poziom baterii pompy</string><string name="extended_bolus_full">E %1$.2f U/h @%2$s %3$s/%4$s min</string><string name="openapsama_smb_delivery_ratio_bg_range">zmienny współczynnik podaży SMB, zmapowany zakres glikemii\n(smb_delivery_ratio_bg_range)</string><string name="temp_basal_tsf_fake_extended">%1$.2f U/h (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Ostrzeżenie (automatyzacja): Eksport ustawień nie jest włączony!</string><string name="enableSMB_EvenOn_OddOff_always_summary">\nwłączone...\n- jeśli aktywny cel (mmol/L) ma parzystą wartość dziesiątek (np.: 80, 121, 103) \n- lub aktywny cel (mg/dL) jest liczbą parzystą (np.: 98, 112) \n\n... inaczej wyłączone</string><string name="graph_long_scale_6h">6 godzin</string><string name="smb_delivery_settings_title">Ustawienia podawania SMB</string><string name="uel_reset_aps_results">RESET WYNIKÓW APS</string><string name="export_ok">OK</string><string name="autosens_long">Autosens Value: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Wiek baterii pompy</string><string name="openapsama_smb_delivery_ratio_min">zmienny współczynnik podaży SMB, dół zakresu\n(smb_delivery_ratio_min)</string><string name="export_alert">OSTRZEŻENIE</string><string name="extended_bolus_medium">%1$.2f U/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">skala wykresu 24 godziny</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Wartość domyślna: 0. Liniowo rosnący współczynnik podaży SMB jest mapowany do zakresu glukozy [target_bg, target_bg+bg_range].\nPrzy glikemi równej dolnemu zakresowi (target_bg) współczynnik SMB wynosi [smb_delivery_ratio_min], a przy górnym (target_bg+bg_range) jest to [smb_delivery_ratio_max]\nPrzy wartości 0 liniowo rosnący współczynnik SMB jest wyłączony i stosuje się stały współczynnik smb_delivery_ratio.</string><string name="ic_dynamic_label_warning">Your algorithm can provide dynamic calculation of IC. Values below cen be used only as a fallback in case of missing data or as a reference value only</string><string name="triggerStepsCountLabel">Steps Count</string><string name="use_dynamic_sensitivity_title">Włącz wrażliwość dynamiczną</string><string name="autosens_short">AS: %.0f%%</string><string name="autoISF_settings_title">Ustawienia AutoISF</string><string name="rate_percent_duration_formatted">&lt;b&gt;Dawka&lt;/b&gt;: %1$.2f U/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Czas&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 godzin</string><string name="openapsama_higher_ISFrange_weight_summary">Jest to waga stosowana gdy glikemia jest powyżej celu, co wzmacnia ISF i w efekcie może potencjalnie zwiększyć podaż insuliny.\n\nDomyślna wartość 0.0 wyłącza ten efekt.</string><string name="openapsama_smb_max_range_extension">Maksymalne rozszerzenie zakresu SMB/UAM\n(smb_max_range_extension)</string><string name="isf_for_carbs">ISF for Calculator and Carbs Absorption: %1$.1f</string><string name="a11y_graph_scale_18h">skala wykresu 18 godzin</string><string name="description_auto_isf">Najnowszy algorytm dla zaawansowanych użytkowników z rozszerzeniami AutoISF</string><string name="settingsexport">Eksport ustawień</string><string name="careportal_settings_export_message">Eksport ustawień : %1$s</string><string name="triggerPodChangeDesc">Pod aktywowany</string><string name="graph_scale_24h">24h</string><string name="openapsama_bgAccel_ISF_weight_summary">Jest to waga stosowana gdy glikemia przyśpiesza, co wzmacnia ISF i w efekcie może potencjalnie zwiększyć podaż insuliny.\n\nDomyślna wartość 0.0 wyłącza ten efekt.</string><string name="triggerPumpBatteryLevelDesc">Poziom baterii pompy %1$s %2$.0f</string><string name="steps_shortname">KROKI</string><string name="triggerReservoirLevelLabel">Poziom zbiornika</string><string name="triggerCannulaAgeDesc">Wiek wkłucia %1$s %2$.1f h</string><string name="variable_sensitivity_shortname">VSENS</string><string name="secs">%1$d s</string><string name="openapsama_dura_ISF_weight">Waga przy stagnacji glikemii\n(dura_ISF_weight)</string><string name="export_warning">Ostrzeżenie</string><string name="openapsama_autoISF_max_summary">Podobnie jak autosens_max, ta opcja definiuje to, jak silny może stać się ISF.\n\nWartość domyślna 1.0 wyłącza ten efekt.\n\nOSTRZEŻENIE: Zachowaj szczególną ostrożność podczas używania wartości powyżej 2.5</string><string name="openapsama_smb_delivery_ratio_summary">Domyślna wartość: 0,5. To jest kolejny kluczowy limit bezpieczeństwa OpenAPS i określa, jaki udział całej wymaganej insuliny może być dostarczony jako SMB. Ma to na celu uniemożliwienie ludziom wchodzenia na niebezpieczny obszar poprzez jednoczesne realizowanie wielu zleceń SMB wydanych zdalnie z telefonów opiekunów. Zwiększaj tę wartość eksperymentalną powoli i ostrożnie.</string><string name="openapsama_dura_ISF_weight_summary">Jest to waga stosowana podczas długotrwałych okresów podwyższonej i utrzymującej się wysoko i płasko glikemii, co wzmacnia ISF i może potencjalnie zwiększyć podaż insuliny.\n\nDomyślna wartość 0.0 wyłącza ten efekt.</string><string name="fallback_to_isf_no_tdd">Powrót do używania wrażliwości z profilu. Za mało danych. Powód: %1$s</string><string name="use_dynamic_sensitivity_summary">Dostosuj algorytm tak, aby używał wrażliwości dynamicznej zamiast wartości profilu</string><string name="openaps_auto_isf">Auto ISF</string></resources>

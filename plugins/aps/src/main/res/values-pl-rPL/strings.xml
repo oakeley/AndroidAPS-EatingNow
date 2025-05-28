@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--Autotune-->
+    
     <string name="dynisf_adjust_sensitivity">Włącz współczynnik czułości oparty na DDI dla modyfikacji docelowej dawki bazowej i docelowej glikemii</string>
     <string name="dynisf_adjust_sensitivity_summary">Używa 24-godzinną DDI / 7-dniową DDI do obliczenia współczynnika czułości używanego do zwiększania lub zmniejszania dawki bazowej, a także do dostosowania docelowej glikemii, jeśli te opcje są włączone, w ten sam sposób, w jaki robi to Autosens. Zalecane jest rozpoczęcie przy wyłączonej tej opcji</string>
     <string name="dyn_isf_adjust_title" formatted="false">Współczynnik korygujący dynamicznego ISF %</string>
     <string name="dyn_isf_adjust_summary" formatted="false">Współczynnik korygujący dla dynamicznego ISF. Ustaw więcej niż 100% dla bardziej agresywnych dawek korekcyjnych i mniej niż 100% dla mniej agresywnych korekt.</string>
     <string name="high_temptarget_raises_sensitivity_title">Wysoki tymczasowy cel zwiększy wrażliwość</string>
-    <string name="high_temptarget_raises_sensitivity_summary"><![CDATA[Zwiększona wrażliwość dla tymczasowego celu > = 100]]></string>
+    <string name="high_temptarget_raises_sensitivity_summary">Zwiększona wrażliwość dla tymczasowego celu &gt; = 100</string>
     <string name="low_temptarget_lowers_sensitivity_title">Niski tymczasowy cel zmniejszy wrażliwość</string>
-    <string name="low_temptarget_lowers_sensitivity_summary"><![CDATA[Zmniejszona wrażliwość dla tymczasowego celu < 100]]></string>
+    <string name="low_temptarget_lowers_sensitivity_summary">Zmniejszona wrażliwość dla tymczasowego celu &lt; 100</string>
     <string name="openapssmb">OpenAPS SMB</string>
     <string name="openaps_smb_dynamic_isf">Dynamiczny ISF</string>
     <string name="openaps_auto_isf">Auto ISF</string>
@@ -90,13 +90,13 @@
     <string name="autosens_disabled_in_preferences">Autosens wyłączony w ustawieniach</string>
     <string name="use_dynamic_sensitivity_title">Włącz wrażliwość dynamiczną</string>
     <string name="use_dynamic_sensitivity_summary">Dostosuj algorytm tak, aby używał wrażliwości dynamicznej zamiast wartości profilu</string>
-    <!--    Verify if needed in safety-->
+    
     <string name="limiting_iob">Ograniczam IOB do %1$.1f U z uwagi na %2$s</string>
     <string name="maxvalueinpreferences">maks. wartość w ustawieniach</string>
     <string name="hardlimit">twarde ograniczenie</string>
-    <!--    Autotune   -->
+    
     <string name="insulin_peak">Szczyt</string>
-    <!--    Loop -->
+    
     <string name="run_now">Uruchom teraz</string>
     <string name="smb_frequency_exceeded">Bolus został podany w ciągu ostatnich 3 minut, opuszczam SMB</string>
     <string name="pump_not_initialized">Pompa nie zainicjalizowana!</string>
@@ -123,7 +123,7 @@
     <string name="loop_open_mode_min_change_summary" formatted="false">Otwarta pętla wyświetli żądanie zmiany tylko w przypadku, gdy obliczona zmiana będzie większa (procentowo) niż to ustawienie. Wartość domyślna to 20%</string>
     <string name="fallback_smb_no_tdd">Powrót do SMB. Za mało danych o TDD (DDI).</string>
     <string name="fallback_to_isf_no_tdd">Powrót do używania wrażliwości z profilu. Za mało danych. Powód: %1$s</string>
-    <!-- Autotune -->
+    
     <string name="autotune_description">Pomoc w ewentualnym dostosowaniu profilu (ISF, współczynnik węglowodanów i dawki bazowe)</string>
     <string name="autotune_shortname">AT</string>
     <string name="autotune_settings">Ustawienia Autotune</string>
@@ -166,7 +166,7 @@
     <string name="autotune_profile_invalid">Nieprawidłowy profil</string>
     <string name="not_available_full">Niedostępne</string>
     <string name="pump_disconnected">Pompa odłączona</string>
-    <!--    autoISF -->
+    
     <string name="half_basal_exercise_target_title">Połowa bazy przy celu Ćwiczenia</string>
     <string name="half_basal_exercise_target_summary">Ustaw liczbę, np. 160, co oznacza, że jeśli cel tymczasowy wynosi 160 mg/dl, i ustawiono opcję, że wysoki cel tymczasowy zwiększa czułość, to uruchom 50%% bazy na tym poziomie (120 = 75%%; 140 = 60%%).</string>
     <string name="autoISF_settings_title">Ustawienia AutoISF</string>
@@ -204,4 +204,4 @@
     <string name="enableSMB_EvenOn_OddOff_always_summary">\nwłączone...\n- jeśli aktywny cel (mmol/L) ma parzystą wartość dziesiątek (np.: 80, 121, 103) \n- lub aktywny cel (mg/dL) jest liczbą parzystą (np.: 98, 112) \n\n... inaczej wyłączone</string>
     <string name="openapsama_iob_threshold_percent_summary" formatted="false">Procent maxIOB powyżej którego SMB są wyłączone.\nDomyślna wartość: 100%\nPrzy wartości 100% ta funkcja jest wyłączona.</string>
     <string name="openapsama_iob_threshold_percent">procent progu maxIOB dla SMB\n(iob_threshold d_percent)</string>
-</resources>
+<string name="graph_scale_6h">6h</string><string name="export_result_message_expired">Eksport ustawień anulowany: hasło wygasło. Eksportuj ręcznie i (ponownie) podaj hasło!</string><string name="triggerReservoirLevelDesc">Poziom zbiornika %1$s %2$.0f</string><string name="export_expired">Wygasły</string><string name="graph_long_scale_24h">24 godziny</string><string name="a11y_graph_scale_6h">skala wykresu 6 godzin</string><string name="export_settings_short">Eksp. ust.</string><string name="a11y_graph_scale_12h">skala wykresu 12 godzin</string><string name="choose_from_map">Choose from map</string><string name="extended_bolus_data_point_graph">%1$.2f U ( %2$.2f U/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="graph_scale_18h">18h</string><string name="a11y_graph_scale">wybierz skalę wykresu</string><string name="triggerStepsCountDesc">Steps count per %1$s minutes %2$s %3$.0f</string><string name="sensitivity">Sensitivity</string><string name="overview_show_steps">Kroki</string><string name="overview_show_variable_sens">Zmienna czułość</string><string name="nav_export">Eksportuj ustawienia</string><string name="rate_percent_duration">Dawka: %1$.2f U/h (%2$.2f%%) Czas: %3$d min</string><string name="export_result_message_about_to_expire">Ustawienia wyeksportowane: hasło wkrótce wygasa. Eksportuj ręcznie i (ponownie) wprowadź hasło.</string><string name="export_result_message_failed">Eksport ustawień nie powiódł się!</string><string name="triggerStepsCountDropdownLabel">Measurement Duration</string><string name="isf_dynamic_label_warning">Your algorithm can provide dynamic calculation of ISF. Values below can be used only as a fallback in case of missing data or as a reference value only</string><string name="graph_scale_12h">12h</string><string name="location_permission_not_granted">Nie przyznano uprawnień do lokalizacji. Pozwól aplikacji AAPS na lokalizację w ustawieniach Androida.</string><string name="triggerInsulinAgeDesc">Wiek insuliny %1$s %2$.1f h</string><string name="algorithm_long">Autosens in algorithm: %.0f%%</string><string name="export_result_message_exported">Ustawienia wyeksportowane</string><string name="exportsettings_message">Eksport ustawień: %1$s</string><string name="triggerPumpBatteryAgeDesc">Wiek baterii pompy %1$s %2$.1f h</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Wyłączony</string><string name="percent_rate_duration">Dawka: %1$.2f%% (%2$.2f U/h) Czas: %3$d min</string><string name="simple_mode_enabled">Włączony tryb uproszczony</string><string name="percent_rate_duration_formatted">&lt;b&gt;Dawka&lt;/b&gt;: %1$.2f%% (%2$.2f U/h)&lt;br&gt;&lt;b&gt;Czas&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Eksport ustawień</string><string name="triggerPodChangeLabel">Aktywacja poda</string><string name="triggerInsulinAgeLabel">Wiek insuliny</string><string name="triggerCannulaAgeLabel">Wiek wkłucia</string><string name="triggerSensorAgeLabel">Wiek sensora</string><string name="export_failed">Niepowodzenie</string><string name="triggerSensorAgeDesc">Wiek sensora %1$s %2$.1f h</string><string name="temp_basal_tsf_absolute">%1$.2f U/h @%2$s</string><string name="graph_long_scale_12h">12 godzin</string><string name="uel_select_directory">WYBIERZ KATALOG</string><string name="careportal_settings_export">Eksport ustawień</string><string name="triggerPumpBatteryLevelLabel">Poziom baterii pompy</string><string name="extended_bolus_full">E %1$.2f U/h @%2$s %3$s/%4$s min</string><string name="temp_basal_tsf_fake_extended">%1$.2f U/h (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Ostrzeżenie (automatyzacja): Eksport ustawień nie jest włączony!</string><string name="graph_long_scale_6h">6 godzin</string><string name="uel_reset_aps_results">RESET WYNIKÓW APS</string><string name="export_ok">OK</string><string name="autosens_long">Autosens Value: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Wiek baterii pompy</string><string name="export_alert">OSTRZEŻENIE</string><string name="extended_bolus_medium">%1$.2f U/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">skala wykresu 24 godziny</string><string name="ic_dynamic_label_warning">Your algorithm can provide dynamic calculation of IC. Values below cen be used only as a fallback in case of missing data or as a reference value only</string><string name="triggerStepsCountLabel">Steps Count</string><string name="autosens_short">AS: %.0f%%</string><string name="rate_percent_duration_formatted">&lt;b&gt;Dawka&lt;/b&gt;: %1$.2f U/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Czas&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 godzin</string><string name="isf_for_carbs">ISF for Calculator and Carbs Absorption: %1$.1f</string><string name="a11y_graph_scale_18h">skala wykresu 18 godzin</string><string name="settingsexport">Eksport ustawień</string><string name="careportal_settings_export_message">Eksport ustawień : %1$s</string><string name="triggerPodChangeDesc">Pod aktywowany</string><string name="graph_scale_24h">24h</string><string name="triggerPumpBatteryLevelDesc">Poziom baterii pompy %1$s %2$.0f</string><string name="steps_shortname">KROKI</string><string name="triggerReservoirLevelLabel">Poziom zbiornika</string><string name="triggerCannulaAgeDesc">Wiek wkłucia %1$s %2$.1f h</string><string name="variable_sensitivity_shortname">VSENS</string><string name="secs">%1$d s</string><string name="export_warning">Ostrzeżenie</string></resources>

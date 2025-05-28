@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!-- Omnipod - Keys -->
-    <!-- Omnipod - Pod Management -->
+    
+    
     <string name="omnipod_common_pod_management_title">Gestionare Pod</string>
     <string name="omnipod_common_pod_management_heading_actions">Acțiuni</string>
     <string name="omnipod_common_pod_management_heading_tools">Instrumente</string>
@@ -12,7 +12,7 @@
     <string name="omnipod_common_pod_management_button_play_test_beep">Redă beep-uri de test</string>
     <string name="omnipod_common_pod_management_button_playing_test_beep">Se redă beep-ul de test…</string>
     <string name="omnipod_common_pod_management_button_pod_history">Istoric Pod</string>
-    <!-- Omnipod - Error -->
+    
     <string name="omnipod_common_error_pod_not_attached">Niciun Pod activ</string>
     <string name="omnipod_common_error_set_basal_failed">Setarea profilului bazalei a eșuat.</string>
     <string name="omnipod_common_error_bolus_did_not_succeed">Bolusul nu a avut succes.</string>
@@ -33,14 +33,14 @@
     <string name="omnipod_common_error_failed_to_play_test_beep">Nu s-a reușit redarea beep-ului de test</string>
     <string name="omnipod_common_error_time_out_of_sync">Timpul de pe Pod nu este sincronizat. Va rugam sa actualizați timpul din secțiunea Omnipod.</string>
     <string name="omnipod_common_error_unexpected_exception">A apărut o eroare neașteptată. Vă rugăm să o raportați! (%1$s: %2$s).</string>
-    <!-- Omnipod - Confirmation -->
+    
     <string name="omnipod_common_confirmation">Confirmare</string>
     <string name="omnipod_common_confirmation_expiration_alerts_updated">Setările pentru alarme au fost actualizate în Pod.</string>
     <string name="omnipod_common_confirmation_time_on_pod_updated">Timpul in Pod a fost actualizat.</string>
     <string name="omnipod_common_confirmation_suspended_delivery">Toate livrările de insulină au fost suspendate.</string>
     <string name="omnipod_common_confirmation_silenced_alerts">Alarmele active au fost oprite.</string>
     <string name="omnipod_common_confirmation_delivery_resumed">Livrarea de insulină a fost reluată.</string>
-    <!-- Omnipod - Overview -->
+    
     <string name="omnipod_common_overview_button_set_time">Setați ora</string>
     <string name="omnipod_common_overview_button_suspend_delivery">Suspendare</string>
     <string name="omnipod_common_overview_button_resume_delivery">Reia Livrarea</string>
@@ -65,7 +65,7 @@
     <string name="omnipod_common_overview_reservoir_value">%1$.2f U rămase</string>
     <string name="omnipod_common_overview_reservoir_value_over50">Peste 50 U rămase</string>
     <string name="omnipod_common_overview_errors">Erori</string>
-    <!-- Omnipod - Wizard Base -->
+    
     <string name="omnipod_common_wizard_button_cancel">Renunță</string>
     <string name="omnipod_common_wizard_button_finish">Finalizare</string>
     <string name="omnipod_common_wizard_button_next">Următor</string>
@@ -74,7 +74,7 @@
     <string name="omnipod_common_wizard_button_discard_pod">Renunţă la Pod</string>
     <string name="omnipod_common_wizard_exit_confirmation_text">Nu aţi finalizat încă toţi paşii. Sunteţi sigur că doriţi să ieşiţi?</string>
     <string name="omnipod_common_wizard_exit_confirmation_title">Ieșire</string>
-    <!-- Omnipod - Pod Activation Wizard -->
+    
     <string name="omnipod_common_pod_activation_wizard_start_pod_activation_title">Umplere Pod</string>
     <string name="omnipod_common_pod_activation_wizard_initialize_pod_title">Inițializează Pod</string>
     <string name="omnipod_common_pod_activation_wizard_attach_pod_title">Atașează Pod</string>
@@ -84,7 +84,7 @@
     <string name="omnipod_common_pod_activation_wizard_insert_cannula_text">Încercare de programare inițială a ratelor bazale si de inserție a canulei.\n\nCând canula a fost inserata cu succes, puteți apăsa <b>Următorul</b>.</string>
     <string name="omnipod_common_pod_activation_wizard_pod_activated_title">Pod Activat</string>
     <string name="omnipod_common_pod_activation_wizard_pod_activated_text">Noul Pod este acum activ.\n\nRata bazala a fost programata și a fost introdusa canula.\n\nVă rugăm să verificați dacă canula a fost inserată corect și să schimbați Pod-ul dacă considerați altfel.</string>
-    <!-- Omnipod - Pod Deactivation Wizard -->
+    
     <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_title">Dezactivare Pod</string>
     <string name="omnipod_common_pod_deactivation_wizard_start_pod_deactivation_text">\nApăsați <b>Următorul</b> pentru a dezactiva Pod-ul.\n\n<b>Notă:</b> Acest lucru va suspenda orice livrare de insulină și va dezactiva Pod-ul.</string>
     <string name="omnipod_common_pod_deactivation_wizard_deactivating_pod_title">Se dezactivează Pod-ul</string>
@@ -95,7 +95,7 @@
     <string name="omnipod_common_pod_deactivation_wizard_pod_discarded_text">Starea Pod-ului a fost eliminată. Livrarea insulinei nu a fost suspendată deoarece Pod-ul nu a fost dezactivat corespunzător!\n\nVa rugăm să eliminați Pod-ul de pe corp și să îl reciclați.</string>
     <string name="omnipod_common_pod_deactivation_wizard_discard_pod_confirmation">Dacă renunțați la Pod, nu veți mai putea comunica cu acesta. Ar trebui să faceți acest lucru doar atunci când orice comunicare cu Pod-ul eșuează în mod persistent. Sigur doriți să renunțați la acest Pod?</string>
     <string name="omnipod_common_pod_deactivation_wizard_discard_pod">Renunţă la Pod</string>
-    <!-- Omnipod - Preferences -->
+    
     <string name="omnipod_common_preferences_bolus_beeps_enabled">Bip pentru Bolus activat</string>
     <string name="omnipod_common_preferences_basal_beeps_enabled">Bip pentru Bazală activat</string>
     <string name="omnipod_common_preferences_smb_beeps_enabled">Bip pentru SMB activat</string>
@@ -117,7 +117,7 @@
     <string name="omnipod_common_preferences_category_notifications">Notificări</string>
     <string name="omnipod_common_preferences_notification_uncertain_tbr_sound_enabled">Sunet pentru notificări RBT incerte activat</string>
     <string name="omnipod_common_preferences_notification_uncertain_bolus_sound_enabled">Sunet pentru notificări bolus incert activat</string>
-    <!-- Omnipod - Pod Status -->
+    
     <string name="omnipod_common_pod_status_no_active_pod">Niciun Pod activ</string>
     <string name="omnipod_common_pod_status_waiting_for_activation">Setare în desfășurare (se așteaptă activarea Pod-ului)</string>
     <string name="omnipod_common_pod_status_waiting_for_cannula_insertion">Inițializarea este în curs (se așteaptă inserarea canulei)</string>
@@ -127,7 +127,7 @@
     <string name="omnipod_common_pod_status_pod_fault">Defecțiune Pod</string>
     <string name="omnipod_common_pod_status_inactive">Inactiv</string>
     <string name="omnipod_common_pod_status_pod_fault_description">Defecțiune Pod: %1$03d %2$s</string>
-    <!-- Omnipod - Commands -->
+    
     <string name="omnipod_common_cmd_deactivate_pod">Dezactivare Pod</string>
     <string name="omnipod_common_cmd_discard_pod">Renunţă la Pod</string>
     <string name="omnipod_common_cmd_set_bolus">Setează Bolus</string>
@@ -151,7 +151,7 @@
     <string name="omnipod_common_cmd_cancel_fake_suspended_tbr">Anulează bazala temporară falsă creată pentru că Pod-ul a fost suspendat</string>
     <string name="omnipod_common_cmd_split_tbr">Împarte bazala temporară din cauza unei erori necunoscute la anulare</string>
     <string name="omnipod_common_cmd_play_test_beep">Redă beep-uri de test</string>
-    <!-- Omnipod - Alerts -->
+    
     <string name="omnipod_common_alert_finish_pairing_reminder">Finalizare memento împerechere</string>
     <string name="omnipod_common_alert_finish_setup_reminder_reminder">Finalizare memento setare</string>
     <string name="omnipod_common_alert_expiration">Pod-ul va expira în curând</string>
@@ -159,19 +159,19 @@
     <string name="omnipod_common_alert_shutdown_imminent">Oprirea este iminentă</string>
     <string name="omnipod_common_alert_low_reservoir">Nivel rezervor scăzut</string>
     <string name="omnipod_common_alert_unknown_alert">Alertă necunoscută</string>
-    <!-- Omnipod - Short status -->
+    
     <string name="omnipod_common_short_status_no_active_pod">Niciun Pod activ</string>
     <string name="omnipod_common_short_status_last_connection">UltimaConexiune: acum %1$d min</string>
     <string name="omnipod_common_short_status_temp_basal">BazalaTemporara: %1$s</string>
     <string name="omnipod_common_short_status_extended_bolus">BolusExtins: %1$s</string>
     <string name="omnipod_common_short_status_reservoir">Rezervor: %1$sU</string>
-    <!-- Omnipod - Other -->
+    
     <string name="omnipod_common_yes">Da</string>
     <string name="omnipod_common_no">Nu</string>
     <string name="omnipod_common_ok">OK</string>
     <string name="omnipod_common_cancel">Renunță</string>
     <string name="omnipod_common_warning">Atenție</string>
-    <!-- Omnipod - Times -->
+    
     <string name="omnipod_common_moments_ago">Acum câteva momente</string>
     <string name="omnipod_common_less_than_a_minute_ago">Mai puțin de un minut în urmă</string>
     <string name="omnipod_common_composite_time">%1$s și %2$s</string>
@@ -196,4 +196,4 @@
         <item quantity="few">Alerte Pod: %1$s</item>
         <item quantity="other">Alerte Pod: %1$s</item>
     </plurals>
-</resources>
+<string name="autoISF_settings_summary">AutoISF allows to adapt the insulin sensitivity factor (ISF) in various scenarios of glucose behaviour\n\nIt can also adapt SMB delivery settings</string><string name="graph_scale_6h">6h</string><string name="half_basal_exercise_target_title">Half basal exercise target</string><string name="openapsama_pp_ISF_weight_summary">This is the weight applied while glucose is rising and which strengthens ISF thereby potentially increasing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="dyn_isf_adjust_title">DynamicISF Adjustment Factor %</string><string name="export_result_message_expired">Settings export canceled: password expired. Export manually and (re)enter!</string><string name="dyn_isf_adjust_summary">Adjustment factor for DynamicISF. Set more than 100% for more aggressive correction doses, and less than 100% for less aggressive corrections.</string><string name="triggerReservoirLevelDesc">Reservoir level %1$s %2$.0f</string><string name="export_expired">Expired</string><string name="graph_long_scale_24h">24 hours</string><string name="a11y_graph_scale_6h">graph scale 6 hours</string><string name="autoisf_shortname">AUTOISF</string><string name="export_settings_short">Text in treatments:</string><string name="openapsama_smb_delivery_ratio">fixed SMB delivery ratio\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Weight while BG decelerates\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">graph scale 12 hours</string><string name="enableSMB_EvenOn_OddOff_always">Enable alternative activation of SMB depending on active target being even number</string><string name="choose_from_map">Choose from map</string><string name="extended_bolus_data_point_graph">%1$.2f U ( %2$.2f U/h )</string><string name="temp_basal_overview_short_name">T:</string><string name="openapsama_autoISF_min_summary">Similar to autosens_min this defines how weak ISF can become.\n\nThe default value 1.0 effectively shuts off this effect.</string><string name="openapsama_bgBrake_ISF_weight_summary">This is the weight applied while glucose decelerates and which weakens ISF thereby potentially reducing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="openapsama_smb_delivery_ratio_min_summary">Default value: 0.5 This is the lower end of a linearly increasing ratio rather than the fix value above.</string><string name="graph_scale_18h">18h</string><string name="a11y_graph_scale">select graph scale</string><string name="triggerStepsCountDesc">Steps count per %1$s minutes %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Default value: 0.5 This is the upper end of a linearly increasing ratio rather than the fix value above.</string><string name="sensitivity">Sensitivity</string><string name="overview_show_steps">Paşi</string><string name="openapsama_smb_delivery_ratio_max">variable SMB delivery ratio, upper end\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Set of options to increase the actual SMB size which can be delivered in situations where ISF was strengthened, i.e. fairly low ISF figure.\n\nUSE WITH CAUTION</string><string name="overview_show_variable_sens">Variable sensitivity</string><string name="nav_export">Exportă setările</string><string name="rate_percent_duration">Rate: %1$.2f U/h (%2$.2f%%) Duration: %3$d min</string><string name="openapsama_pp_ISF_weight">postprandial ISF weight\n(pp_ISF_weight)</string><string name="export_result_message_about_to_expire">Settings exported: password about to expire soon. Export manually and (re)enter password.</string><string name="export_result_message_failed">Settings export FAILED!</string><string name="triggerStepsCountDropdownLabel">Measurement Duration</string><string name="openapsama_lower_ISFrange_weight_summary">This is the weight applied while glucose is below target and which weakens ISF thereby potentially reducing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="isf_dynamic_label_warning">Your algorithm can provide dynamic calculation of ISF. Values below can be used only as a fallback in case of missing data or as a reference value only</string><string name="graph_scale_12h">12h</string><string name="location_permission_not_granted">Location permission not granted. Allow in android settings.</string><string name="triggerInsulinAgeDesc">Insulin age %1$s %2$.1f hour</string><string name="algorithm_long">Autosens in algorithm: %.0f%%</string><string name="export_result_message_exported">Settings exported</string><string name="exportsettings_message">Settings Export: %1$s</string><string name="triggerPumpBatteryAgeDesc">Pump battery age %1$s %2$.1f hour</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Disabled</string><string name="openapsama_iob_threshold_percent_summary">Percentage of maxIOB above which SMBs are disabled.\nDefault value: 100%\nWith 100% this feature is effectively disabled.</string><string name="percent_rate_duration">Rate: %1$.2f%% (%2$.2f U/h) Duration: %3$d min</string><string name="simple_mode_enabled">Simple mode enabled</string><string name="percent_rate_duration_formatted">&lt;b&gt;Rate&lt;/b&gt;: %1$.2f%% (%2$.2f U/h)&lt;br&gt;&lt;b&gt;Duration&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Export Settings</string><string name="triggerPodChangeLabel">Pod activation</string><string name="triggerInsulinAgeLabel">Insulin age</string><string name="openapsama_lower_ISFrange_weight">lower ISF-range weight\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Cannula age</string><string name="triggerSensorAgeLabel">Sensor age</string><string name="pump_disconnected">Pump disconnected</string><string name="openapsama_iob_threshold_percent">maxIOB threshold percent for SMB\n(iob_threshold_percent)</string><string name="export_failed">Failed</string><string name="triggerSensorAgeDesc">Sensor age %1$s %2$.1f hour</string><string name="openapsama_bgAccel_ISF_weight">Weight while BG accelerates\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">higher ISF-range weight\n(higher_ISFrange_weight)</string><string name="temp_basal_tsf_absolute">%1$.2f U/h @%2$s</string><string name="graph_long_scale_12h">12 hours</string><string name="half_basal_exercise_target_summary">Set to a number, e.g. 160, which means when temp target is 160 mg/dL and High temptarget raises sensitivity=true, run 50%% basal at this level (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">Enable ISF adaptation by glucose behaviour</string><string name="uel_select_directory">SELECT DIRECTORY</string><string name="openapsama_autoISF_max">Max autoISF ratio\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Default value: 1 This is another key OpenAPS safety cap, and specifies by what factor you can exceed the regular 120 maxSMB/maxUAM minutes. Increase this experimental value slowly and with caution.</string><string name="careportal_settings_export">Settings Export</string><string name="openapsama_autoISF_min">Min autoISF ratio\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Pump battery level</string><string name="extended_bolus_full">E %1$.2f U/h @%2$s %3$s/%4$s min</string><string name="openapsama_smb_delivery_ratio_bg_range">variable SMB delivery ratio, mapped glucose range\n(smb_delivery_ratio_bg_range)</string><string name="temp_basal_tsf_fake_extended">%1$.2f U/h (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Warning (automation): Settings export not enabled!</string><string name="enableSMB_EvenOn_OddOff_always_summary">\nenabled ...\nif active target(mmol/L) has even decimal\nor active target(mg/dL) is even number\n\ndisabled otherwise</string><string name="graph_long_scale_6h">6 hours</string><string name="smb_delivery_settings_title">SMB delivery settings</string><string name="uel_reset_aps_results">RESET APS RESULTS</string><string name="export_ok">OK</string><string name="autosens_long">Autosens Value: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Pump battery age</string><string name="openapsama_smb_delivery_ratio_min">variable SMB delivery ratio, lower end\n(smb_delivery_ratio_min)</string><string name="export_alert">ALERT</string><string name="extended_bolus_medium">%1$.2f U/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">graph scale 24 hours</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Default value: 0. The linearly increasing SMB delivery ratio is mapped to the glucose range [target_bg, target_bg+bg_range].\nAt target_bg the SMB ratio is smb_delivery_ratio_min, at target_bg+bg_range it is smb_delivery_ratio_max\nWith 0 the linearly increasing SMB ratio is disabled and the fixed smb_delivery_ratio is used.</string><string name="ic_dynamic_label_warning">Your algorithm can provide dynamic calculation of IC. Values below cen be used only as a fallback in case of missing data or as a reference value only</string><string name="triggerStepsCountLabel">Steps Count</string><string name="use_dynamic_sensitivity_title">Enable dynamic sensitivity</string><string name="autosens_short">AS: %.0f%%</string><string name="autoISF_settings_title">AutoISF settings</string><string name="rate_percent_duration_formatted">&lt;b&gt;Rate&lt;/b&gt;: %1$.2f U/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Duration&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 hours</string><string name="openapsama_higher_ISFrange_weight_summary">This is the weight applied while glucose is above target and which strengthens ISF thereby potentially increasing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="openapsama_smb_max_range_extension">SMB/UAM max range extension\n(smb_max_range_extension)</string><string name="isf_for_carbs">ISF for Calculator and Carbs Absorption: %1$.1f</string><string name="a11y_graph_scale_18h">graph scale 18 hours</string><string name="description_auto_isf">Most recent algorithm for advanced users with AutoISF extensions</string><string name="settingsexport">Settings Export</string><string name="careportal_settings_export_message">Settings Export : %1$s</string><string name="triggerPodChangeDesc">Pod activated</string><string name="graph_scale_24h">24h</string><string name="openapsama_bgAccel_ISF_weight_summary">This is the weight applied while glucose accelerates and which strengthens ISF thereby potentially increasing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="triggerPumpBatteryLevelDesc">Pump battery level %1$s %2$.0f</string><string name="steps_shortname">STEPS</string><string name="triggerReservoirLevelLabel">Reservoir level</string><string name="triggerCannulaAgeDesc">Cannula age %1$s %2$.1f hour</string><string name="variable_sensitivity_shortname">VSENS</string><string name="secs">%1$d s</string><string name="openapsama_dura_ISF_weight">dura_ISF weight\n(dura_ISF_weight)</string><string name="export_warning">Warning</string><string name="openapsama_autoISF_max_summary">Similar to autosens_max this defines how strong ISF can become.\n\nThe default value 1.0 effectively shuts off this effect.\n\nWARNING: Be extremely careful when using values above 2.5</string><string name="openapsama_smb_delivery_ratio_summary">Default value: 0.5 This is another key OpenAPS safety cap, and specifies what share of the total insulin required can be delivered as SMB. This is to prevent people from getting into dangerous territory by setting SMB requests from the caregivers phone at the same time. Increase this experimental value slowly and with caution.</string><string name="openapsama_dura_ISF_weight_summary">This is the weight applied during longer lasting, elevated glucose plateaus and which strengthens ISF thereby potentially increasing insulin delivery.\n\nThe default value 0.0 effectively shuts off this effect.</string><string name="fallback_to_isf_no_tdd">Fallback to profile sensitivity. Not enough data. Reason: %1$s</string><string name="use_dynamic_sensitivity_summary">Adjust algorithm to use dynamic sensitivity instead of profile value</string><string name="openaps_auto_isf">Auto ISF</string></resources>

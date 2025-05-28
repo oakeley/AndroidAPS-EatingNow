@@ -11,6 +11,17 @@ android {
     namespace = "app.aaps.shared.impl"
     defaultConfig {
         minSdk = Versions.wearMinSdk  // for wear
+    
+    compileOptions {
+        // Let Meerkat/AS handle JVM version selection
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    
+    kotlinOptions {
+        // Conservative JVM target - let toolchain override if needed
+        jvmTarget = "1.8"
+    }
     }
 }
 

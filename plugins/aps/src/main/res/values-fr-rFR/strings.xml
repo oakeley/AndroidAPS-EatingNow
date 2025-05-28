@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--Autotune-->
+    
     <string name="dynisf_adjust_sensitivity">Activer le ratio de sensibilité basé sur DTQ pour la modification du basal et la cible des glycémies</string>
     <string name="dynisf_adjust_sensitivity_summary">Utilise le dernier DTQ 24h/DTQ 7j pour calculer le ratio de sensibilité utilisé pour augmenter ou diminuer le taux de basal et ajuster aussi la cible de glycémie si ces options sont activées, de la même manière que Autosens. Il est recommandé de commencer avec cette option désactivée</string>
     <string name="dyn_isf_adjust_title" formatted="false">Facteur d\'ajustement Si dynamique %</string>
     <string name="dyn_isf_adjust_summary" formatted="false">Facteur d\'ajustement pour SI dynamique. Définissez plus de 100 % pour des corrections plus agressives et moins de 100 % pour des corrections moins agressives.</string>
     <string name="high_temptarget_raises_sensitivity_title">Cible temp. haute élève la sensibilité</string>
-    <string name="high_temptarget_raises_sensitivity_summary"><![CDATA[Augmente la Sensibilité pour les cibles temporaires >= 100]]></string>
+    <string name="high_temptarget_raises_sensitivity_summary">Augmente la Sensibilité pour les cibles temporaires &gt;= 100</string>
     <string name="low_temptarget_lowers_sensitivity_title">Cible temp. basse abaisse la sensibilité</string>
-    <string name="low_temptarget_lowers_sensitivity_summary"><![CDATA[Diminue la Sensibilité pour les cibles temporaires < 100]]></string>
+    <string name="low_temptarget_lowers_sensitivity_summary">Diminue la Sensibilité pour les cibles temporaires &lt; 100</string>
     <string name="openapssmb">OpenAPS SMB</string>
     <string name="openaps_smb_dynamic_isf">SI dynamique</string>
     <string name="openaps_auto_isf">Auto ISF</string>
@@ -90,13 +90,13 @@
     <string name="autosens_disabled_in_preferences">Autosens désactivé dans les préférences</string>
     <string name="use_dynamic_sensitivity_title">Activer la sensibilité dynamique</string>
     <string name="use_dynamic_sensitivity_summary">Ajuster l\'algorithme pour utiliser la sensibilité dynamique au lieu de la valeur du profil</string>
-    <!--    Verify if needed in safety-->
+    
     <string name="limiting_iob">Limiter l’IA %1$.1f U en raison de la %2$s</string>
     <string name="maxvalueinpreferences">valeur Max dans les préférences</string>
     <string name="hardlimit">limite fixée</string>
-    <!--    Autotune   -->
+    
     <string name="insulin_peak">Pic</string>
-    <!--    Loop -->
+    
     <string name="run_now">Exécuter maintenant</string>
     <string name="smb_frequency_exceeded">Un bolus a été délivré au cours des 3 dernières minutes, SMB ignoré</string>
     <string name="pump_not_initialized">Pompe non initialisée !</string>
@@ -123,7 +123,7 @@
     <string name="loop_open_mode_min_change_summary" formatted="false">Le fonctionnement de la Boucle demandera une confirmation uniquement si le changement est supérieur à cette valeur en %. Par défaut, la valeur est 20%</string>
     <string name="fallback_smb_no_tdd">Revenir à SMB. Pas assez de données DTQ.</string>
     <string name="fallback_to_isf_no_tdd">Utilisation de la sensibilité du profil. Pas assez de données. Raison : %1$s</string>
-    <!-- Autotune -->
+    
     <string name="autotune_description">Aide pour ajuster le profil (SI, rapport G/I et débits de basal)</string>
     <string name="autotune_shortname">AT</string>
     <string name="autotune_settings">Paramètres Autotune</string>
@@ -166,7 +166,7 @@
     <string name="autotune_profile_invalid">Profil invalide</string>
     <string name="not_available_full">Non disponible</string>
     <string name="pump_disconnected">Pompe déconnectée</string>
-    <!--    autoISF -->
+    
     <string name="half_basal_exercise_target_title">Cible pour exercice avec basale/2</string>
     <string name="half_basal_exercise_target_summary">Définir un nombre, par ex. 160, ce qui signifie que lorsque la cible temporaire est 160 mg/dL et que la Sensibilité augmente avec cible temporaire haute est activé, 50%% de la basale est injectée dans ce cas (75%%  pour une cible à 120 ; 60%% pour une cible à 140).</string>
     <string name="autoISF_settings_title">Paramètres AutoISF</string>
@@ -204,4 +204,4 @@
     <string name="enableSMB_EvenOn_OddOff_always_summary">\nactivé ...\nsi la Cible active (mmol/L) a son chiffre décimal pair\nou si la Cible active (mg/dL) est un nombre pair\n\ndésactivé sinon</string>
     <string name="openapsama_iob_threshold_percent_summary" formatted="false">Pourcentage de maxIA au-dessus de laquelle les SMB sont désactivés.\nValeur par défaut : 100%\nAvec 100% cette fonctionnalité est désactivée.</string>
     <string name="openapsama_iob_threshold_percent">seuil maxIA pour SMB\n(iob_threshold_pourcent)</string>
-</resources>
+<string name="graph_scale_6h">6h</string><string name="export_result_message_expired">Export des paramètres annulé : le mot de passe est expiré. Exporter manuellement et le (re)saisir !</string><string name="triggerReservoirLevelDesc">Niveau de réservoir %1$s %2$.0f</string><string name="export_expired">Expiré</string><string name="graph_long_scale_24h">24 heures</string><string name="a11y_graph_scale_6h">échelle du graphique 6 heures</string><string name="export_settings_short">Notes dans les traitements:</string><string name="a11y_graph_scale_12h">échelle du graphique 12 heures</string><string name="choose_from_map">Choisir à partir de carte</string><string name="extended_bolus_data_point_graph">%1$.2f U (%2$.2f U/h)</string><string name="temp_basal_overview_short_name">T:</string><string name="graph_scale_18h">18h</string><string name="a11y_graph_scale">choisir l\'échelle du graph.</string><string name="triggerStepsCountDesc">Nombre de pas par %1$s minutes %2$s %3$.0f</string><string name="sensitivity">Sensibilité</string><string name="overview_show_steps">Pas</string><string name="overview_show_variable_sens">SI variable</string><string name="nav_export">Exporter les paramètres</string><string name="rate_percent_duration">Débit: %1$.2f U/h (%2$.2f%%) Durée: %3$d min</string><string name="export_result_message_about_to_expire">Paramètres exportés : le mot de passe va bientôt expirer. Exportez manuellement et (re)entrez le mot de passe.</string><string name="export_result_message_failed">Échec de l\'export des paramètres !</string><string name="triggerStepsCountDropdownLabel">Durée de la mesure</string><string name="isf_dynamic_label_warning">Votre algorithme peut fournir le calcul dynamique de la SI. Les valeurs ci-dessous sont utilisées comme solution de secours en cas de données manquantes ou comme valeur de référence pour le calcul de la SI</string><string name="graph_scale_12h">12h</string><string name="location_permission_not_granted">Autorisation de localisation non accordée. À autoriser dans les paramètres Android.</string><string name="triggerInsulinAgeDesc">Âge de l\'insuline %1$s %2$.1f heure</string><string name="algorithm_long">Autosens dans l\'algorithme: %.0f%%</string><string name="export_result_message_exported">Paramètres exportés</string><string name="exportsettings_message">Export des paramètres : %1$s</string><string name="triggerPumpBatteryAgeDesc">Âge de la pile pompe %1$s %2$.1f heure</string><string name="algorithm_short">Alg: %.0f%%</string><string name="export_disabled">Désactivé</string><string name="percent_rate_duration">Débit: %1$.2f%% (%2$.2f U/h) Durée: %3$d min</string><string name="simple_mode_enabled">Mode simple activé</string><string name="percent_rate_duration_formatted">&lt;b&gt;Débit&lt;/b&gt;: %1$.2f%% (%2$.2f U/h)&lt;br&gt;&lt;b&gt;Durée&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="exportsettings">Exporter les paramètres</string><string name="triggerPodChangeLabel">Activation du pod</string><string name="triggerInsulinAgeLabel">Âge de l\'insuline</string><string name="triggerCannulaAgeLabel">Âge canule</string><string name="triggerSensorAgeLabel">Âge capteur</string><string name="export_failed">Échec</string><string name="triggerSensorAgeDesc">Âge du capteur %1$s %2$.1f heure</string><string name="temp_basal_tsf_absolute">%1$.2f U/h @%2$s</string><string name="graph_long_scale_12h">12 heures</string><string name="uel_select_directory">SÉLECTIONNEZ LE REPERTOIRE</string><string name="careportal_settings_export">Export des paramètres</string><string name="triggerPumpBatteryLevelLabel">Niveau de la pile pompe</string><string name="extended_bolus_full">E %1$.2f U/h @%2$s %3$s/%4$s min</string><string name="temp_basal_tsf_fake_extended">%1$.2f U/h (%2$.2fE) @%3$s</string><string name="export_result_message_disabled">Avertissement (automatisation): L\'export des paramètres n\'est pas activée !</string><string name="graph_long_scale_6h">6 heures</string><string name="uel_reset_aps_results">RÉINITIALISER LES RÉSULTATS APS</string><string name="export_ok">OK</string><string name="autosens_long">Valeur Autosens: %.0f%%</string><string name="triggerPumpBatteryAgeLabel">Age de la pile pompe</string><string name="export_alert">ALERTE</string><string name="extended_bolus_medium">%1$.2f U/h %2$s/%3$s\'</string><string name="a11y_graph_scale_24h">échelle du graphique 24 heures</string><string name="ic_dynamic_label_warning">Votre algorithme peut fournir le calcul dynamique de la G/I. Les valeurs ci-dessous sont utilisées comme solution de secours en cas de données manquantes ou comme valeur de référence pour le calcul de la G/I</string><string name="triggerStepsCountLabel">Compteur de pas</string><string name="autosens_short">AS: %.0f%%</string><string name="rate_percent_duration_formatted">&lt;b&gt;Débit&lt;/b&gt;: %1$.2f U/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Durée&lt;/b&gt;: %3$d min&lt;br&gt;</string><string name="temp_basal_tsf_percent">%1$.0f%% @%2$s</string><string name="graph_long_scale_18h">18 heures</string><string name="isf_for_carbs">SI pour l\'Assistant et le calcul GA: %1$.1f</string><string name="a11y_graph_scale_18h">échelle du graphique 18 heures</string><string name="settingsexport">Export des paramètres</string><string name="careportal_settings_export_message">Export des paramètres : %1$s</string><string name="triggerPodChangeDesc">Pod activé</string><string name="graph_scale_24h">24h</string><string name="triggerPumpBatteryLevelDesc">Niveau de la pile pompe %1$s %2$.0f</string><string name="steps_shortname">PAS</string><string name="triggerReservoirLevelLabel">Niveau du réservoir</string><string name="triggerCannulaAgeDesc">Âge de canule %1$s %2$.1f heure</string><string name="variable_sensitivity_shortname">V_SI</string><string name="secs">%1$d s</string><string name="export_warning">Avertissement</string></resources>

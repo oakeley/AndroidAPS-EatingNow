@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
-    <!--    General-->
+    
     <string name="refresh">Vernieuwen</string>
     <string name="error">Fout</string>
     <string name="profile_set_ok">Basaal profiel in pomp bijgewerkt</string>
@@ -65,7 +65,7 @@
     <string name="carbs">Koolhydraten</string>
     <string name="invalid_profile">Ongeldig profiel!</string>
     <string name="no_profile_set">GEEN PROFIEL INGESTELD</string>
-    <string name="active"><![CDATA[<Huidig>]]></string>
+    <string name="active">&lt;Huidig&gt;</string>
     <string name="date">Datum</string>
     <string name="units_label">Eenheden</string>
     <string name="dia_label">DIA</string>
@@ -138,7 +138,7 @@
     <string name="a11y_low">laag</string>
     <string name="average">Gemiddelde</string>
     <string name="tir">TIR</string>
-    <string name="none"><![CDATA[<geen>]]></string>
+    <string name="none">&lt;geen&gt;</string>
     <string name="remove_label">VERWIJDER</string>
     <string name="activate_profile">Activeer profiel</string>
     <string name="reset">reset</string>
@@ -179,32 +179,32 @@
     <string name="extended_bolus_medium">%1$.2f E/u %2$s/%3$s\'</string>
     <string name="nav_export">Exporteer instellingen</string>
     <string name="location_permission_not_granted">Locatiemachtiging niet verleend. Toestaan in android instellingen.</string>
-    <!--    Protection-->
+    
     <string name="wrongpassword">Verkeerd wachtwoord</string>
     <string name="wrongpin">Onjuiste PIN-code</string>
     <string name="passwords_dont_match">Wachtwoorden komen niet overeen</string>
     <string name="pin_dont_match">PIN-codes komen niet overeen</string>
-    <!--    Profile-->
+    
     <string name="basalprofilenotaligned">Basaalstanden niet ingesteld in hele uren: %1$s</string>
     <string name="minimalbasalvaluereplaced">Minimum basaalwaarde is vervangen door minimaal ondersteunde waarde: %1$s</string>
     <string name="maximumbasalvaluereplaced">Basale waarde vervangen door maximale ondersteunde waarde: %1$s</string>
     <string name="profile_per_unit">/E</string>
     <string name="profile_ins_units_per_hour">E/u</string>
     <string name="profile_carbs_per_unit">g/E</string>
-    <!--    ProfileFunction-->
+    
     <string name="startprofile">Start profiel %1$d%% voor %2$d min</string>
-    <!--    APSResult-->
+    
     <string name="cancel_temp">Annuleer tijdelijk basaal</string>
     <string name="let_temp_basal_run">Laat tijdelijk basaal lopen</string>
     <string name="rate">Dosis</string>
     <string name="duration">Gedurende</string>
     <string name="reason">Reden</string>
     <string name="nochangerequested">Geen aanpassing noodzakelijk</string>
-    <!--    ProfileSwitch-->
+    
     <string name="zerovalueinprofile">Ongeldig profiel: %1$s</string>
-    <!--    Temptarget-->
+    
     <string name="mins">%1$d min</string>
-    <!--    Translator-->
+    
     <string name="careportal">Zorgportaal</string>
     <string name="careportal_bgcheck">BG Controle</string>
     <string name="careportal_mbg">Handmatige BG of calibratie</string>
@@ -252,18 +252,18 @@
     <string name="loop">Loop</string>
     <string name="ns">NS</string>
     <string name="record">Opnemen</string>
-    <!--    Command-->
+    
     <string name="connectiontimedout">Connectie verlopen</string>
-    <!--    PumpEnactResult-->
+    
     <string name="enacted">Uitgevoerd</string>
     <string name="comment">Commentaar</string>
     <string name="percent">Procent</string>
     <string name="absolute">Absoluut</string>
     <string name="waitingforpumpresult">Wachtend op resultaat</string>
     <string name="smb_shortname">SMB</string>
-    <!--    CarbsReq-->
+    
     <string name="carbsreq">%1$d g extra koolhydraten nodig binnen %2$d minuten</string>
-    <!--    TDDStatsActivity-->
+    
     <string name="cumulative_tdd">Cumulatieve TDD</string>
     <string name="expweight">Exponentieel gewogen TDD</string>
     <string name="basalrate">Basaal</string>
@@ -276,9 +276,9 @@
     <string name="olddata_Message">Data verouderd, druk op \"Vernieuwen\"</string>
     <string name="tbb">Totaal basaal</string>
     <string name="tbb2">TBB * 2</string>
-    <!--    Ntp-->
+    
     <string name="timedetection">Tijd detectie</string>
-    <!-- User Entry -->
+    
     <string name="uel_bolus">BOLUS</string>
     <string name="uel_bolus_calculator">BOLUS CALCULATOR</string>
     <string name="uel_bolus_advisor">BOLUS ADVISEUR</string>
@@ -373,7 +373,7 @@
     <string name="uel_loop_change">LOOP VERANDERD</string>
     <string name="uel_loop_removed">LOOP VERWIJDERD</string>
     <string name="uel_other">OVERIGE</string>
-    <!-- HardLimits -->
+    
     <string name="profile_low_target">Profiel laag doel</string>
     <string name="profile_high_target">Profiel hoog doel</string>
     <string name="temp_target_low_target">Tijdelijk streefdoel ondergrens</string>
@@ -388,7 +388,7 @@
     <string name="valueoutofrange">»%1$s« is buiten de harde limiet</string>
     <string name="value_out_of_hard_limits">»%1$s« %2$.2f is buiten de harde limiet</string>
     <string name="basal_value">Basaal waarde</string>
-    <!-- Command Queue + readStatus reasons -->
+    
     <string name="bolus_u_min">BOLUS %1$.2f E</string>
     <string name="carbs_g">KOOLHYDRATEN %1$d gr</string>
     <string name="extended_bolus_u_min">VERLENDE BOLUS %1$.2f E %2$d min</string>
@@ -421,19 +421,19 @@
     <string name="algorithm_short">Alg: %.0f%%</string>
     <string name="a11y_file">bestand</string>
     <string name="a11y_user">gebruiker</string>
-    <!-- Autotune -->
+    
     <string name="autotune">Autotune</string>
     <string name="autotune_tune_days">Afstemmen dagen :</string>
     <string name="autotune_select_profile">Selecteer profiel om aan te passen</string>
-    <!-- Alerts -->
+    
     <string name="raise_notifications_as_android_notifications">Gebruik systeem notificaties voor waarschuwingen en notificaties</string>
     <string name="urgent_alarm">Dringend alarm</string>
     <string name="info">INFO</string>
-    <!-- BolusWizard -->
+    
     <string name="bolus_advisor">Bolusadviseur</string>
     <string name="bolus_advisor_message">Je hebt een hoge bloedglucose. In plaats van te eten, is het nu aan te raden om te wachten op een betere bloedglucose. Wil je nu een correctiebolus uitvoeren en je laten weten wanneer het tijd is om te eten? In dit geval worden er geen koolhydraten opgenomen en moet je de wizard opnieuw gebruiken wanneer we je er aan herinneren.</string>
     <string name="cobvsiob">COB vs IOB</string>
-    <string name="slowabsorptiondetected"><![CDATA[<font color=\'%1$s\'>!!! Trage koolhydraat absorptie gedetecteerd: %2$d%% van de tijd. Controleer je berekening nogmaals. COB kan zijn overschat waardoor er misschien meer insuline wordt afgegeven!!!</font> zijn]]></string>
+    <string name="slowabsorptiondetected">&lt;font color=\'%1$s\'&gt;!!! Trage koolhydraat absorptie gedetecteerd: %2$d%% van de tijd. Controleer je berekening nogmaals. COB kan zijn overschat waardoor er misschien meer insuline wordt afgegeven!!!&lt;/font&gt; zijn</string>
     <string name="partialboluswizard">Voer dit deel van het bolus wizard resultaat uit [%]</string>
     <string name="partialboluswizard_reset_time">Oude glycemie tijdsdrempel [min]</string>
     <string name="bolus_constraint_applied_warn">Bolusbeperking toegepast: %1$.2f E naar %2$.2f E</string>
@@ -459,7 +459,7 @@
     <string name="wizard_explain_tt_to">%1$s tot %2$s</string>
     <string name="wizard_pump_not_available">Geen pomp beschikbaar!</string>
     <string name="quickwizard">QuickWizard</string>
-    <!--    Preferences-->
+    
     <string name="child">Kind</string>
     <string name="teenage">Tiener</string>
     <string name="adult">Volwassene</string>
@@ -469,9 +469,9 @@
     <string name="max_bolus_title">Max toegestane bolus [E]</string>
     <string name="max_carbs_title">Max toegestane koolhydraten [g]</string>
     <string name="patient_type">Type patiënt</string>
-    <!--    Protection-->
+    
     <string name="unlock_settings">Instellingen ontgrendelen</string>
-    <!--    Pumps -->
+    
     <string name="battery_label">Batterij</string>
     <string name="reservoir_label">Reservoir</string>
     <string name="last_connection_label">Laatste verbinding</string>
@@ -501,13 +501,13 @@
     <string name="pairing">Koppelen</string>
     <string name="initializing">Initialiseren...</string>
     <string name="secs" comment="second short">%1$d s</string>
-    <!--    Constraints-->
+    
     <string name="limitingbasalratio">Beperken van basaal tot max %1$.2f E/uur wegens de %2$s</string>
     <string name="pumplimit">Pomp limiet</string>
     <string name="limitingpercentrate">Begrezen van max procentuele wijzigen tot %1$d%% wegens de %2$s</string>
     <string name="itmustbepositivevalue">dit moet een positieve waarde zijn</string>
     <string name="limitingbolus">Bolus beperkt tot %1$.1f E doordat %2$s</string>
-    <!--    Dialogs-->
+    
     <string name="confirmation">Bevestiging</string>
     <string name="message">Bericht</string>
     <string name="ok">OK</string>
@@ -516,44 +516,44 @@
     <string name="yes">Ja</string>
     <string name="no">Nee</string>
     <string name="close">Sluiten</string>
-    <!-- TwoMessagesDialog -->
+    
     <string name="password_preferences_decrypt_prompt">Je wordt gevraagd om een masterwachtwoord. Daarmee worden geïmporteerde instellingen ontsleuteld.</string>
-    <!-- <unattended_export> -->
+    
     <string name="export_ok">OK</string>
     <string name="export_warning">Waarschuwing</string>
     <string name="export_expired">Verlopen</string>
     <string name="export_disabled">Uitgeschakeld</string>
     <string name="export_failed">Mislukt</string>
     <string name="export_alert">WAARSCHUWING</string>
-    <!-- <unattended_export result messages> -->
+    
     <string name="export_result_message_exported">Instellingen geëxporteerd</string>
     <string name="export_result_message_failed">Instellingen exporteren MISLUKT!</string>
     <string name="export_result_message_about_to_expire">Instellingen geëxporteerd: wachtwoord verloopt binnenkort. Exporteer handmatig en voer het wachtwoord (opnieuw) in.</string>
     <string name="export_result_message_expired">Export instellingen geannuleerd: wachtwoord is verlopen. Exporteer handmatig en geef (opnieuw) in!</string>
     <string name="export_result_message_disabled">Waarschuwing (automatisering): Instellingen export niet ingeschakeld!</string>
-    <!-- NumberPicker -->
+    
     <string name="a11y_min_button_description">verlaag %1$s met %2$s</string>
     <string name="a11y_plus_button_description">verhoog %1$s met %2$s</string>
     <string name="you_are_on_allowed_limit">Toegestane limiet bereikt</string>
     <string name="format_hour_minute">%1$du %2$dm</string>
-    <!-- datetime layout -->
+    
     <string name="event_time_label">Gebeurtenis tijdstip</string>
-    <!-- BluetoothDevicePreference -->
+    
     <string name="need_connect_permission">Applicatie heeft bluetooth toestemming nodig</string>
-    <!--    Combo-->
+    
     <string name="user_request" comment="26 characters max for translation">Gebruikers verzoek</string>
     <string name="pump_paired" comment="26 characters max for translation">Pomp gekoppeld</string>
-    <!--    BlePreCheck-->
+    
     <string name="ble_not_supported">Bluetooth Low Energy wordt niet ondersteund.</string>
     <string name="ble_not_supported_or_not_paired">Bluetooth Low Energy wordt niet ondersteund of het apparaat is niet gekoppeld.</string>
     <string name="ble_not_enabled">Bluetooth niet ingeschakeld.</string>
     <string name="location_not_found_title">Locatie is niet ingeschakeld</string>
     <string name="location_not_found_message">Om Bluetooth discovery met nieuwere apparaten te laten werken moet locatie worden ingeschakeld. AAPS volgt je locatie niet en locatie kan ook weer worden uitgeschakeld nadat het koppelen is gelukt.</string>
-    <!--    Preferences -->
+    
     <string name="nav_plugin_preferences">Plugin instellingen</string>
-    <!-- SmsCommunicator -->
+    
     <string name="smscommunicator_missingsmspermission">Geen SMS bevoegdheid</string>
-    <!-- About -->
+    
     <string name="cta_dont_kill_my_app_info">Don\'t kill my app?</string>
     <string name="fabric_upload_disabled">Upload van crashrapporten is uitgeschakeld!</string>
     <string name="about_link_urls">\n\nDocumentatie:\nhttps://wiki.aaps.app\n\nFacebook:\nhttps://www.facebook.com/groups/AndroidAPSUsers</string>
@@ -569,11 +569,11 @@
         <item quantity="one">%1$d minuut</item>
         <item quantity="other">%1$d minuten</item>
     </plurals>
-    <!--    Maintenance-->
+    
     <string name="cleanup_db_confirm">Wil je de database opschonen?\nHet zal bijgehouden wijzigingen en historische gegevens ouder dan 3 maanden verwijderen.</string>
     <string name="cleanup_db_confirm_sync">Wil je de database opschonen?\nHet zal bijgehouden wijzigingen en historische gegevens ouder dan 3 maanden verwijderen.\nDit zal de volledige synchronisatie drastisch versnellen.</string>
     <string name="cleared_entries">Invoer gewist</string>
-    <!--    Weekday-->
+    
     <string name="weekday_sunday_short">Zo</string>
     <string name="weekday_saturday_short">Za</string>
     <string name="weekday_friday_short">Vr</string>
@@ -581,7 +581,7 @@
     <string name="weekday_wednesday_short">Wo</string>
     <string name="weekday_tuesday_short">Di</string>
     <string name="weekday_monday_short">Ma</string>
-    <!-- WeekdayPicker -->
+    
     <string name="monday_short">M</string>
     <string name="tuesday_short">D</string>
     <string name="wednesday_short">W</string>
@@ -589,11 +589,11 @@
     <string name="friday_short">V</string>
     <string name="saturday_short">Z</string>
     <string name="sunday_short">Z</string>
-    <!--    DecimalFormatterImpl -->
+    
     <string name="format_insulin_units1">%1$.1f E</string>
     <string name="format_insulin_units">%1$.2f E</string>
     <string name="percent_rate_duration">Basaal: %1$.2f%% (%2$.2f E/h) Duur: %3$d min</string>
     <string name="rate_percent_duration">Basaal: %1$.2f E/h (%2$.2f%%) Duur: %3$d min</string>
-    <string name="percent_rate_duration_formatted"><![CDATA[<b>Basaal</b>: %1$.2f%% (%2$.2f E/h)<br><b>Duur</b>: %3$d min<br>]]></string>
-    <string name="rate_percent_duration_formatted"><![CDATA[<b>Basaal</b>: %1$.2f E/h (%2$.2f%%) <br><b>Duur</b>: %3$d min<br>]]></string>
-</resources>
+    <string name="percent_rate_duration_formatted">&lt;b&gt;Basaal&lt;/b&gt;: %1$.2f%% (%2$.2f E/h)&lt;br&gt;&lt;b&gt;Duur&lt;/b&gt;: %3$d min&lt;br&gt;</string>
+    <string name="rate_percent_duration_formatted">&lt;b&gt;Basaal&lt;/b&gt;: %1$.2f E/h (%2$.2f%%) &lt;br&gt;&lt;b&gt;Duur&lt;/b&gt;: %3$d min&lt;br&gt;</string>
+<string name="autoISF_settings_summary">AutoISF maakt het mogelijk om de insulinegevoeligheidsfactor (ISF) aan te passen in verschillende scenario\'s van glucosedrag\n\nHet kan ook de SMB leveringsinstellingen aanpassen</string><string name="graph_scale_6h">6u</string><string name="half_basal_exercise_target_title">Halve basaal bewegingsdoel</string><string name="openapsama_pp_ISF_weight_summary">Dit is het gewicht dat wordt toegepast bij een stijgende glucose waardoor ISF versterkt wordt en de insulinetoediening mogelijk verhoogt.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="dyn_isf_adjust_title">DynamicISF Aanpassing Factor %</string><string name="dyn_isf_adjust_summary">Aanpassingsfactor voor DynamicISF. Stel meer dan 100% in voor een agressievere correctie en minder dan 100% voor minder agressieve correctie.</string><string name="triggerReservoirLevelDesc">Reservoir niveau %1$s %2$.0f</string><string name="graph_long_scale_24h">24 uur</string><string name="a11y_graph_scale_6h">grafiek schaal 6 uur</string><string name="autoisf_shortname">AUTOISF</string><string name="export_settings_short">Tekst in behandelingen:</string><string name="openapsama_smb_delivery_ratio">vaste SMB uitleveringsverhouding\n(smb_delivery_ratio)</string><string name="openapsama_bgBrake_ISF_weight">Gewicht wanneer BG afremt\n(bgBrake_ISF_weight)</string><string name="a11y_graph_scale_12h">grafiek schaal 12 uur</string><string name="enableSMB_EvenOn_OddOff_always">Inschakelen van SMB afhankelijk van het feit dat het huidige doel een even getal is</string><string name="choose_from_map">Choose from map</string><string name="temp_basal_overview_short_name">T:</string><string name="openapsama_autoISF_min_summary">Vergelijkbaar met autosens_min definieert dit hoe zwak ISF kan worden.\n\nDe standaard waarde 1.0 schakelt dit effect effectief uit.</string><string name="openapsama_bgBrake_ISF_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose waarde aan het vertragen is waardoor ISF verzwakt en de insulinetoediening mogelijk vermindert.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="openapsama_smb_delivery_ratio_min_summary">Standaard waarde: 0.5 Dit is het ondergrens van een lineaire verhoging ratio in plaats van de bovenstaande vaste waarde.</string><string name="graph_scale_18h">18u</string><string name="a11y_graph_scale">selecteer grafiek schaal</string><string name="triggerStepsCountDesc">Aantal stappen per %1$s minuten %2$s %3$.0f</string><string name="openapsama_smb_delivery_ratio_max_summary">Standaard waarde: 0.5 Dit is het bovengrens van een lineaire verhoging ratio in plaats van de bovenstaande vaste waarde.</string><string name="overview_show_steps">Stappen</string><string name="openapsama_smb_delivery_ratio_max">variabele SMB leveringsverhouding, bovengrens\n(smb_delivery_ratio_max)</string><string name="smb_delivery_settings_summary">Set van opties om de actuele SMB grootte te verhogen die kan worden geleverd in situaties waar ISF is versterkt, dwz een vrij laag ISF cijfer.\n\nGEBRUIK MET VOORZICHTIGHEID</string><string name="overview_show_variable_sens">Variabele gevoeligheid</string><string name="openapsama_pp_ISF_weight">ISF gewicht na maaltijd\n(pp_ISF_weight)</string><string name="triggerStepsCountDropdownLabel">Metingsduur</string><string name="openapsama_lower_ISFrange_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose lager dan de doelwaarde is, wat ISF verzwakt en hiermee mogelijk de insulinetoediening verlaagd.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="isf_dynamic_label_warning">Uw algoritme kan een dynamische berekening van ISF leveren. De onderstaande waarden worden alleen gebruikt om op terug te vallen in geval van ontbrekende gegevens of als referentiewaarde</string><string name="graph_scale_12h">12u</string><string name="triggerInsulinAgeDesc">Insuline leeftijd %1$s %2$.1f uur</string><string name="exportsettings_message">Instellingen Exporteren: %1$s</string><string name="triggerPumpBatteryAgeDesc">Pomp batterij leeftijd %1$s %2$.1f uur</string><string name="openapsama_iob_threshold_percent_summary">Percentage van maxIOB waarbij SMB\'s worden uitgeschakeld.\nStandaardwaarde: 100%\nMet 100% wordt deze functie effectief uitgeschakeld.</string><string name="simple_mode_enabled">Eenvoudige modus ingeschakeld</string><string name="triggerPodChangeLabel">Pod activering</string><string name="triggerInsulinAgeLabel">Insuline leeftijd</string><string name="openapsama_lower_ISFrange_weight">lager ISF-bereik gewicht\n(lower_ISFrange_weight)</string><string name="triggerCannulaAgeLabel">Canule leeftijd</string><string name="triggerSensorAgeLabel">Sensor leeftijd</string><string name="pump_disconnected">Pomp niet verbonden</string><string name="openapsama_iob_threshold_percent">maxIOB drempelpercentage voor SMB\n(iob_threshold_percent)</string><string name="triggerSensorAgeDesc">Sensor leeftijd %1$s %2$.1f uur</string><string name="openapsama_bgAccel_ISF_weight">Gewicht wanneer BG accelereert\n(bgAccel_ISF_weight)</string><string name="openapsama_higher_ISFrange_weight">hoger ISF-bereik gewicht\n(lhigher_ISFrange_weight)</string><string name="graph_long_scale_12h">12 uur</string><string name="half_basal_exercise_target_summary">Stel in op nummer, b.v. 160, wat betekent dat wanneer een tijdelijk streefdoel op 160 mg/dL is ingesteld en \"Hoog tijdelijk streefdoel verhoogt gevoeligheid\"=aan, zal basaal op 50%% worden ingesteld (120 = 75%%; 140 = 60%%).</string><string name="openapsama_enable_autoISF">ISF aanpassing op basis van glucose gedrag inschakelen</string><string name="openapsama_autoISF_max">Max autoISF verhouding\n(autoISF_max)</string><string name="openapsama_smb_max_range_extension_summary">Standaardwaarde: 1 Dit is een andere instelling voor de veiligheid van OpenAPS, en geeft aan met welke factor je de gebruikelijke 120 maxSMB/maxUAM minuten kunt overschrijden. Verhoog deze experimentele waarde langzaam en met voorzichtigheid.</string><string name="openapsama_autoISF_min">Min autoISF ratio\n(autoISF_min)</string><string name="triggerPumpBatteryLevelLabel">Pomp batterij niveau</string><string name="openapsama_smb_delivery_ratio_bg_range">variabele SMB leveringsverhouding, gekoppelde glucosebereik\n(smb_delivery_ratio_bg_range)</string><string name="enableSMB_EvenOn_OddOff_always_summary">\ningeschakeld...\nals actief doel (mmol/L) een even decimaal\nheeft of het actieve doel (mg/dL) een even getal is\n\nanders uitgeschakeld</string><string name="graph_long_scale_6h">6 uur</string><string name="smb_delivery_settings_title">SMB leveringsinstellingen</string><string name="triggerPumpBatteryAgeLabel">Pomp batterij leeftijd</string><string name="openapsama_smb_delivery_ratio_min">variabele SMB leveringsverhouding, ondergrens\n(smb_delivery_ratio_min)</string><string name="a11y_graph_scale_24h">grafiek schaal 24 uur</string><string name="openapsama_smb_delivery_ratio_bg_range_summary">Standaard waarde: 0. De lineaire verhoging van de SMB uitgangsratio wordt gekoppeld aan de glucose waarde [target_bg, target_bg+bg_range].\nOp target_bg is de SMB verhouding smb_delivery_ratio_min, op target_bg+bg_bereik is smb_delivery_ratio_max\nMet 0 is de lineaire verhoging SMB ratio uitgeschakeld en wordt de vaste smb_delivery_ratio gebruikt.</string><string name="ic_dynamic_label_warning">Uw algoritme kan een dynamische berekening van IC leveren. De onderstaande waarden worden alleen gebruikt om op terug te vallen in geval van ontbrekende gegevens of als referentiewaarde</string><string name="triggerStepsCountLabel">Aantal stappen</string><string name="use_dynamic_sensitivity_title">Activeer dynamische gevoeligheid</string><string name="autoISF_settings_title">AutoISF instellingen</string><string name="graph_long_scale_18h">18 uur</string><string name="openapsama_higher_ISFrange_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose hoger dan de doelwaarde is, wat ISF versterkt en hiermee mogelijk de insulinetoediening verhoogd.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="openapsama_smb_max_range_extension">SMB/UAM max bereik extensie\n(smb_max_range_extension)</string><string name="a11y_graph_scale_18h">grafiek schaal 18 uur</string><string name="description_auto_isf">Meest recente algoritme voor gevorderde gebruikers met AutoISF uitbreidingen</string><string name="triggerPodChangeDesc">Pod geactiveerd</string><string name="graph_scale_24h">24u</string><string name="openapsama_bgAccel_ISF_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose waarde aan het versnellen is waardoor ISF versterkt en de insulinetoediening mogelijk toeneemt.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="triggerPumpBatteryLevelDesc">Pomp batterij niveau %1$s %2$.0f</string><string name="steps_shortname">STAPPEN</string><string name="triggerReservoirLevelLabel">Reservoir niveau</string><string name="triggerCannulaAgeDesc">Canule leeftijd %1$s %2$.1f uur</string><string name="variable_sensitivity_shortname">VSENS</string><string name="openapsama_dura_ISF_weight">dura_ISF weight\n(dura_ISF_weight)</string><string name="openapsama_autoISF_max_summary">Vergelijkbaar met autosens_max definieert dit hoe sterk ISF kan worden.\n\nDe standaard waarde 1.0 schakelt dit effect effectief uit.\n\nWAARSCHUWING: Wees extreem voorzichtig bij het gebruik van waarden boven de 2,5</string><string name="openapsama_smb_delivery_ratio_summary">Standaardwaarde: 0,5 Dit is een andere instelling voor de veiligheid van OpenAPS, en geeft aan welk deel van de benodigde totale insuline kan worden geleverd als SMB. Dit om te voorkomen dat mensen in een gevaarlijk situatie terechtkomen wanneer tegelijkertijd SMB verzoeken via een telefoon van een verzorger binnenkomen. Verhoog deze experimentele waarde langzaam en met voorzichtigheid.</string><string name="openapsama_dura_ISF_weight_summary">Dit is het gewicht dat wordt toegepast wanneer de glucose gedurende langere tijd verhoogd blijft waardoor ISF wordt versterkt en de insulinetoediening mogelijk toeneemt.\n\nDe standaardwaarde 0.0 schakelt dit effect effectief uit.</string><string name="fallback_to_isf_no_tdd">Terugval naar profiel gevoeligheid. Niet genoeg gegevens. Reden: %1$s</string><string name="use_dynamic_sensitivity_summary">Pas algoritme aan om dynamische gevoeligheid te gebruiken in plaats van profielwaarde</string><string name="openaps_auto_isf">Auto ISF</string></resources>
