@@ -242,3 +242,14 @@ if (isMaster() && !allCommitted()) {
     throw GradleException("There are uncommitted changes. Clone sources again as described in wiki and do not allow gradle update")
 }
 
+kotlin {
+    jvmToolchain(17)
+}
+
+java {
+    toolchain {
+        // Let Meerkat/AS handle JVM version selection
+        // But you can force it with : JavaLanguageVersion.of(21)
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
